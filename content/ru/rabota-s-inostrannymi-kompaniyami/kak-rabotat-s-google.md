@@ -4,6 +4,15 @@ layout: article
 # Как работать с Google
 **Автор:** *Иван Иваненко*
 
+asdf
+asdf
+as
+dfasdf
+
+
+![asdf](img/kakgoogle.jpg)
+
+
 There are many variations of passages of Lorem Ipsum available, 
 but the majority have suffered alteration in some form, by injected humour, or randomised words which
  don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
