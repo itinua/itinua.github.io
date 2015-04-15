@@ -37,20 +37,49 @@
 
       <div class="row">
 
-	<div class="col-sm-3">
-		{% capture my %}{% include block1.md %}{% endcapture %}{{ my | markdownify }}
+	<div class="col-sm-2">
+		НОВОЕ
+		<hr/>
+
+        {% capture my_include %}{% include news.md %}{% endcapture %}{{ my_include | markdownify }}
+
 	</div>
 
         <div class="col-sm-7 blog-main">
-        <a href="/" >Назад</a>
+
         {{content}}
 
 
 
         </div><!-- /.blog-main -->
 
-             <div class="col-sm-2 col-sm-offset-0 blog-sidebar">
+        <div class="col-sm-2 col-sm-offset-0 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+                <script >
+                    var a = {"Ё":"YO","Й":"I","Ц":"TS","У":"U","К":"K","Е":"E","Н":"N","Г":"G","Ш":"SH","Щ":"SCH","З":"Z","Х":"H","Ъ":"'","ё":"yo","й":"i","ц":"ts","у":"u","к":"k","е":"e","н":"n","г":"g","ш":"sh","щ":"sch","з":"z","х":"h","ъ":"'","Ф":"F","Ы":"I","В":"V","А":"a","П":"P","Р":"R","О":"O","Л":"L","Д":"D","Ж":"ZH","Э":"E","ф":"f","ы":"i","в":"v","а":"a","п":"p","р":"r","о":"o","л":"l","д":"d","ж":"zh","э":"e","Я":"Ya","Ч":"CH","С":"S","М":"M","И":"I","Т":"T","Ь":"","Б":"B","Ю":"YU","я":"ya","ч":"ch","с":"s","м":"m","и":"i","т":"t","ь":"","б":"b","ю":"yu"};
 
+                    function transliterate(word){
+                    return word.replace(/ь/g, '').replace(/Ь/g, '').split('').map(function (char) {
+                    return a[char] || char;
+                    }).join("");
+                    }
+                    function onKey(e){
+                         e = e || window.event;
+                            if (e.keyCode == 13)
+                            {
+
+                                var text = document.getElementById('btnSearch').value.toLowerCase().replace(/ /g, '-');
+                                document.getElementById('btnSearch').value = transliterate(text);
+                                document.getElementById('btnSearch').select();
+                            }
+                    }
+                </script>
+            <input type="text" width="100px" id="btnSearch" onkeypress="onKey(event);"/>
+
+
+            <h4>Реклама</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
           <div class="sidebar-module">
             <h4>Твиты</h4>
           <div class="sidebar-module">

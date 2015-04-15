@@ -1,0 +1,2 @@
+* [Доход СПД-физлица 3 группы при получении валютной выручки](/content/ru/other/dohod-spd-fizlitsa-3-gruppi-pri-poluchenii-valyutnoi-viruchki.html)
+* [Как работать с Google](/content/ru/rabota-s-inostrannymi-kompaniyami/kak-rabotat-s-google.html)

@@ -1,17 +1,12 @@
 ---
-layout: article
+layout: home
 ---
 
 
 
           <div class="blog-post">
-<h2><b>Работа с иностранными компаниями<b/></h2>
-<hr />
-<h3><a href="/content/ru/rabota-s-inostrannymi-kompaniyami/kak-rabotat-s-google.html">Как работать с Google</a></h3>
-<h3><a href="/content/ru/rabota-s-inostrannymi-kompaniyami/shablony-kontraktov.html">Шаблоны контрактов</a></h3>
-<h3>Чего хотя и чего боятся инвесторы</h3>
-<h3>Валютное регулирования</h3>
 
+              {% capture my %}{% include block1.md %}{% endcapture %}{{ my | markdownify }}
 <br/>
 
 <h2> <b>Огранизация бизнесса в Украине</b></h2>
@@ -33,9 +28,9 @@ layout: article
 
               <br/>
 
-<h2><b/>Интелектуальная собвстенность<b/></h2>
+<h2> <b/>Интелектуальная собвстенность<b/></h2>
 <hr />
-<h3> Торговая марка</h3>
+<h3><a href="/content/ru/intelektualnaya-sobvstennost/zachem-nuzhno-registrirovat-torgovuyu-marku.html">Зачем нужно регистрировать торговую марку</a></h3>
 <h3>Авторские права</h3>
 <h3> Договора и контракты</h3>
 
