@@ -1,14 +1,14 @@
 ---
 layout: article
-author: Иван Иваненко
 ---
-# Как работать с Google2
+# Как работать с Google
+**Автор:** [Иван Иваненко](/content/ru/author/ivan-ivanenko.html)
 
-asdf
+asdf3
 asdf
 as
 dfasdf
-
+jgfjgfjgfjg privet
 
 ![asdf](img/kakgoogle.jpg)
 
