@@ -1,7 +1,7 @@
 ---
 layout: article
 ---
-# Как работать с Google
+# Как работать с Google 2
 **Автор:** [Иван Иваненко](/content/ru/author/ivan-ivanenko.html)
 
 asdf3
