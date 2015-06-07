@@ -1,7 +1,7 @@
 # Работа с иностранными компаниями
 
-* [Как работать с Google](/content/ru/rabota-s-inostrannymi-kompaniyami/kak-rabotat-s-google.html)
-* [Шаблоны контрактов](/content/ru/rabota-s-inostrannymi-kompaniyami/shablony-kontraktov.html)
-* [Чего хотя и чего боятся инвесторы](/content/ru/stub.html)
-* [Валютное регулирования](/content/ru/stub.html)
-* [Еще один пункт](/content/ru/stub.html)
+* [Как работать с Google](/content/ru/rabota-s-inostrannymi-kompaniyami/kak-rabotat-s-google.md)
+* [Шаблоны контрактов](/content/ru/rabota-s-inostrannymi-kompaniyami/shablony-kontraktov.md)
+* [Чего хотя и чего боятся инвесторы](/content/ru/stub.md)
+* [Валютное регулирования](/content/ru/stub.md)
+* [Еще один пункт](/content/ru/stub.md)
