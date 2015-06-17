@@ -6,6 +6,13 @@ about: Predefined chunks as necessary, making this the first true generator on t
 img: money-minimal.jpg
 author: ivan-ivanenko
 ---
+# Какой-то важный заголовок
+
+* раз
+* два
+
+**жирный**
+
 asdf3a asdf;laskdfj al;skdjf ;askljdf
 asdf
 as
