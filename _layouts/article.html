@@ -1,59 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,700italic,700,500italic,400italic,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <title>{{page.title}}</title>
 
-    <title>Все что вы хотели спросить об IT</title>
-
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/dist/blog.css" rel="stylesheet">
+    <link href="/style.css?v=2" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
   </head>
+  <body class="">
 
-  <body>
+     {% include header.html %}
 
-    <div class="blog-masthead">
-      <div class="container">
-	<h2 class="blog-post-title"><a href="/" style="text-decoration: none"  ><b><font color="GREEN">ITIN.UA</font></b></a> Собираем Знания Вместе</h2>
-      </div>
-    </div>
+     {% include liner.html %}
 
-    <div class="container">
 
-      <div class="blog-header">
-        <h1 class="blog-title">Все что вы хотели спросить об IT</h1>
-        <p class="lead blog-description">Мы вместе c GitHub собираем и даем ответы на все вопросы ИТ</p>
-      </div>
+    <div class="container main-container"> <!--  MAin Conteiner-->
 
       <div class="row">
+        <div class="col-md-2 left-col"> <!--  LEFT -->
+            <h2 class="section-title">
+              {% include category_name.html %}
+            </h2>
+            <span class="triangle-bottom top0"></span>
 
-	<div class="col-sm-3">
-		{% capture my %}{% include block1.md %}{% endcapture %}{{ my | markdownify }}
-	</div>
+          <br />  
 
-        <div class="col-sm-7 blog-main">
-        <a href="/" >Назад</a>
-        {{content}}
+          <ul class="link-list">
+
+              {% for category in page.categories  %}
+                    {% if category == "actual" %}
+                    {% else %}
+
+                        {% for post in site.categories[category] %}
 
 
-          <a href="https://github.com/itinua/itinua.github.io/blob/master{{page.url | replace:'.html','.md' }}">Редактировать</a>
+            <li>
+              <a href="{{post.url}}">{{post.title}}</a>
+              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+            </li>
+
+                          {% endfor %}
+                    {% endif %}
+                {% endfor %}
+          </ul>
+
+        </div>
+        <div class="col-md-7 article-body">  <!--  CENTER    -->
 
 
-            <div id="disqus_thread"></div>
+            <h1 class="article-header"> {{page.title}} </h1>
+
+              <p class="article-data"> {{ page.date |date: '%d %B %Y' }}</p>
+
+              {{content}}
+
+
+              <p class="edit-article">
+                <a href="https://github.com/itinua/itinua.github.io/blob/master{{page.url | replace:'.html','.md' }}">
+                  <span class="git-cliche git-blue">
+                    <img src="images/github-mask.png" width="26" alt="gitHUB" /></span>
+                  Редактировать материал</a> 
+                <a href="https://github.com/itinua/itinua.github.io/commits/master{{page.url | replace:'.html','.md' }} class="pull-right">
+                  <img src="images/history.png" width="24" alt="i" />
+                  История изменений</a> 
+              </p>
+
+
+
+
+
+            {% assign author = site.authors[page.author] %}
+            {% if author %}
+
+          <div class="liner author-block">
+            <div class="row">
+
+
+              <div class="col-lg-7 author-info">
+                <div class="author-photo step-sign">
+                    <a href="/content/author/{{page.author}}.html">
+                  <img src="/images/{{author.image}}" width="64" alt="user" />
+                        </a>
+                  <span class="step-arrow"></span>
+                </div>
+
+                <h4><span class="fading">Автор:</span>
+                     <a href="/content/author/{{page.author}}.html">
+                    {{author.name}}
+                         </a>
+                </h4>
+                <p class="fading">{{author.job}}</p>
+              </div>
+
+              <div class="col-lg-5 became-author">
+                <h3>
+                  Есть о чем написать?!  
+                  Станьте автором! </h3>
+
+                  <p><a href="/content/add-material.html" class="main-btn">Добавить материал</a> </p>
+              </div>
+
+            </div> <!-- ROW -->
+          </div>  <!-- Liner -->
+            {% endif %}
+
+
+
+
+
+
+          <br />
+
+             <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'itinua';
-
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -64,41 +142,40 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
-        </div><!-- /.blog-main -->
+        </div> <!-- CENTER ends -->
 
-             <div class="col-sm-2 col-sm-offset-0 blog-sidebar">
 
-          <div class="sidebar-module">
-            <h4>Твиты</h4>
-          <div class="sidebar-module">
+
+        <div class="col-md-3 right-col">
+
+          <div class="ads">
+            <img src="/images/axure.jpg" alt="Axure"/>
+
+            <img src="/images/M2B.jpg" alt="M2B"/>
+
+            <img src="/images/LookFilter.jpg" alt="LookFilter"/>
           </div>
-        </div><!-- /.blog-sidebar -->
+        
+          <br /> 
+        </div> 
 
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
+      </div><!-- row ends -->
 
 
 
-                <ul class="nav navbar-nav">
-                    <li><a href="/content/ru/o-proekte.html">О проекте</a></li>
-                    <li><a href="">Реклама</a></li>
-                    <li><a href="">Написать в редакцию</a></li>
-                    <li><a href="">Техподдержка</a></li>
-                    <li><a href="">Пользовательское соглашение</a></li>
-                    <li><a href="/content/debug.html">Отладка</a></li>
-                </ul>
+      <br />      <br />      <br />
 
-   <section class="copyright-container">
-        <div class="row">
-            <div class="col col-sm-8 col-xs-12">
-                <p>© 2009 — 2015. Все права защищены.</p>
-                <p>
-                    Любое использование материалов допускается только с указанием статьи
-                </p>
-</div>
-</div>
+     {% include actual.html %}
 
-    </section>
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->
+
+   {% include footer.html %}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

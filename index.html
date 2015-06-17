@@ -1,42 +1,159 @@
 ---
-layout: home
+layout: index
 author: Ivan Ivanenko
 ---
 
 
-
-          <div class="blog-post">
-
-              {% capture my %}{% include block1.md %}{% endcapture %}{{ my | markdownify }}
-<br/>
-
-<h2> <b>Огранизация бизнесса в Украине</b></h2>
-<hr />
-<h3> Зачем нужно ООО</h3>
-<h3>Как отркыть СПД</h3>
-<h3>Какая система налогообложения мне подходит</h3>
-<h3>Зачем нужен юридический адресс</h3>
-
-              <br/>
-
-<h2><b>Открытие компании за рубежом</b></h2>
-<hr />
-<h3> Польша</h3>
-<h3>США</h3>
-<h3>Литва</h3>
-<h3>Латвия</h3>
-<h3>Офшоры</h3>
-
-              <br/>
-
-<h2> <b/>Интелектуальная собвстенность<b/></h2>
-<hr />
-<h3><a href="/content/ru/intelektualnaya-sobvstennost/zachem-nuzhno-registrirovat-torgovuyu-marku.html">Зачем нужно регистрировать торговую марку</a></h3>
-<h3>Авторские права</h3>
-<h3> Договора и контракты</h3>
+<div class="row">
+        <div class="col-md-2">     <!--  LEFT -->
+          <h3 class="block-header">
+            <span class="square-pointer">!</span>Новое</h3>
+          <br />
 
 
 
-		
+         <ul class="link-list">
+          {% for post in site.posts limit: 6 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+            </li>
+          {% endfor %}
+          </ul>
 
-          </div><!-- /.blog-post -->
+
+        </div>
+        <div class="col-md-7" id="mainpart">   <!--  CENTER -->
+
+          <div class="section">
+            <h2 class="section-title">
+              <a href="/content/list/rabota-s-inostrannimi-kompaniyami.html">Работа с иностранными компаниями</a>
+              <a class="pull-right" href="/content/list/rabota-s-inostrannimi-kompaniyami.html">{{ site.categories.a1 | size }}</a> </h2>
+            <span class="triangle-bottom top0"></span>
+
+            <div class="main-article row">
+                {% for post in site.categories.a1 limit:1 %}
+
+              <div class="col-sm-6">
+                <img src="images/{{post.img}}" alt="{{post.title}}"/></div>
+              <div class="col-sm-6">
+                <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                <p>{{post.about}}</p></div>
+                {% endfor %}
+            </div><!-- row ends -->
+
+            <div class="section-group row">
+                  {% for post in site.categories.a1 offset:1 limit:3 %}
+                   <div class="col-sm-4">
+                         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                             <p>{{post.about}}</p>
+                    </div>
+
+
+                 {% endfor %}
+
+            </div>  <!-- row ends -->
+
+            <p class="all-articles">
+              <a class="" href="/content/list/rabota-s-inostrannimi-kompaniyami.html">Все статьи раздела</a>
+            </p>
+          </div><!-- SECTION -->
+
+
+          <div class="section">
+            <h2 class="section-title">
+              <a href="/content/list/ogranizatsiya-biznessa-v-ukraine.html">Огранизация бизнесса в Украине</a>
+              <a class="pull-right" href="/content/list/ogranizatsiya-biznessa-v-ukraine.html">{{ site.categories.a2 | size }}</a> </h2>
+            <span class="triangle-bottom top0"></span>
+
+
+            <div class="main-article row">
+                {% for post in site.categories.a2 limit:1 %}
+
+              <div class="col-sm-6">
+                <img src="images/{{post.img}}" alt="{{post.title}}"/></div>
+              <div class="col-sm-6">
+                <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                <p>{{post.about}}</p></div>
+                {% endfor %}
+            </div><!-- row ends -->
+
+
+            <div class="section-group row">
+                  {% for post in site.categories.a2 offset:1 limit:3 %}
+                   <div class="col-sm-4">
+                         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                             <p>{{post.about}}</p>
+                    </div>
+
+
+                 {% endfor %}
+
+            </div>  <!-- row ends -->
+
+            <p class="all-articles">
+              <a href="/content/list/ogranizatsiya-biznessa-v-ukraine.html">Все статьи раздела</a>
+            </p>
+          </div><!-- SECTION -->
+
+
+        </div> <!-- CENTER ends -->
+
+
+
+        <div class="col-md-3 right-col">
+
+          <div class="ads">
+            <img src="images/axure.jpg" alt="Axure"/>
+
+            <img src="images/M2B.jpg" alt="Working in Google office"/>
+
+            <img src="images/LookFilter.jpg" alt="LookFilter"/>
+          </div>
+
+          <br />
+        </div>
+
+      </div><!-- row ends -->
+
+      <br />
+      <div class="liner text-center add-tutorial">
+
+        <h2>Как создавать или редактировать материал? <br />
+            Да проще простого!</h2>
+
+            <br /><br />
+
+        <div class="row">
+            <div class="col-md-4">
+              <span class="step-sign push-left">1<span class="step-arrow"></span></span>
+              <p>Авторизироваться у нас на сайте и GitHub</p>
+
+            </div>
+            <div class="col-md-4" >
+              <span class="step-sign">2<span class="step-arrow"></span></span>
+              <p>Создать/редактировать статью, с иллюстрацией</p>
+
+            </div>
+            <div class="col-md-4" >
+              <span class="step-sign">3<span class="step-arrow"></span></span>
+              <p>Написать коротко о себе и указать источник материала</p>
+
+            </div>
+            </div> <!-- row ends -->
+
+          <p><a href="/content/add-material.html" class="main-btn">Добавить материал</a></p>
+
+          <br /><br / ><br / >
+      </div>
+
+
+
+      <br />      <br />
+
+{% include actual.html %}
+
+      <br /><br /><br />
+
+
+

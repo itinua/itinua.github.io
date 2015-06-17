@@ -1,8 +1,12 @@
 ---
 layout: article
+categories: [a1]
+title: There are many variations of passages of Lorem Ipsum available3
+about: There are many variations of passages of Lorem Ipsum available, but the
+img: money-minimal.jpg
+author: ivan-ivanenko
 ---
-# Как работать с Google
-**Автор:** [Иван Иваненко](/content/ru/author/ivan-ivanenko.html)
+asdf asdf askl;dfj as;lkdfj al;skdfjas;lkd fjasl;kjdf l;askjdfas;ldjf
 
 asdf3
 asdf
@@ -10,7 +14,7 @@ as
 dfasdf
 jgfjgfjgfjg privet
 
-![asdf](img/kakgoogle.jpg)
+![asdf](images/kakgoogle.jpg)
 
 
 There are many variations of passages of Lorem Ipsum available, 

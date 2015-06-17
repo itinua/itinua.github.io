@@ -6,3 +6,20 @@ relative_permalinks: false
 safe: true
 lsi: false
 pygments: true
+
+authors:
+  ivan-ivanenko:
+    name: Ivan Ivanenko
+    job: Заместитель главного редактора The Google Ukraine 1
+    url: ivan-ivanenko
+    image: NL-ava.JPG
+  anna-ivanenko:
+    name: Anna Ivanenko
+    job: Заместитель главного редактора The Google Ukraine 2
+    url: anna-ivanenko
+    image: IT-user.png
+  katerina-timchenko:
+    name: Kaya Timchenko
+    job: Заместитель главного редактора The Google Ukraine 3
+    url: katerina-timchenko
+    image: IT-user.png
