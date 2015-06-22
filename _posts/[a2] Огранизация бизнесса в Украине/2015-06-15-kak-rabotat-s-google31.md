@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2, actual]
+categories: [a2, actual, top]
 title: There asd are many variations of passages of Lorem Ipsum available
 about: looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, 
 img: kakgoogle.jpg

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,700italic,700,500italic,400italic,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IT in ua — Все о IT Бизнесе в Украине</title>
+
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="">
+
+  <header >
+    <div class="container" >
+
+      <div class="row main-header">
+        <div class="col-sm-2 IT-moto ">
+
+          <a href="index.html"><img src="images/ITinua.png" width="102" alt="IT in ua" /></a>
+
+          <em>Собираем знания вместе</em>
+        </div>
+
+        <div class="col-sm-7">
+            <h1 class="IT-point">
+            Все об <strong> IT Бизнесе</strong> в Украине</h1>        
+        </div>
+
+        <div class="col-sm-3 user-login">
+
+        </div>        
+      </div>
+
+    </div>
+  </header>
+
+  <div class="liner">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-2">
+          
+            <p class="search-label">Искать материал:</p>
+        </div>
+        <div class="col-md-7 search-block">
+
+           <script>
+  (function() {
+    var cx = '003984021792138740406:fgqixi3tsgs';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+        
+        </div>
+        <div class="col-md-3 pull-right">
+          <a href="#" class="main-btn headmain-button">Добавить материал</a>
+        </div>        
+      </div>
+
+    </div>
+
+  </div>  <!--  Liner  -->
+
+
+    <div class="container"> <!--  MAin Conteiner-->
+
+      <div class="row">
+        <div class="col-md-2">     <!--  LEFT -->
+          <h3 class="block-header">
+            <span class="square-pointer">!</span>Новое</h3>
+          <br />  
+
+          <ul class="link-list">
+            {% for post in site.posts limit: 6 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+            </li>
+           {% endfor %}
+
+
+          </ul>
+
+        </div>
+        <div class="col-md-7" id="mainpart">   <!--  CENTER -->
+            {{content}}
+        </div> <!-- CENTER ends -->
+
+
+
+        <div class="col-md-3 right-col">
+
+          <div class="ads">
+            <img src="/images/axure.jpg" alt="Axure"/>
+
+            <img src="/images/M2B.jpg" alt="Working in Google office"/>
+
+            <img src="/images/LookFilter.jpg" alt="LookFilter"/>
+          </div>
+        
+          <br /> 
+        </div> 
+
+      </div><!-- row ends -->
+
+      <br />   
+      <div class="liner text-center add-tutorial">
+
+        <h2>Как создавать или редактировать материал? <br />
+            Да проще простого!</h2>
+
+            <br /><br />
+
+        <div class="row">
+            <div class="col-md-4">
+              <span class="step-sign push-left">1<span class="step-arrow"></span></span>
+              <p>Авторизироваться у нас на сайте и GitHub</p>
+
+            </div>
+            <div class="col-md-4" >
+              <span class="step-sign">2<span class="step-arrow"></span></span>
+              <p>Создать/редактировать статью, с иллюстрацией</p>
+            
+            </div>
+            <div class="col-md-4" >
+              <span class="step-sign">3<span class="step-arrow"></span></span>
+              <p>Написать коротко о себе и указать источник материала</p>
+            
+            </div>        
+            </div> <!-- row ends -->
+
+          <p><a href="#" class="main-btn">Добавить материал</a></p>
+
+          <br /><br / ><br / >
+      </div>
+
+
+
+      <br />      <br />       
+
+      <div class="popular">
+        <h3 class="block-header">
+            <span class="square-pointer">!</span>
+            Актуальное</h3>
+
+        <div class="row">
+           {% for post in site.categories.actual limit:4 %}
+
+          <div class="col-sm-3">
+              <div class="article-img">
+                  <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
+                  <span class="triangle-bottom"> </span>
+                </div>
+              <a href="{{post.url}}">{{post.title}}</a>
+                <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+
+          </div>
+            {% endfor %}
+        </div>  <!-- row ends -->
+
+      </div>  <!-- Popular ends -->
+
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/IT-inua-white.png" height="32px" alt="IT in ua"/>
+          </div>
+          <div class="col-md-10">
+            <ul>
+              {% include footer_links.html %}
+            </ul>
+          </div>
+        </div>
+
+            <br />
+      <p>
+        &copy; 2015. Все права защищены. <br />
+        Любое использование материалов допускается только с указанием статьи
+      </p>
+
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+  </body>
+</html>

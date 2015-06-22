@@ -1,12 +1,12 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, top]
 title: There are many variations of passages of Lorem Ipsum available3
 about: There are many variations of passages of Lorem Ipsum available, but the
 img: money-minimal.jpg
 author: ivan-ivanenko
 ---
-asdf asdf askl;dfj as;lkdfj al;skdfjas;lkd fjasl;kjdf l;askjdfas;ldjf
+asdf TOP asdf askl;dfj as;lkdfj al;skdfjas;lkd fjasl;kjdf l;askjdfas;ldjf
 
 asdf3
 asdf

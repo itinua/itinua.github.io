@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,700italic,700,500italic,400italic,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IT in ua — User Details</title>
+
+    <!-- Bootstrap -->
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="">
+
+  <header >
+    <div class="container" >
+
+      <div class="row main-header">
+        <div class="col-sm-2 IT-moto ">
+
+          <a href="/"><img src="/images/ITinua.png" width="102" alt="IT in ua" /></a>
+          <em>Собираем знания вместе</em>
+
+        </div>
+        <div class="col-sm-7">
+
+        <h1 class="IT-point">Все о <strong> IT Бизнесе</strong> в Украине</h1>
+        
+        </div>
+        <div class="col-sm-23 user-login">
+          <img src="/images/user.png" width="18" alt="U " /> 
+          <a href="userprofile.html" class="userprofile-link">IvanIvanenko</a>
+        </div>        
+      </div>
+
+    </div>
+        <hr class="thin-hr top5" />    
+  </header>
+
+
+    <div class="container"> <!--  MAin Conteiner-->
+
+      <div class="row">
+
+
+        <div class="col-md-9">  <!--  CENTER    -->
+
+            <div class="row user-header">
+              <div class="col-xs-4 ">
+
+                <div class="user-photo">
+                  <img src="/{{site.authors[page.author].image}}" width="100" alt="user" />
+                  <span class="step-arrow"></span>
+                </div>
+
+              </div>
+
+              <div class="col-xs-8">
+                  <h2 class="modest-hr">{{site.authors[page.author].name}}</h2>
+                  <p class="fading">{{site.authors[page.author].job}}</p>
+
+                  {{ content }}
+                  <br />  
+
+                  <p>
+                    <img src="/images/gitHUB-kitty.png" width="28" class="push-right" alt="gitHUB" />
+                    <a hre="">ivan_ivannenko</a>
+                  </p>
+              </div>
+            </div> <!-- Row -->
+
+
+            <div class="row user-info ">
+              <div class="col-sm-8 col-sm-offset-4">
+
+                <div class="socials">
+                    <form class="">
+                      <p>
+                        <img src="/images/f.png" width="28" alt="f" />
+                        <input type="text" placeholder="https://www.facebook.com/ivan.ivanenko" />
+                        </p>
+
+                      <p>
+                        <img src="/images/g+.png" width="28" alt="g+" />
+                        <input type="text">
+                        </p>
+
+                      <p>
+                        <img src="/images/in.png" width="28" alt="in" />
+                        <input type="text">
+                        </p>
+
+                      <p>
+                        <img src="/images/s.png" width="28" alt="S" />
+                        <input type="text">
+                        </p>
+
+                      <p>
+                        <img src="/images/home.png" width="28" alt="w" />
+                        <input type="text">
+                        </p>
+
+                      <br />
+
+                      <p class="sm-info">
+                        <span> Местоположение</span>
+                        <input type="text">
+                        </p>
+
+                      <p class="sm-info">
+                        <span> Дата рождения</span>
+                        <input type="text">
+                        </p>
+
+
+                    </form>                    
+                </div>                
+              </div>
+          </div> <!-- row -->
+
+
+          <div class="row">
+            <div class="col-xs-12">          
+
+              <hr >
+              <p>
+                <a><img src="/images/user-blue.png" class="top-2" width="16" alt="U " /> &nbsp; 
+                  Редактировать профайл</a>  
+                  </p>
+            </div>
+          </div>
+
+
+          <br /><br />
+
+
+          <h2 class="modest-hr">Мои статьи</h2>
+
+          <br />
+          <ul class="bulleted-list">
+
+              {% for post in site.posts  %}
+                    {% if post.author == page.author %}
+                     <li>
+                      <a  href="{{post.url}}">{{post.title}}</a>
+                      <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+                    </li>
+              {% endif %}
+            {% endfor %}
+
+          </ul>          
+
+          <div class="liner row">
+            <h3 class=" pull-left push-left ">Есть о чем написать?! Станьте автором! </h3>
+
+            <a href="#" class="main-btn top-5 pull-right push-right ">Добавить материал</a> 
+
+          </div>
+          <br /><br />
+        </div> <!-- CENTER ends -->
+
+
+        <div class="col-md-3 right-col">
+
+          <div class="ads">
+            <img src="/images/axure.jpg" alt="Axure"/>
+
+            <img src="/images/M2B.jpg" alt="M2B"/>
+
+            <img src="/images/LookFilter.jpg" alt="LookFilter"/>
+          </div>
+        
+          <br /> 
+        </div> 
+
+      </div><!-- row ends -->
+
+
+      <br />      <br />      <br />
+
+      <div class="popular">
+        <h3 class="block-header">
+            <span class="square-pointer">!</span>
+            Актуальное</h3>
+
+        <div class="row">
+          <div class="col-sm-3">
+              <div class="article-img">
+                  <div class="img-crop"><img src="/images/money-bags.jpg" alt="Working in Google office"/></div>
+                  <span class="triangle-bottom"> </span>
+                </div>
+              <a href="article.html">Доход СПД-физлица 3 группы при получении валютной выручки</a>
+                <span class="date-format">12 февраля ‘15</span>
+
+          </div>
+
+          <div class="col-sm-3">
+              <div class="article-img">
+                  <div class="img-crop"><img src="/images/work-in-google.jpg" alt="Working in Google office"/></div>
+                <span class="triangle-bottom"> </span>
+                </div>
+
+              <a href="article.html">Как работать с Google</a>
+                <span class="date-format">1 июня ‘15</span>
+          
+          </div>
+
+          <div class="col-sm-3">
+              <div class="article-img">
+                  <div class="img-crop"><img src="/images/copyright-trademark-logo.png" class="portrait"  alt="Working in Google office"/></div>
+                <span class="triangle-bottom"> </span>
+                </div>
+              <a href="article.html">Зачем нужно регистрировать торговую марку</a>
+                <span class="date-format">15 апреля ‘15</span>
+          </div> 
+
+          <div class="col-sm-3">
+              <div class="article-img">
+                  <div class="img-crop"><img src="/images/tax-calculate.jpg" alt="Working in Google office"/></div>
+
+                <span class="triangle-bottom"> </span>
+                </div>
+              <a href="article.html">Какая система налогообложения мне подходит</a>
+                <span class="date-format">12 марта ‘15</span>
+          </div>                 
+        </div>  <!-- row ends -->
+
+      </div>  <!-- Popular ends -->
+
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->
+
+
+
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="/images/IT-inua-white.png" height="32px" alt="IT in ua"/>
+          </div>
+          <div class="col-md-10">
+            <ul>
+                <li><a href="">О проекте</a></li>
+                <li><a href="">Реклама</a></li>
+                <li><a href="">Написать в редакцию</a></li>
+                <li><a href="">Техподдержка</a></li>
+                <li><a href="">Пользовательское соглашение</a></li>
+                <li><a href="">Отладка</a> </li>
+            </ul>
+          </div>
+        </div>
+
+            <br />
+      <p>
+        &copy; 2015. Все права защищены. <br />
+        Любое использование материалов допускается только с указанием статьи
+      </p>
+
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

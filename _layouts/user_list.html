@@ -34,92 +34,13 @@
     <div class="container main-container"> <!--  MAin Conteiner-->
 
       <div class="row">
-        <div class="col-md-2 left-col"> <!--  LEFT -->
-            <h2 class="section-title">
-              {% include category_name.html %}
-            </h2>
-            <span class="triangle-bottom top0"></span>
-
-          <br />  
-
-          <ul class="link-list">
-
-              {% for category in page.categories  %}
-                    {% if category == "actual" %}
-                    {% else %}
-
-                        {% for post in site.categories[category] %}
-
-
-            <li>
-              <a href="{{post.url}}">{{post.title}}</a>
-              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
-            </li>
-
-                          {% endfor %}
-                    {% endif %}
-                {% endfor %}
-          </ul>
-
-        </div>
         <div class="col-md-7 article-body">  <!--  CENTER    -->
 
 
-            <h1 class="article-header"> {{page.title}} </h1>
+ <br />
 
-              <p class="article-data"> {{ page.date |date: '%d %B %Y' }}</p>
+            {{content}}
 
-              {{content}}
-
-
-              <p class="edit-article">
-                <a href="https://github.com/itinua/itinua.github.io/tree/master/_posts">
-                  <span class="git-cliche git-blue">
-                    <img src="images/github-mask.png" width="26" alt="gitHUB" /></span>
-                  Редактировать материал</a> 
-                <a href="https://github.com/itinua/itinua.github.io/commits/master" class="pull-right">
-                  <img src="images/history.png" width="24" alt="i" />
-                  История изменений</a> 
-              </p>
-
-
-
-
-
-            {% assign author = site.authors[page.author] %}
-            {% if author %}
-
-          <div class="liner author-block">
-            <div class="row">
-
-
-              <div class="col-lg-7 author-info">
-                <div class="author-photo step-sign">
-                    <a href="/content/author/{{page.author}}.html">
-                  <img src="/{{author.image}}" width="64" alt="user" />
-                        </a>
-                  <span class="step-arrow"></span>
-                </div>
-
-                <h4><span class="fading">Автор:</span>
-                     <a href="/content/author/{{page.author}}.html">
-                    {{author.name}}
-                         </a>
-                </h4>
-                <p class="fading">{{author.job}}</p>
-              </div>
-
-              <div class="col-lg-5 became-author">
-                <h3>
-                  Есть о чем написать?!  
-                  Станьте автором! </h3>
-
-                  <p><a href="/content/add-material.html" class="main-btn">Добавить материал</a> </p>
-              </div>
-
-            </div> <!-- ROW -->
-          </div>  <!-- Liner -->
-            {% endif %}
 
 
 

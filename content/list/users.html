@@ -1,0 +1,32 @@
+---
+layout: user_list
+---
+ {% for item in site.authors %}
+{% assign user=item[1] %}
+
+     <div class="liner author-block">
+
+            <div class="row">
+
+
+              <div class="col-lg-10 author-info">
+                <div class="author-photo step-sign">
+                    <a href="/content/author/{{user.url}}.html">
+                  <img src="/{{user.image}}" width="64" alt="user" />
+                        </a>
+                  <span class="step-arrow"></span>
+                </div>
+
+                <h4><span class="fading">Автор:</span>
+                     <a href="/content/author/{{user.url}}.html">
+                    {{user.name}}
+                         </a>
+                </h4>
+                <p class="fading">{{user.job}}</p>
+              </div>
+
+            </div> <!-- ROW -->
+     </div>  <!-- Liner -->
+
+
+ {% endfor %}

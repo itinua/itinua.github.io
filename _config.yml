@@ -7,19 +7,30 @@ safe: true
 lsi: false
 pygments: true
 
+all_categories:
+- id: a1
+  name: Работа с иностранными компаниями
+  url: rabota-s-inostrannimi-kompaniyami.html
+
+- id: a2
+  name: Огранизация бизнесса в Украине
+  url: ogranizatsiya-biznessa-v-ukraine.html
+
 authors:
   ivan-ivanenko:
     name: Ivan Ivanenko
     job: Заместитель главного редактора The Google Ukraine 1
     url: ivan-ivanenko
-    image: NL-ava.JPG
+    image: images/Ivan.png
+
   anna-ivanenko:
     name: Anna Ivanenko
     job: Заместитель главного редактора The Google Ukraine 2
     url: anna-ivanenko
-    image: IT-user.png
+    image: images/IT-user.png
+
   katerina-timchenko:
     name: Kaya Timchenko
     job: Заместитель главного редактора The Google Ukraine 3
     url: katerina-timchenko
-    image: IT-user.png
+    image: images/IT-user.png
