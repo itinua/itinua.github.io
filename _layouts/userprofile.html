@@ -12,16 +12,39 @@ withLine: true
         <div class="col-md-9">  <!--  CENTER    -->
 
             <div class="row user-header">
-              <div class="col-xs-4 ">
+              <div class="col-xs-3 ">
 
                 <div class="user-photo">
                   <img src="/{{site.authors[page.author].image}}" width="100" alt="user" />
                   <span class="step-arrow"></span>
                 </div>
 
+                <p class="socials">
+                  <br />
+
+                  <a href="https://www.facebook.com/nataly.lytvyn" title="facebook" target="_blank">
+                    <img src="images/f-blue.png" width="50" alt="f" /> </a>
+
+                  <a href="https://www.linkedin.com/profile/view?id=126556290" title="linkedin" target="_blank">
+                    <img src="images/in-blue.png" width="32" alt="in" /> </a>
+
+                  <a href="https://twitter.com/litvinataly" title="twitter" target="_blank">
+                    <img src="images/t-blue.png" width="40" alt="g+" /> </a>
+
+                  <a href="https://plus.google.com/+NataliiaLytvyn" title="Google PLus" target="_blank">
+                    <img src="images/g+-blue.png" width="26" alt="t" /> </a>
+
+                  <a href="http://natashenkalitvin.com.ua" title="Website" target="_blank">
+                    <img src="images/home-blue.png" width="41" alt="H" /> </a>
+
+                  <a href="https://github.com/natashenkalitvin" title="gitHUB" target="_blank">
+                    <img src="images/github-blue.png" width="29" alt="gitH" /> </a>
+                </p>
+
+
               </div>
 
-              <div class="col-xs-8">
+              <div class="col-xs-9">
                   <h2 class="modest-hr">{{site.authors[page.author].name}}</h2>
                   <p class="fading">{{site.authors[page.author].job}}</p>
 
@@ -32,57 +55,30 @@ withLine: true
                     <img src="/images/gitHUB-kitty.png" width="28" class="push-right" alt="gitHUB" />
                     <a hre="">ivan_ivannenko</a>
                   </p>
+
+                  <br /><br />
+
+
+                  <h2 class="modest-hr">Cтатьи Автора</h2>
+
+                  <br />
+                  <ul class="bulleted-list">
+
+                      {% for post in site.posts  %}
+                            {% if post.author == page.author %}
+                             <li>
+                              <a  href="{{post.url}}">{{post.title}}</a>
+                              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+                            </li>
+                      {% endif %}
+                    {% endfor %}
+
+                  </ul> 
+
+                            
               </div>
             </div> <!-- Row -->
 
-
-            <div class="row user-info ">
-              <div class="col-sm-8 col-sm-offset-4">
-
-                <div class="socials">
-                    <form class="">
-                      <p>
-                        <img src="/images/f.png" width="28" alt="f" />
-                        <input type="text" placeholder="https://www.facebook.com/ivan.ivanenko" />
-                        </p>
-
-                      <p>
-                        <img src="/images/g+.png" width="28" alt="g+" />
-                        <input type="text">
-                        </p>
-
-                      <p>
-                        <img src="/images/in.png" width="28" alt="in" />
-                        <input type="text">
-                        </p>
-
-                      <p>
-                        <img src="/images/s.png" width="28" alt="S" />
-                        <input type="text">
-                        </p>
-
-                      <p>
-                        <img src="/images/home.png" width="28" alt="w" />
-                        <input type="text">
-                        </p>
-
-                      <br />
-
-                      <p class="sm-info">
-                        <span> Местоположение</span>
-                        <input type="text">
-                        </p>
-
-                      <p class="sm-info">
-                        <span> Дата рождения</span>
-                        <input type="text">
-                        </p>
-
-
-                    </form>
-                </div>
-              </div>
-          </div> <!-- row -->
 
 
           <div class="row">
@@ -97,24 +93,7 @@ withLine: true
           </div>
 
 
-          <br /><br />
-
-
-          <h2 class="modest-hr">Мои статьи</h2>
-
-          <br />
-          <ul class="bulleted-list">
-
-              {% for post in site.posts  %}
-                    {% if post.author == page.author %}
-                     <li>
-                      <a  href="{{post.url}}">{{post.title}}</a>
-                      <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
-                    </li>
-              {% endif %}
-            {% endfor %}
-
-          </ul>          
+         
 
           <div class="liner row">
             <h3 class=" pull-left push-left ">Есть о чем написать?! Станьте автором! </h3>
