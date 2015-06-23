@@ -1,0 +1,8 @@
+{% if page.categories contains "a1" %}
+       {% assign tag="[a1] Работа с иностранными компаниями" %}
+{% endif %}
+
+{% if page.categories contains "a2" %}
+       {% assign tag="[a2] Огранизация бизнесса в Украине" %}
+{% endif %}
+https://github.com/itinua/itinua.github.io/commits/master/_posts/{{tag}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
