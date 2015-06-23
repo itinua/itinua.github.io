@@ -1,5 +1,6 @@
 ---
 layout: main
+title: Добавление нового материла на сайт ITIN.ua
 ---
 # Radix clipei mori aperite celerem duarum signa
 

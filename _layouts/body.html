@@ -8,7 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>IT in ua — Все о IT Бизнесе в Украине</title>
+      {%if page.title %}
+    <title>{{ page.title }}</title>
+      {% else %}
+      <title>IT in ua — Все о IT Бизнесе в Украине</title>
+      {% endif %}
 
     <!-- Bootstrap -->
     <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
