@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, actual]
+categories: [a1, actual, featured]
 title: Как работать с Google
 about: Predefined chunks as necessary, making this the first true generator on the Internet.
 img: money-minimal.jpg

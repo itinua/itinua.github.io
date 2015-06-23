@@ -23,10 +23,11 @@ layout: body
 
             <div class="row month-articles">    <!--  month view  -->
 
-               {% for post in site.categories.[page.page_category] limit:1 %}
+               {% for post in site.categories.[page.page_category] %}
+                {% if post.categories contains "featured" %}
               <div class="col-sm-2">
                 <div class=" month-view">
-                  <span class="date-month">{{ post.date |date: '%B' }}</span>
+                  <span class="date-month">{% include month.html %}</span>
                   <span class="date-year">{{ post.date |date: '%d' }}</span>
                 </div>
               </div>
@@ -39,21 +40,21 @@ layout: body
                     <img src="/images/{{post.img}}" alt="Working in Google office"/></div>
                   <div class="col-sm-6">
                     <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                    <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+                    <span class="date-format">{% include date.html %}</span>
                     <p>{{post.about}}</p></div>
 
                 </div>
-
+                    {% endif %}
                   {% endfor %}
 
 
                 <ul class="bulleted-list">
-                      {% for post in site.categories.[page.page_category] offset:1 limit:3 %}
+                      {% for post in site.categories.[page.page_category] offset:1 %}
 
 
                   <li>
                     <a  href="{{post.url}}">{{post.title}}</a>
-                    <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+                    <span class="date-format">{% include date.html %}</span>
                   </li>
 
                     {% endfor %}
@@ -70,13 +71,7 @@ layout: body
 
         <div class="col-md-3 right-col">
 
-          <div class="ads">
-            <img src="/images/axure.jpg" alt="Axure"/>
-
-            <img src="/images/M2B.jpg" alt="Working in Google office"/>
-
-            <img src="/images/LookFilter.jpg" alt="LookFilter"/>
-          </div>
+            {% include ads.html %}
 
           <br />
         </div>
@@ -88,27 +83,7 @@ layout: body
 
       <br />      <br />
 
-      <div class="popular">
-        <h3 class="block-header">
-            <span class="square-pointer">!</span>
-            Актуальное</h3>
-
-        <div class="row">
-            {% for post in site.categories.actual limit:4 %}
-
-                      <div class="col-sm-3">
-                          <div class="article-img">
-                              <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
-                              <span class="triangle-bottom"> </span>
-                            </div>
-                          <a href="{{post.url}}">{{post.title}}</a>
-                            <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
-
-                      </div>
-            {% endfor %}
-        </div>  <!-- row ends -->
-
-      </div>  <!-- Popular ends -->
+     {% include actual.html %}
 
       <br /><br /><br />
 

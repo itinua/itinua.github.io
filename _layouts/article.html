@@ -28,7 +28,7 @@ layout: body
 
             <li>
               <a href="{{post.url}}">{{post.title}}</a>
-              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+              <span class="date-format">{% include date.html %}</span>
             </li>
 
                           {% endfor %}
@@ -42,7 +42,7 @@ layout: body
 
             <h1 class="article-header"> {{page.title}} </h1>
 
-              <p class="article-data"> {{ page.date |date: '%d %B %Y' }}</p>
+              <p class="article-data"> {% include date.html %}</p>
 
               {{content}}
 
@@ -123,13 +123,7 @@ layout: body
 
         <div class="col-md-3 right-col">
 
-          <div class="ads">
-            <img src="/images/axure.jpg" alt="Axure"/>
-
-            <img src="/images/M2B.jpg" alt="M2B"/>
-
-            <img src="/images/LookFilter.jpg" alt="LookFilter"/>
-          </div>
+         {% include ads.html %}
         
           <br /> 
         </div> 
