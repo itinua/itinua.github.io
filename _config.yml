@@ -7,6 +7,8 @@ safe: true
 lsi: false
 pygments: true
 
+admin_email: ivan.ivanenko@gmail.com
+
 all_categories:
 - id: a1
   name: Работа с иностранными компаниями
