@@ -19,7 +19,7 @@ as
 dfasdf
 jgfjgfjgfjg privet
 
-![asdf](images/kakgoogle.jpg)
+![asdf](images/articles/kakgoogle.jpg)
 
 
 There are many variations of passages of Lorem Ipsum available, 
