@@ -2,7 +2,7 @@
 layout: body
 withLine: true
 ---
-
+{% assign author=site.authors[page.author] %}
 
     <div class="container"> <!--  MAin Conteiner-->
 
@@ -21,24 +21,35 @@ withLine: true
 
                 <p class="socials">
                   <br />
-
-                  <a href="https://www.facebook.com/nataly.lytvyn" title="facebook" target="_blank">
+                    {% if author.fb %}
+                  <a href="{{author.fb}}" title="facebook" target="_blank">
                     <img src="/images/info/f-blue.png" width="32" alt="f" /> </a>
+                    {% endif %}
 
-                  <a href="https://www.linkedin.com/profile/view?id=126556290" title="linkedin" target="_blank">
+                    {% if author.ln %}
+                  <a href="{{author.ln}}" title="linkedin" target="_blank">
                     <img src="/images/info/in-blue.png" width="32" alt="in" /> </a>
+                    {% endif %}
 
-                  <a href="https://twitter.com/litvinataly" title="twitter" target="_blank">
+                    {% if author.tw %}
+                  <a href="{{author.tw}}" title="twitter" target="_blank">
                     <img src="/images/info/t-blue.png" width="32" alt="g+" /> </a>
+                    {% endif %}
 
-                  <a href="https://plus.google.com/+NataliiaLytvyn" title="Google PLus" target="_blank">
+                     {% if author.g_ %}
+                  <a href="{{author.g_}}" title="Google PLus" target="_blank">
                     <img src="/images/info/g+-blue.png" width="32" alt="t" /> </a>
+                    {% endif %}
 
-                  <a href="http://natashenkalitvin.com.ua" title="Website" target="_blank">
+                     {% if author.web %}
+                  <a href="{{author.web}}" title="Website" target="_blank">
                     <img src="/images/info/home-blue.png" width="32" alt="H" /> </a>
+                    {% endif %}
 
-                  <a href="https://github.com/natashenkalitvin" title="gitHUB" target="_blank">
+                      {% if author.git %}
+                  <a href="{{author.git}}" title="gitHUB" target="_blank">
                     <img src="/images/info/gitHUB-blue.png" width="32" alt="gitH" /> </a>
+                    {% endif %}
                 </p>
 
 
@@ -114,54 +125,7 @@ withLine: true
 
       <br />      <br />      <br />
 
-      <div class="popular">
-        <h3 class="block-header">
-            <span class="square-pointer">!</span>
-            Актуальное</h3>
-
-        <div class="row">
-          <div class="col-sm-3">
-              <div class="article-img">
-                  <div class="img-crop"><img src="/images/articles/money-bags.jpg" alt="Working in Google office"/></div>
-                  <span class="triangle-bottom"> </span>
-                </div>
-              <a href="article.html">Доход СПД-физлица 3 группы при получении валютной выручки</a>
-                <span class="date-format">12 февраля ‘15</span>
-
-          </div>
-
-          <div class="col-sm-3">
-              <div class="article-img">
-                  <div class="img-crop"><img src="/images/articles/work-in-google.jpg" alt="Working in Google office"/></div>
-                <span class="triangle-bottom"> </span>
-                </div>
-
-              <a href="article.html">Как работать с Google</a>
-                <span class="date-format">1 июня ‘15</span>
-          
-          </div>
-
-          <div class="col-sm-3">
-              <div class="article-img">
-                  <div class="img-crop"><img src="/images/articles/copyright-trademark-logo.png" class="portrait"  alt="Working in Google office"/></div>
-                <span class="triangle-bottom"> </span>
-                </div>
-              <a href="article.html">Зачем нужно регистрировать торговую марку</a>
-                <span class="date-format">15 апреля ‘15</span>
-          </div> 
-
-          <div class="col-sm-3">
-              <div class="article-img">
-                  <div class="img-crop"><img src="/images/articles/tax-calculate.jpg" alt="Working in Google office"/></div>
-
-                <span class="triangle-bottom"> </span>
-                </div>
-              <a href="article.html">Какая система налогообложения мне подходит</a>
-                <span class="date-format">12 марта ‘15</span>
-          </div>                 
-        </div>  <!-- row ends -->
-
-      </div>  <!-- Popular ends -->
+      {% include actual.html %}
 
       <br /><br /><br />
 

@@ -21,9 +21,15 @@ all_categories:
 authors:
   ivan-ivanenko:
     name: Ivan Ivanenko
-    job: Заместитель главного редактора The Google Ukraine 1
+    job: Программист сайта itin.ua
     url: ivan-ivanenko
     image: Ivan.png
+    fb: https://www.facebook.com/ivan1.ivanenko
+    ln: https://www.linkedin.com/profile/view?id=12440410
+    tw:
+    g_:
+    web: http://foobnix.com
+    git: https://github.com/foobnix
 
   anna-ivanenko:
     name: Anna Ivanenko
