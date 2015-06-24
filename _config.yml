@@ -23,6 +23,7 @@ authors:
     name: Ivan Ivanenko
     job: Программист сайта itin.ua
     url: ivan-ivanenko
+<<<<<<< Updated upstream
     image: Ivan.png
     fb: https://www.facebook.com/ivan1.ivanenko
     ln: https://www.linkedin.com/profile/view?id=12440410
@@ -31,6 +32,10 @@ authors:
     web: http://foobnix.com
     git: https://github.com/foobnix
 
+=======
+    image: images/Ivan.png
+    
+>>>>>>> Stashed changes
   anna-ivanenko:
     name: Anna Ivanenko
     job: Заместитель главного редактора The Google Ukraine 2
