@@ -192,6 +192,13 @@ header {padding: 1.5em 0 1em 0;}
   height: auto;
   margin-top: 0;}
 
+@media (max-width: 1150px) { 
+ .head-octocat img{
+     position: relative;
+     left:1em;
+ }
+}
+
 @media (max-width: 992px) { 
 
 
