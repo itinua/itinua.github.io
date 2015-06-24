@@ -38,7 +38,14 @@ authors:
     image: IT-user.png
 
   katerina-timchenko:
-    name: Kaya Timchenko
+    name: Катерина Тимченко
     job: Заместитель главного редактора The Google Ukraine 3
     url: katerina-timchenko
     image: IT-user.png
+
+  katerina-britskaya:
+    name: Катерина Брицкая
+    job: Заместитель главного редактора The Google Ukraine 3
+    url: katerina-britskaya
+    image: IT-user.png
+
