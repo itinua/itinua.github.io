@@ -88,9 +88,6 @@ h5 { font-size: 1.05em}
 
 /* —————————————————————————————————— HEADER —————————————————————————————————————— */
 
-ins.adsbygoogle { margin: 0 auto!important; }
-
-
 header {padding: 1.5em 0 1em 0;}
 
 .main-header { position: relative;}
@@ -163,6 +160,10 @@ header {padding: 1.5em 0 1em 0;}
   font-weight: normal;
 }
 
+.col-md-2 .block-header,
+.col-sm-2 .block-header {
+    margin-left: .5em;}
+
 .main-btn {
   padding: .7em 1.2em;
   margin: 1em auto;
@@ -179,19 +180,17 @@ header {padding: 1.5em 0 1em 0;}
   margin-top: 5px;}
 
 .head-button {
-  float: left;
-  margin: .5em 1em 0 0;  
-  font-size: .80em;  
 
-  display:block;
+  margin: 0 1em 0 0; 
+  font-size: .9em;  
+
   white-space: nowrap;
 }
 .head-octocat img{
 
-  max-width: 80px;
+  max-width: 90px;
   height: auto;
-
-  margin-top: 5px;}
+  margin-top: 0;}
 
 @media (max-width: 992px) { 
 
@@ -660,7 +659,9 @@ header {padding: 1.5em 0 1em 0;}
 
 .popular  { margin-top: 2em;}
 
-.popular h3 { text-align: center; }
+.popular h3 { 
+    text-align: center;
+    margin: 2em 0 1em 0;}
 
 .popular .date-format { display: block;}
 
@@ -678,7 +679,8 @@ header {padding: 1.5em 0 1em 0;}
 .popular .row div+div+div+div img { margin-left: -12px;}
 
 
-.ad-long {
+.ads-long { overflow: hidden}
+.ads-long div{
   padding: 2em 0;
   position: relative;
   left: 50%;
