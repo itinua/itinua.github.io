@@ -3,7 +3,7 @@ layout: article
 categories: [a1, featured]
 title: Как работать с Google Google Play, AdMob, AdSense
 about: В этой статье описаны легальные схемы работы с Google Google Play, AdMob, AdSense
-img: 
+img: google-minimal.jpg
 author: katerina-timchenko
 ---
 
