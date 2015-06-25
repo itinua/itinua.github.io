@@ -97,10 +97,33 @@ __*Сама статья*__
             }
     }
     function onAuthor(v){
-    document.getElementById('bauthor').innerHTML=v
+    document.getElementById('bauthor').innerHTML=v;
     }
      function onCategory(v){
-    document.getElementById('bcategory').innerHTML=v
+        document.getElementById('bcategory').innerHTML=v;
+    }
+    
+    function onImg(img){
+     document.getElementById('bimg').innerHTML=img.name;
+        }
+    function loadImg(){
+        $.ajax({
+            type: "GET",
+            url: "https://github.com/itinua/itinua.github.io/tree/master/images"
+        }).done(function (data) {
+           var container = $('<div/>').html(data);
+           var result = [];
+            container.find('a.js-directory-link').each(function() {
+                if(this.href.match(/.jpg$/)){
+                    var image = "https://raw.githubusercontent.com/itinua/itinua.github.io/master/images/"+this.title;
+                    var item = "<img style='padding:5px;' src='"+image+"' height='70' name='"+this.title+"' onclick='onImg(this)'/>";
+                    result+=item;
+                }
+    
+            });
+    
+            $("#msgid").html(result);
+        });
     }
     
 </script>
@@ -113,11 +136,13 @@ __*Сама статья*__
   <option value="{{item[0]}}">{{user.name}}</option>
 {% endfor %}  
 </select>
-Категория <select onchange="onCategory(this.value);">
+Категория <select onchange="onCategory(this.value);"style="width: 240px">
 {% for item in site.all_categories %}
   <option value="{{item.id}}">{{item.name}}</option>
 {% endfor %}  
-</select>
+</select> <input type="button" value="Картинки" onclick="loadImg()" />
+<div id="msgid">
+</div>
 
 **Какая система налогообложения мне подходит**
 станет  
@@ -130,8 +155,8 @@ __*Сама статья*__
 layout: article<br/>  
 categories: <font id="bcategory">a1</font><br/>   
 title: <font id="btitle1"></font><br/>
-about: <font id="btitle2"></font><br/>   
-img: <br/>         
+about: Краткое описание о <font id="btitle2"></font><br/>   
+img: <font id="bimg"></font><br/>         
 author: <font id="bauthor">ivan-ivanenko</font><br/>   
 ---<br/>   
 Статья
