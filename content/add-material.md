@@ -141,6 +141,7 @@ __*Сама статья*__
   <option value="{{item.id}}">{{item.name}}</option>
 {% endfor %}  
 </select> <input type="button" value="Картинки" onclick="loadImg()" />
+[Для выбора картинок устновите Google Chrome Plugin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)
 <div id="msgid">
 </div>
 
