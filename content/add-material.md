@@ -84,7 +84,7 @@ __*Сама статья*__
             if (e.keyCode == 13)
             {
                 var orig = document.getElementById('btnSearch').value;
-                orig = orig.replace(/[.,:?()!"'№]/g, '');
+                orig = orig.replace(/[.,:?()!"'№„“]/g, '');
                 document.getElementById('btitle1').innerHTML = orig;
                 document.getElementById('btitle2').innerHTML = orig;
                 var text = orig.toLowerCase().replace(/^\s+|\s+$/g,'').replace(/ /g, '-');
