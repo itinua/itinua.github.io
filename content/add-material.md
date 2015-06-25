@@ -123,10 +123,9 @@ __*Сама статья*__
 станет  
 **2015-06-17-kakaya-sistema-nalogooblozheniya-mne-podhodit.md**  
 
-Это и есть хорошее имя для файла
-
+Это и есть хорошее имя для файла  
+**<font id="btitle3"></font>**
 <pre>
-<font id="btitle3"></font>
 ---  
 layout: article  
 categories: [<font id="bcategory">a1</font>]   
