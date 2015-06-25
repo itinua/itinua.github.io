@@ -125,17 +125,18 @@ __*Сама статья*__
 
 Это и есть хорошее имя для файла  
 **<font id="btitle3"></font>**
-<pre>
----  
-layout: article  
-categories: [<font id="bcategory">a1</font>]   
-title: <font id="btitle1"></font>
-about: <font id="btitle2"></font> 
-img:       
-author: <font id="bauthor">ivan-ivanenko</font> 
----  
+<pre style="white-space: normal;">
+---<br/> 
+layout: article<br/>  
+categories: <font id="bcategory">a1</font><br/>   
+title: <font id="btitle1"></font><br/>
+about: <font id="btitle2"></font><br/>   
+img: <br/>         
+author: <font id="bauthor">ivan-ivanenko</font><br/>   
+---<br/>   
 Статья
 </pre>
+
 <a href="https://github.com/itinua/itinua.github.io/tree/master/_posts" target="_blank">Перейти в GitHub</a>
 
 
