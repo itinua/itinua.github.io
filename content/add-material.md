@@ -84,6 +84,7 @@ __*Сама статья*__
             if (e.keyCode == 13)
             {
                 var orig = document.getElementById('btnSearch').value;
+                orig = orig.replace(/[.,:?]/g, '');
                 document.getElementById('btitle1').innerHTML = orig;
                 document.getElementById('btitle2').innerHTML = orig;
                 var text = orig.toLowerCase().replace(/^\s+|\s+$/g,'').replace(/ /g, '-');
@@ -154,7 +155,7 @@ __*Сама статья*__
 <pre style="white-space: normal;">
 ---<br/> 
 layout: article<br/>  
-categories: <font id="bcategory">a1</font><br/>   
+categories: [<font id="bcategory">a1</font>]<br/>   
 title: <font id="btitle1"></font><br/>
 about: Краткое описание о <font id="btitle2"></font><br/>   
 img: <font id="bimg"></font><br/>         
