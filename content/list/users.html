@@ -3,6 +3,7 @@ layout: main
 title: Авторы ресурса ITIN.ua
 ---
  {% for item in site.authors %}
+{% assign url=item[0]  %}
 {% assign user=item[1] %}
 
      <div class="liner author-block">
@@ -12,14 +13,14 @@ title: Авторы ресурса ITIN.ua
 
               <div class="col-lg-10 author-info">
                 <div class="author-photo step-sign">
-                    <a href="/content/author/{{user.url}}.html">
+                    <a href="/content/author/{{url}}.html">
                   <img src="/images/author/{{user.image}}" width="64" alt="user" />
                         </a>
                   <span class="step-arrow"></span>
                 </div>
 
                 <h4><span class="fading">Автор:</span>
-                     <a href="/content/author/{{user.url}}.html">
+                     <a href="/content/author/{{url}}.html">
                     {{user.name}}
                          </a>
                 </h4>

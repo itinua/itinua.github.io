@@ -96,9 +96,29 @@ __*Сама статья*__
                 document.getElementById('btnSearch').select();
             }
     }
+    function onAuthor(v){
+    document.getElementById('bauthor').innerHTML=v
+    }
+     function onCategory(v){
+    document.getElementById('bcategory').innerHTML=v
+    }
+    
 </script>
 ###Форма создания имени файла для статьи
-<input type="text" id="btnSearch" size="60" onkeypress="onKey(event);"/>  
+
+Название <input type="text" id="btnSearch" size="60" onkeypress="onKey(event);"/><br/><br/>
+Автор <select onchange="onAuthor(this.value);">
+{% for item in site.authors %}
+{% assign user=item[1] %}
+  <option value="{{item[0]}}">{{user.name}}</option>
+{% endfor %}  
+</select>
+Категория <select onchange="onCategory(this.value);">
+{% for item in site.all_categories %}
+  <option value="{{item.id}}">{{item.name}}</option>
+{% endfor %}  
+</select>
+
 **Какая система налогообложения мне подходит**
 станет  
 **2015-06-17-kakaya-sistema-nalogooblozheniya-mne-podhodit.md**  
@@ -109,11 +129,11 @@ __*Сама статья*__
 <font id="btitle3"></font>
 ---  
 layout: article  
-categories: [a1, a2]   
+categories: [<font id="bcategory">a1</font>]   
 title: <font id="btitle1"></font>
 about: <font id="btitle2"></font> 
 img:       
-author: katerina-britskaya  
+author: <font id="bauthor">ivan-ivanenko</font> 
 ---  
 Статья
 </pre>
