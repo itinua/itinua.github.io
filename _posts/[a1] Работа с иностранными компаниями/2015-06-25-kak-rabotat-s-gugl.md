@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: a1
+categories: [a1]
 title: Как работать с Google: Google Play, AdMob, AdSense
 about: В этой статье описаны легальные схемы работы с Google: Google Play, AdMob, AdSense
 img: 
