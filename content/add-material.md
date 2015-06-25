@@ -136,6 +136,7 @@ author: <font id="bauthor">ivan-ivanenko</font>
 ---  
 Статья
 </pre>
+[Перейти в GitHub](https://github.com/itinua/itinua.github.io/tree/master/_posts)
 
 ## Заголовок статьи
 В файле статьи обязательно указать заголовок, его можно скопировать с любой статьи нужного раздела
