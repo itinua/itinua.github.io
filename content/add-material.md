@@ -83,13 +83,16 @@ __*Сама статья*__
          e = e || window.event;
             if (e.keyCode == 13)
             {
-
-                var text = document.getElementById('btnSearch').value.toLowerCase().replace(/^\s+|\s+$/g,'').replace(/ /g, '-');
+                var orig = document.getElementById('btnSearch').value;
+                document.getElementById('btitle1').innerHTML = orig;
+                document.getElementById('btitle2').innerHTML = orig;
+                var text = orig.toLowerCase().replace(/^\s+|\s+$/g,'').replace(/ /g, '-');
                 var r = transliterate(text);
                 
                 var today = new Date().toISOString().slice(0, 10);
                 r = today +"-"+ r + ".md";
                 document.getElementById('btnSearch').value = r;
+                document.getElementById('btitle3').innerHTML = r;
                 document.getElementById('btnSearch').select();
             }
     }
@@ -102,8 +105,22 @@ __*Сама статья*__
 
 Это и есть хорошее имя для файла
 
+<pre>
+<font id="btitle3"></font>
+---  
+layout: article  
+categories: [a1, a2]   
+title: <font id="btitle1"></font>
+about: <font id="btitle2"></font> 
+img:       
+author: katerina-britskaya  
+---  
+Статья
+</pre>
+
 ## Заголовок статьи
-В файле статьи обязательно указать заголовок, его можно скопировать с любой статьи нужного раздела  
+В файле статьи обязательно указать заголовок, его можно скопировать с любой статьи нужного раздела
+
 **---**  
 **layout: article** Значит что у нас шаблон статья  
 **categories: [a1, actual, featured]** Значит что статья появится в разделе _[a1] Работа с иностранными компаниями_  
