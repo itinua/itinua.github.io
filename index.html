@@ -17,10 +17,13 @@ author: Ivan Ivanenko
          {% if post.categories contains "featured" %}
           {% assign id = post.url %}
       <div class="col-sm-6">
-        <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
+          <div class="img-crop">
+            <img src="/images/{{post.img}}" alt="{{post.title}}"/>
+          </div>
+          </div>
       <div class="col-sm-6">
         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-        <p>{{post.about}}</p></div>
+        <p>{{post.content | | truncatewords: 25 }}</p></div>
         {% endif%}
         {% endfor %}
     </div><!-- row ends -->
@@ -32,7 +35,7 @@ author: Ivan Ivanenko
            {% assign i=i | plus:1 %}
            <div class="col-sm-4">
                  <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                     <p>{{post.about}}</p>
+
             </div>
            {% endif %}
            {% if i >= 3%}

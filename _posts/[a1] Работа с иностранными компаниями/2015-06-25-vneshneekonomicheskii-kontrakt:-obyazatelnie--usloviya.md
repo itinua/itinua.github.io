@@ -2,7 +2,6 @@
 layout: article
 categories: [a1]
 title: Внешнеэкономический контракт обязательные условия
-about: В статье описаны обязательные условия внешнеэкономических контрактов
 img: 
 author: katerina-timchenko
 ---

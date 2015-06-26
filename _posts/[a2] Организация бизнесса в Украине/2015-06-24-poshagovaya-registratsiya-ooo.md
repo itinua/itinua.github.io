@@ -2,7 +2,6 @@
 layout: article
 categories: [a2, actual]
 title: Пошаговая инструкция регистрации ООО
-about: Как зарегистрировать ООО
 img: 
 author: katerina-britskaya
 ---

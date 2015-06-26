@@ -86,7 +86,7 @@ __*Сама статья*__
                 var orig = document.getElementById('btnSearch').value;
                 orig = orig.replace(/[.,:?()!"'№„“]/g, '');
                 document.getElementById('btitle1').innerHTML = orig;
-                document.getElementById('btitle2').innerHTML = orig;
+                
                 var text = orig.toLowerCase().replace(/^\s+|\s+$/g,'').replace(/ /g, '-');
                 var r = transliterate(text);
                 
@@ -157,7 +157,6 @@ __*Сама статья*__
 layout: article<br/>  
 categories: [<font id="bcategory">a1</font>]<br/>   
 title: <font id="btitle1"></font><br/>
-about: Краткое описание о <font id="btitle2"></font><br/>   
 img: <font id="bimg"></font><br/>         
 author: <font id="bauthor">ivan-ivanenko</font><br/>   
 ---<br/>   
@@ -176,7 +175,6 @@ author: <font id="bauthor">ivan-ivanenko</font><br/>
   ***actual*** - если статья должна появится внизу в актуальных   
   ***featured*** - если статья должна появится как главная, выделенная в разделе  
 **title: Как работать с Google** Заголовок   
-**about: Бла бла бла** Краткое описание статьи   
 **img: money-minimal.jpg** Обязательное имя картинки, картинка должна находится в папке ***images***   
 **author: ivan-ivanenko** Если есть автор  
 **---**

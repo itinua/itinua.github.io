@@ -2,7 +2,6 @@
 layout: article
 categories: [a1, featured]
 title: Как получить деньги от Google Play, AdMob, AdSense
-about: В этой статье описаны легальные схемы работы с Google Google Play, AdMob, AdSense
 img: copyright-minimal.jpg
 author: katerina-timchenko
 ---
