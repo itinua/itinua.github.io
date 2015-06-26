@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2]
+categories: [a2, actual, featured]
 title: Оптимальные бизнес схемы работы IT компаний в Украине
 img: 
 author: katerina-timchenko
