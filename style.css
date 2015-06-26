@@ -88,7 +88,7 @@ h5 { font-size: 1.05em}
 
 /* —————————————————————————————————— HEADER —————————————————————————————————————— */
 
-header {padding: 1.5em 0 1em 0;}
+header {padding: 0 0 1em 0;}
 
 .main-header { position: relative;}
 
@@ -688,7 +688,7 @@ header {padding: 1.5em 0 1em 0;}
 
 .ads-long { overflow: hidden}
 .ads-long div{
-  padding: 2em 0;
+  padding: 1.7em 0;
   position: relative;
   left: 50%;
   margin-left: -364px;
@@ -888,13 +888,16 @@ h2 {
 }
 
 .article-body table {
-  margin: .5em 1em 1em 2em;
-  border-bottom: #ededed 1px solid;
+  margin: 2em 1em 2em 0em;
+  border: #ededed 1px solid;
   min-width:75%;
+  font-size: 1.2em;
+
+
 }
 
-.article-body th { padding: .5em 4em .4em .8em; }
-.article-body td { padding: .5em 4em .4em 1em; }
+.article-body th { padding: .4em 4em .3em .8em; }
+.article-body td { padding: .4em 4em .3em 1em; }
 
 .article-body tr:nth-child(2n-1) {
   background: #ededed;
@@ -908,10 +911,21 @@ h2 {
   border-bottom: #ededed 1px solid;
 }
 
+
 .article-body td{
   font-size: .9em;
   font-weight: 300;
 }
+
+
+.article-body td+td,
+.article-body th+th{
+  border-left: #ededed 1px solid;
+}
+.article-body tr:nth-child(2n-1) td+td{
+  border-left: #fff 1px solid;
+}
+
 
 .article-body ul{
   color: #ffcc00!important;
@@ -1004,7 +1018,12 @@ blockquote:after {
 .author-block .row > div {
   overflow: hidden;
 }
+.author-block.liner {
+  padding:1em!important;
+}
 
+.author-block.author-preview { 
+  margin: .75em 0!important;}
 
 .author-block {
   margin-bottom: 2em;
@@ -1051,7 +1070,7 @@ blockquote:after {
 }
 
 .became-author h3{
-  line-height: 1.3em;
+  line-height: 1.2em;
   font-weight: 300!important;
 
   border-top: 1px solid #c6c6c6;
