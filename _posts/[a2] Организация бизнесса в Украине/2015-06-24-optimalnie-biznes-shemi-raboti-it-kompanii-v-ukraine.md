@@ -2,7 +2,7 @@
 layout: article
 categories: [a2, actual, featured]
 title: Оптимальные бизнес схемы работы IT компаний в Украине
-img: 
+img: taxes-minimal.jpg
 author: katerina-timchenko
 ---
 
