@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1]
-title: Внешнеэкономический контракт обязательные условия
+title: Внешнеэкономический контракт - обязательные условия
 img: signing-contract.jpg
 author: katerina-timchenko
 ---
