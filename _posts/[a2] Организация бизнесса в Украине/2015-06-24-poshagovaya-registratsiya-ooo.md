@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2, actual]
+categories: [a2]
 title: Пошаговая инструкция регистрации ООО
 img: 
 author: katerina-britskaya
