@@ -1019,11 +1019,11 @@ blockquote:after {
   overflow: hidden;
 }
 .author-block.liner {
-  padding:1em!important;
+  padding:1.5em 1.25em!important;
 }
 
 .author-block.author-preview { 
-  margin: .75em 0!important;}
+  margin: 1em 0!important;}
 
 .author-block {
   margin-bottom: 2em;
@@ -1070,7 +1070,7 @@ blockquote:after {
 }
 
 .became-author h3{
-  line-height: 1.2em;
+  line-height: 1.1em;
   font-weight: 300!important;
 
   border-top: 1px solid #c6c6c6;
