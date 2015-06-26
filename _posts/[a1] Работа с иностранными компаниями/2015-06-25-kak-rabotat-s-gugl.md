@@ -21,8 +21,7 @@ author: katerina-timchenko
 В данной статье мы рассмотрим получение денежных средств от продаж мобильных приложений в Google Play, средств от AdMob, 
 AdSense, пути легального вывода денег в Украину. 
 
-Рассмотрим схему на примере договора Google по продаже мобильных приложений, который находится в открытом доступе по данной 
-ссылке: https://play.google.com/intl/ALL_ us/about/developer-distribution-agreement.html
+Рассмотрим схему на примере договора Google по продаже мобильных приложений, который находится в открытом доступе по данной [https://play.google.com/intl/ALL_ru/about/developer-distribution-agreement.html](https://play.google.com/intl/ALL_ru/about/developer-distribution-agreement.html)
 
 Наша компания объединяет разработчиков, которые получают денежные средства о Google за разработанные ими приложения, однако
 не желают нести административных, юридических и финансовых издержек по содержанию компании, коммуникациям и подготовке 
