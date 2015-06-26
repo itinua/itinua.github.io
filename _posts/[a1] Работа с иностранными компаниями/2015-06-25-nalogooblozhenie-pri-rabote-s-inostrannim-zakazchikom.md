@@ -1,8 +1,8 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, actual]
 title: Налогообложение при работе с иностранным заказчиком
-img: 
+img: tax-system.jpg
 author: katerina-timchenko
 ---
 ** На какие налоговые аспекты нужно обратить внимание при заключении контракта **
