@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3]
+categories: [a3, actual]
 title: Группы “единоналожников” какую группу выбрать IT-специалисту
 img: group for it.jpg
 author: anna-ivanenko
