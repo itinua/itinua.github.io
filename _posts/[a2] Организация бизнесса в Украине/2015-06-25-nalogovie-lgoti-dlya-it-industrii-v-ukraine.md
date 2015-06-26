@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2]
+categories: [a2, actual]
 title: Налоговые льготы для IT-индустрии в Украине
 img: dollars.jpeg
 author: anna-ivanenko

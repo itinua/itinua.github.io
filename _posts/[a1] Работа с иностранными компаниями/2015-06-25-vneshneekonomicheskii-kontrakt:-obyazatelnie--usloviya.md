@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, actual]
 title: Внешнеэкономический контракт - обязательные условия
 img: signing-contract.jpg
 author: katerina-timchenko

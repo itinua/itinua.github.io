@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, featured]
 title: Как получить деньги от Google Play, AdMob, AdSense
-img: copyright-minimal.jpg
+img: kakgoogle.jpg
 author: katerina-timchenko
 ---
 
