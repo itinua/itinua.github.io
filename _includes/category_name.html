@@ -1,11 +1,5 @@
-{% if page.categories contains "a1" %}
-       <a href="/content/list/rabota-s-inostrannimi-kompaniyami.html">Работа с иностранными компаниями</a>
-{% endif %}
-
-{% if page.categories contains "a2" %}
-       <a href="/content/list/ogranizatsiya-biznessa-v-ukraine.html">Огранизация бизнесса в Украине</a>
-{% endif %}
-
-{% if page.categories contains "a3" %}
-       <a href="/content/list/deyatelnost-predprinimatelei.html">Деятельность предпринимателей</a>
-{% endif %}
+{% for cat in site.all_categories %}
+    {% if page.categories contains cat.id %}
+           <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
+    {% endif %}
+{% endfor %}

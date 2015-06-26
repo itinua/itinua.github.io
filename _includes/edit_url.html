@@ -1,13 +1,7 @@
-{% if page.categories contains "a1" %}
-       {% assign tag="[a1] Работа с иностранными компаниями" %}
-{% endif %}
+{% for cat in site.all_categories %}
+    {% if page.categories contains cat.id %}
+           https://github.com/itinua/itinua.github.io/blob/master/_posts/[{{cat.id}}] {{cat.name}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
+    {% endif %}
+{% endfor %}
 
-{% if page.categories contains "a2" %}
-       {% assign tag="[a2] Огранизация бизнесса в Украине" %}
-{% endif %}
 
-{% if page.categories contains "a3" %}
-       {% assign tag="[a3] Деятельность предпринимателей" %}
-{% endif %}
-
-https://github.com/itinua/itinua.github.io/blob/master/_posts/{{tag}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
