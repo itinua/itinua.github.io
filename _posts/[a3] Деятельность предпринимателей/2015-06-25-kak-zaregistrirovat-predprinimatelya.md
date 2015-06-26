@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3]
+categories: [a3, actual]
 title: Как зарегистрировать предпринимателя (ФЛП)
 img: predprinimatel.jpg
 author: anna-ivanenko
