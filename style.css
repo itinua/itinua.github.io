@@ -442,6 +442,10 @@ header {padding: 0 0 1em 0;}
   margin-left: -5px;   
 }
 
+
+.main-article {
+  margin: .5em 0 .25em 0;
+}
 .main-article h3 {
   margin-top: .25em;}
 
@@ -1315,7 +1319,7 @@ ol > li:before {
     counter-increment:li; /* Increment the counter by 1 */
     /* Position and style the number */
     position:absolute;
-    top:0px;
+    top:3px;
     left:-2.4em;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
