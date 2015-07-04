@@ -442,6 +442,8 @@ header {padding: 0 0 1em 0;}
   margin-left: -5px;   
 }
 
+.main-article h3 {
+  margin-top: .25em;}
 
 .section .all-articles { text-align: right;}
 .section .all-articles a {
@@ -1070,7 +1072,8 @@ blockquote:after {
 }
 
 .became-author h3{
-  line-height: 1.1em;
+  line-height: 1.25em;
+  font-size: 1em;
   font-weight: 300!important;
 
   border-top: 1px solid #c6c6c6;
@@ -1287,6 +1290,53 @@ blockquote:after {
 .bulleted-list li a{
   font-size: 1.15em;
 }
+
+
+
+/*------------------  Cool style for OL NUmbers --------------------*/
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+
+    margin:2em 0 0 2em; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+
+    font-weight: 300;
+
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:0px;
+    left:-2.4em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2.1em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:3px 4px 2px 4px;
+
+    color:#fff;
+    background:#ffcc00;
+    font-weight:bold;
+    font-size: 80%;
+
+    text-align:center;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
 
 
 
