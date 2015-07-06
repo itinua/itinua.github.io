@@ -184,3 +184,30 @@ author: <font id="bauthor">ivan-ivanenko</font><br/>
 ВСЕ
 
 Создавайте материал и мы его ждем у нас на сайте
+
+## Как добавить нового Автора на сайт
+1) Добавить фото в папку **images/author**  
+2) Создать учетную записить в файле **_config.yml**  
+например  
+
+         firstname-lastname:
+           name: First Last
+           job: Кем работает автор
+           image: author picture.jpg авaтар автора
+           fb: 
+           ln: 
+           tw:
+           g_:
+           web: 
+           git: 
+3) Создать страницу автора в **/content/author**  напрмер *firstname-lastname.md*  
+с заголовком
+<pre>
+---
+layout: userprofile
+author: firstname-lastname
+---
+Описание автора в свободной форме
+</pre>
+
+Важно, что бы идентификатор автора совпадал в **_config.yml** и в  **/content/author**
