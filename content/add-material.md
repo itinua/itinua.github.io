@@ -193,7 +193,7 @@ author: <font id="bauthor">ivan-ivanenko</font><br/>
          firstname-lastname:
            name: First Last
            job: Кем работает автор
-           image: author picture.jpg авaтар автора
+           image: author picture.jpg фото автора
            fb: 
            ln: 
            tw:
