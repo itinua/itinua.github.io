@@ -7,7 +7,7 @@ title: Добавление нового материла на сайт ITIN.ua
 В статье будет имя автора и ссылка на его профиль, с информацией о себе и о видах его деятельности.
 
 
-## ![Send us an email](http://itin.com.ua/images/info/gitHUB-blue.png) Самое простое — выслать нам на Email
+## ![Send us an email](http://itin.com.ua/images/info/email.png) Самое простое — выслать нам на Email
 Вышлите нам на емейл [{{site.admin_email}}](mailto:{{site.admin_email}}) свою статью.
 Воспользуйтесь шаблоном:
 
