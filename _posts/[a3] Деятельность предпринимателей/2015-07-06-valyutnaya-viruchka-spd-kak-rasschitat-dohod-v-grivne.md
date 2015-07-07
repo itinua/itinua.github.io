@@ -3,7 +3,7 @@ layout: article
 categories: [a3, actual]
 title: Валютная выручка СПД как рассчитать доход в гривне
 img: db_taxes.jpg
-author: tereikovskii-aleksandr
+author: ukroboronprom
 --- 
 
 Для начала ответим на ряд простых вопросов и сделаем правильные выводы:
