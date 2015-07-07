@@ -1,5 +1,5 @@
 ---
 layout: userprofile
-author: tak-audit.md
+author: tak-audit
 ---
 Аудит.
