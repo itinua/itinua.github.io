@@ -36,14 +36,14 @@ __*Сама статья*__
 [Исландия: каждая кухарка может написать Конституцию](http://ttolk.ru/?p=14243)  
 
 ## Работа с GitHub
-Прочитайте первые разделы книги [Введение в Git](https://git-scm.com/book/ru/v1)  
-Зарегистрируйтесь на сайте [https://github.com/](https://github.com/)  
-Сделайте Fork (Свою копию) нашего проекта [https://github.com/itinua/itinua.github.io](https://github.com/itinua/itinua.github.io)  
-Установите Клиент [GitHub on Windows](https://msysgit.github.io/) или [GitHub on Mac](https://mac.github.com/) или [PyCharm](https://www.jetbrains.com/pycharm/)  
-Добавте свой репозиторий и сделайте **Синхронизацию**  
+* Прочитайте первые разделы книги [Введение в Git](https://git-scm.com/book/ru/v1)  
+* Зарегистрируйтесь на сайте [https://github.com/](https://github.com/)  
+* Сделайте Fork (Свою копию) нашего проекта [https://github.com/itinua/itinua.github.io](https://github.com/itinua/itinua.github.io)  
+* Установите Клиент [GitHub on Windows](https://msysgit.github.io/) или [GitHub on Mac](https://mac.github.com/) или [PyCharm](https://www.jetbrains.com/pycharm/)  
+* Добавте свой репозиторий и сделайте **Синхронизацию**  
 **Pull**(тянуть) взять последния изменения  
 **Push**(толкать) отдать измения в репозиторий (например правки или новую статью)
-Сделайте **Pull Request** в наш репозиторий [itinua.github.io](https://github.com/itinua/itinua.github.io)
+* Сделайте **Pull Request** в наш репозиторий [itinua.github.io](https://github.com/itinua/itinua.github.io)
   
 В дальнейшем, вам неоходимы только три простых действия **Затянуть** последние измения, **Толкнуть** свои нам на сайт и попросить их принять.
 
