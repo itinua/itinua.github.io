@@ -1,5 +1,5 @@
 ---
 layout: userprofile
-author: ukroboronprom
+author: tak-audit.md
 ---
 Аудит.
