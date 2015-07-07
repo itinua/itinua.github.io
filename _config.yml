@@ -7,7 +7,12 @@ safe: true
 lsi: false
 pygments: true
 
+name: ITIN.ua
+description: Все об IT Бизнесе - Собираем знания вместе
+
 admin_email: ivan.ivanenko@gmail.com
+
+url: http://itin.com.ua
 
 all_categories:
 - id: a1
