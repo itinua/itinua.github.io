@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, featured, actual]
-title: Про здійснення контролю за операціями резидентів які передбачають експорт послуг нерезидентам через мережу Інтернет
+title: НБУ спрощує документування експорту послуг з України
 img: heading.jpg
 author: anna-ivanenko
 ---
