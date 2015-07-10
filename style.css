@@ -170,8 +170,6 @@ header {padding: 0 0 1em 0;}
   font-weight: 300;
 }
 
-.head-git {
-  margin-top: 5px;}
 
 .head-button {
 
@@ -277,8 +275,8 @@ header {padding: 0 0 1em 0;}
   }
 
   .head-git {
-    float: right!important;
-    margin-top: 0;     
+    /* float: right!important; 
+    margin-top: 0;   */  
   }
 }
 
