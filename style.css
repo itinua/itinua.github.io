@@ -141,22 +141,13 @@ header {padding: 0 0 1em 0;}
 
 .header-liner {
   padding: 0 2em;
-  clear: both;
-  float: left;
-  width: 100%;}
+}
 
 
 .search-label {
   margin-top: 2em;
 }
 
-.search-block input{
-  width: 80%;
-  margin: 0 ;
-  display: block;
-  font-size: 1.3em;
-  padding: .2em
-}
 
 .block-header {
   text-transform: uppercase;
