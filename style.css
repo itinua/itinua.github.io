@@ -274,13 +274,10 @@ header {padding: 0 0 1em 0;}
     font-size: .9em;
   }
 
-}
-
-@media (max-width: 480px) { 
-
   .head-git {
     float: right!important; 
-    /* margin-top: 0;   */  
+    /* margin-top: 0;   */ 
+    margin-top:-4px;  
   }
 }
 
@@ -754,7 +751,7 @@ header {padding: 0 0 1em 0;}
 
   } 
 
-  .img-crop {
+.popular .img-crop {
     margin: 0 1em 1em 0;
     border-right: #ffcc00 7px solid; 
     border-bottom: none!important;    
