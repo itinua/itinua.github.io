@@ -221,8 +221,6 @@ header {padding: 0 0 1em 0;}
 
   .liner { padding: 1em 1em .5em 1em; }
   .header-liner { padding: 0 1em .2em 1em; }
-
-  .search-block  { margin-bottom: -3em;}
   .search-label { margin: 1em 0 0 1.4em; position: relative; top:.5em; z-index: 5}  
 }
 
