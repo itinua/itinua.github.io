@@ -1,4 +1,9 @@
 ---
 layout: main
 ---
-Пишите нам на ivan.ivanenko@gmail.com или anna1.ivanenko@gmail.com .
+
+#Написать в редакцию
+
+Присылайте свои пись на:
+* на ivan.ivanenko@gmail.com 
+* anna1.ivanenko@gmail.com .
