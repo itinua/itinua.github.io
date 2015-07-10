@@ -5,11 +5,11 @@ layout: main
 
 Наш партнерский банер
 
-![Все об IT Бизнесе](/images/info/ITinua-duo.png)
+![Все об IT Бизнесе](/images/info/ITinua-110-56-O.png)
 
 
-    <a href="http://itin.com.ua" ><img src="http://itin.com.ua/images/info/ITinua-duo.png" alt="Все об IT Бизнесе"></a>
+    <a href="http://itin.com.ua" ><img src="http://itin.com.ua/images/info/ITinua-110-56-O.png" alt="Все о IT Бизнесе"></a>
     
     
-Размер вашего партнерского банера **110x49**
+Размер вашего партнерского банера не больше **110x56**
 
