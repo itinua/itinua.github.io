@@ -140,7 +140,8 @@ header {padding: 0 0 1em 0;}
   padding: 2em 2em 1.2em 2em;}
 
 .header-liner {
-  padding: 0 2em;}
+  padding: 0 2em;
+  overflow: hidden;}
 
 
 .search-label {
