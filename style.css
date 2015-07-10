@@ -281,6 +281,13 @@ header {padding: 0 0 1em 0;}
   }
 }
 
+@media (max-width: 470px) { 
+  .head-git {
+    float: left!important; 
+ 
+  }
+}
+
 /* —————————————————————————————————— LEFT —————————————————————————————————————— */
 
 .square-pointer {
