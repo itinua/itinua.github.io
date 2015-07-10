@@ -833,6 +833,15 @@ footer a:hover{
     margin: 0 1em 0 0;
   }
 }
+
+footer .partners { 
+ margin-top: .6em;} 
+
+footer .partners a{ 
+text-decoration: none;}
+
+
+
 /* ————-  Bootstrap media queries for display width  ——————— */
 
 /* ————- xs : <  768  ——————— */
