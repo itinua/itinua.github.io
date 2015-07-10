@@ -4,7 +4,7 @@ layout: main
 
 #Написать в редакцию
 
-Присылайте свои пись на:
+Пишите нам на почту:
 
    * ivan.ivanenko@gmail.com
    * anna1.ivanenko@gmail.com
