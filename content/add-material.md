@@ -38,7 +38,7 @@ __*Сама статья*__
 * Зарегистрируйтесь на сайте [https://github.com/](https://github.com/)  
 * Сделайте Fork (Свою копию) нашего проекта [https://github.com/itinua/itinua.github.io](https://github.com/itinua/itinua.github.io) 
  ![](/images/git/1.png)
-* Внесите изменения под своим аккаунтом в проект
+* Внесите изменения под своим аккаунтом в проект (структура и как добавить статью ниже) 
 * Сделайте **Pull Request** (Предлоижть нам принять изменения) в наш репозиторий
 ![](/images/git/2.png)
 ![](/images/git/3.png)
