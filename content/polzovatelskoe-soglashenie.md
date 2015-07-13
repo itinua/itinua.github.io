@@ -1,7 +1,7 @@
 ---
 layout: main
 ---
-# Radix clipei mori aperite celerem duarum signa
+# Пользовательское соглашение
 
 ## Imis scopulum quique timendo anxia sanguinis fontibus
 

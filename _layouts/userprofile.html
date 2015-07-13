@@ -1,0 +1,105 @@
+---
+layout: body
+withLine: true
+---
+{% assign author=site.authors[page.author] %}
+
+    <div class="container"> <!--  MAin Conteiner-->
+
+      <div class="row">
+
+
+        <div class="col-md-9">  <!--  CENTER    -->
+
+            <div class="row user-header">
+              <div class="col-xs-3 ">
+
+                <div class="user-photo">
+                  <img src="/images/author/{{site.authors[page.author].image}}" width="100" alt="user" />
+                  <span class="step-arrow"></span>
+                </div>
+
+                <p class="socials">
+                  <br />
+                   {% include social.html %}
+                </p>
+
+
+              </div>
+
+              <div class="col-xs-9">
+                  <h2 class="modest-hr">{{site.authors[page.author].name}}</h2>
+                  <p class="fading">{{site.authors[page.author].job}}</p>
+
+                  {{ content }}
+
+                  <br />  
+                  <br />
+                  <br />
+
+
+                  <h2 class="modest-hr">Cтатьи Автора</h2>
+
+                  <br />
+                  <ul class="bulleted-list">
+
+                      {% for post in site.posts  %}
+                            {% if post.author == page.author %}
+                             <li>
+                              <a  href="{{post.url}}">{{post.title}}</a>
+                              <span class="date-format">{{ post.date |date: '%d %B %Y' }}</span>
+                            </li>
+                      {% endif %}
+                    {% endfor %}
+
+                  </ul> 
+
+
+              </div>
+            </div> <!-- Row -->
+
+
+
+          <div class="row">
+            <div class="col-xs-12">          
+
+              <hr >
+              <p>
+                <a href="https://github.com/itinua/itinua.github.io/blob/master{{page.url | replace:'.html','.md'}}" target="_blank">
+                    <img src="/images/info/user-blue.png" class="top-2" width="16" alt="U " /> &nbsp;
+                  Редактировать профайл</a>  
+                  </p>
+            </div>
+          </div>
+
+
+         
+
+          <br /><br /><br />
+          <div class="liner row">
+            <h3 class=" pull-left push-left ">Есть о чем написать?! Станьте автором! </h3>
+
+            <a href="#" class="main-btn top-5 pull-right push-right ">Добавить материал</a> 
+
+          </div>
+          <br /><br />
+        </div> <!-- CENTER ends -->
+
+
+        <div class="col-md-3 right-col">
+
+           {% include ads.html %}
+        
+          <br /> 
+        </div> 
+
+      </div><!-- row ends -->
+
+
+      <br />      <br />      <br />
+
+      {% include actual.html %}
+
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->

@@ -7,19 +7,66 @@ safe: true
 lsi: false
 pygments: true
 
+name: ITIN.ua
+description: Все об IT Бизнесе - Собираем знания вместе
+
+admin_email: ivan.ivanenko@gmail.com
+
+url: http://itin.com.ua
+
+all_categories:
+- id: a1
+  name: Работа с иностранными компаниями
+  url: rabota-s-inostrannimi-kompaniyami.html
+
+- id: a2
+  name: Организация бизнесса в Украине
+  url: organizatsiya-biznessa-v-ukraine.html
+
+- id: a3
+  name: Деятельность предпринимателей
+  url: deyatelnost-predprinimatelei.html
+
 authors:
   ivan-ivanenko:
     name: Ivan Ivanenko
-    job: Заместитель главного редактора The Google Ukraine 1
-    url: ivan-ivanenko
-    image: NL-ava.JPG
+    job: Программист сайта itin.ua
+    image: Ivan.png
+    fb: https://www.facebook.com/ivan1.ivanenko
+    ln: https://www.linkedin.com/profile/view?id=12440410
+    tw:
+    g_:
+    web: http://foobnix.com
+    git: https://github.com/foobnix
+
   anna-ivanenko:
-    name: Anna Ivanenko
-    job: Заместитель главного редактора The Google Ukraine 2
-    url: anna-ivanenko
-    image: IT-user.png
+    name: Анна Иваненко
+    job: юрист
+    image: anya.jpg
+
   katerina-timchenko:
-    name: Kaya Timchenko
-    job: Заместитель главного редактора The Google Ukraine 3
-    url: katerina-timchenko
-    image: IT-user.png
+    name: Катерина Тимченко
+    job: юрист
+    image: katerina-timchenko.jpg
+    fb: https://www.facebook.com/ktimchenko
+    ln: https://www.linkedin.com/profile/view?id=42676613&trk=nav_responsive_tab_profile
+    tw:
+    g_:
+    web: http://timchenko.kiev.ua
+
+  katerina-britskaya:
+    name: Катерина Брицкая
+    job: юрист
+    image: katerina-britskaya.jpg
+    
+  tak-audit:
+    name: Так-аудит
+    job: Аудит
+    image: tak_audit.jpg
+    fb: 
+    ln: 
+    tw:
+    g_:
+    web: 
+    git: 
+

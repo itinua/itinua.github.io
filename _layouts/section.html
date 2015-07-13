@@ -1,0 +1,92 @@
+---
+layout: body
+---
+
+
+    {% include search.html %}
+
+
+    <div class="container"> <!--  MAin Conteiner-->
+
+      <div class="row">
+        <div class="col-md-9 left-col">   <!--  CENTER  -->
+
+
+            <h2 class="section-title">
+
+                {% for t in site.all_categories %}{% if t.id == page.page_category %}
+                      <a href="{{t.url}}">{{t.name}}</a>
+                {% endif %}{% endfor %}
+                </h2>
+            <span class="triangle-bottom top0"></span>
+
+
+            <div class="row month-articles">    <!--  month view  -->
+
+               {% for post in site.categories.[page.page_category] %}
+                {% if post.categories contains "featured" %}
+              <div class="col-sm-2">
+                <div class=" month-view">
+                  <span class="date-month">{% include month.html %}</span>
+                  <span class="date-year">{{ post.date |date: '%d' }}</span>
+                </div>
+              </div>
+
+              <div class="col-sm-10">
+
+
+                <div class="main-article row">
+                  <div class="col-sm-6">
+                       <div class="img-crop">
+                    <img src="/images/{{post.img}}" alt="Working in Google office"/></div>
+                      </div>
+                  <div class="col-sm-6">
+                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    <span class="date-format">{% include date.html %}</span>
+                    <p>{{post.content | | truncatewords: 25 }}</p></div>
+
+                </div>
+                    {% endif %}
+                  {% endfor %}
+
+
+                <ul class="bulleted-list">
+                      {% for post in site.categories.[page.page_category] %}
+
+
+                  <li>
+                    <a  href="{{post.url}}">{{post.title}}</a>
+                    <span class="date-format">{% include date.html %}</span>
+                  </li>
+
+                    {% endfor %}
+                </ul>
+              </div> <!-- articles list  -->
+          </div> <!-- Month view  -->
+
+
+
+
+        </div> <!-- CENTER ends -->
+
+
+
+        <div class="col-md-3 right-col">
+
+            {% include ads.html %}
+
+          <br />
+        </div>
+
+      </div><!-- row ends -->
+
+
+
+
+      <br />      <br />
+
+     {% include actual.html %}
+
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->

@@ -1,0 +1,5 @@
+{% for cat in site.all_categories %}
+    {% if page.categories contains cat.id %}
+https://github.com/itinua/itinua.github.io/commits/master/_posts/[{{cat.id}}] {{cat.name}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
+    {% endif %}
+{% endfor %}
