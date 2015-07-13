@@ -127,7 +127,7 @@ __*Сама статья*__
     }
     
 </script>
-###Форма создания имени файла для статьи
+###Форма создания имени файла (title) для статьи
 
 Название <input type="text" id="btnSearch" size="60" onkeypress="onKey(event);"/><br/><br/>
 Автор <select onchange="onAuthor(this.value);">
