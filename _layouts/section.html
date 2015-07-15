@@ -17,6 +17,10 @@ layout: body
                 {% for t in site.all_categories %}{% if t.id == page.page_category %}
                       <a href="{{t.url}}">{{t.name}}</a>
                 {% endif %}{% endfor %}
+
+                {% for t in site.all_countries %}{% if t.id == page.page_category %}
+                      <a href="{{t.url}}">{{t.name}}</a>
+                {% endif %}{% endfor %}
                 </h2>
             <span class="triangle-bottom top0"></span>
 

@@ -3,3 +3,9 @@
            <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
     {% endif %}
 {% endfor %}
+
+{% for cat in site.all_countries %}
+    {% if page.categories contains cat.id %}
+           <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
+    {% endif %}
+{% endfor %}

@@ -14,6 +14,11 @@ admin_email: ivan.ivanenko@gmail.com
 
 url: http://itin.com.ua
 
+all_countries:
+- id: poland
+  name: Польша
+  url: poland.html
+
 all_categories:
 - id: a1
   name: Работа с иностранными компаниями

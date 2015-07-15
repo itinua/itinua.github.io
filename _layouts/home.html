@@ -32,6 +32,17 @@ layout: body
 
 
         <div class="col-md-3 right-col">
+            <h3 class="block-header">
+           <span class="square-pointer">!</span>Вакансии</h3>
+
+            <ul>
+            {% for post in site.categories.ads limit: 4 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+            </li>
+           {% endfor %}
+          </ul>
+
 
             {% include ads.html %}
         

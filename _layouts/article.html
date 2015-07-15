@@ -19,15 +19,20 @@ layout: body
 
               {% for category in page.categories  %}
                     {% if category == "actual" %}
+                    {% elsif category == "ads" %}
                     {% else %}
 
                         {% for post in site.categories[category] %}
+
+                        {% if post.categories contains "ads" %}
+                            {% else %}
 
 
             <li>
               <a href="{{post.url}}">{{post.title}}</a>
               <span class="date-format">{% include date.html %}</span>
             </li>
+              {% endif %}
 
                           {% endfor %}
                     {% endif %}
@@ -128,6 +133,17 @@ layout: body
 
 
         <div class="col-md-3 right-col">
+
+            <h3 class="block-header">
+           <span class="square-pointer">!</span>Вакансии</h3>
+
+            <ul>
+            {% for post in site.categories.ads limit: 4 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+            </li>
+           {% endfor %}
+          </ul>
 
          {% include ads.html %}
         
