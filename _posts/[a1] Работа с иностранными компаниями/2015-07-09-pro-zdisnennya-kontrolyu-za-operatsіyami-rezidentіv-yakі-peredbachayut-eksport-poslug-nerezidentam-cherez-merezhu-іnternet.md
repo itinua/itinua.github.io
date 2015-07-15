@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, featured, actual]
+categories: [a1, actual]
 title: НБУ спрощує документування експорту послуг з України
 img: heading.jpg
 author: anna-ivanenko

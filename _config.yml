@@ -32,6 +32,10 @@ all_categories:
   name: Деятельность предпринимателей
   url: deyatelnost-predprinimatelei.html
 
+- id: a4
+  name: Защита прав интеллектуальной собственности
+  url: zaschita-prav-intellektualnoi-sobstvennosti.html
+
 authors:
   ivan-ivanenko:
     name: Ivan Ivanenko
