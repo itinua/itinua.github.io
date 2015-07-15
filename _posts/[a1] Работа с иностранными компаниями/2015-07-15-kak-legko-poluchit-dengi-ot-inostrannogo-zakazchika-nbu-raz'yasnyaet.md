@@ -1,7 +1,7 @@
 ---
 layout: article
-categories: [a1, actual, featured]
-title: КАК ЛЕГКО ПОЛУЧИТЬ ДЕНЬГИ ОТ ИНОСТРАННОГО ЗАКАЗЧИКА: НБУ РАЗЪЯСНЯЕТ
+categories: [a1, featured, actual]
+title: Как легко получить деньги от иностранного закажчика: НБУ разьясняет
 img: Google.jpg
 author: katerina-timchenko
 ---
