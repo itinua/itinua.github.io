@@ -59,4 +59,4 @@ author: katerina-timchenko
 
 Шаблон Инвойса/Акта для оформления оплаты за распространение Google мобильных приложений  
 
-[Скачать](/pdf/phocapdf-demo.pdf)
+[Скачать шаблон инвойса](/pdf/AcceptanceProtokolGoogle.pdf)
