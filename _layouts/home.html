@@ -14,11 +14,14 @@ layout: body
            <span class="square-pointer">!</span>Новое</h3>
 
           <ul class="link-list">
-            {% for post in site.posts limit: 6 %}
+            {% for post in site.posts limit: 10 %}
+              {% if post.categories contains "ads"%}
+              {% else%}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>
               <span class="date-format">{% include date.html %}</span>
             </li>
+              {% endif %}
            {% endfor %}
 
 
