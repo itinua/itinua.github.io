@@ -1,8 +1,8 @@
 ---
 layout: article
-categories: [a4, actual]
+categories: [a4, actual, featured]
 title: Защита авторских прав на компьютерную программу в США
-img: 
+img: copyright.jpg
 author: tatyana-zhila
 --- 
 
