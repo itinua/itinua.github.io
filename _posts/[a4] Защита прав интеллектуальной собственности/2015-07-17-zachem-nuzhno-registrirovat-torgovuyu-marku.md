@@ -2,7 +2,7 @@
 layout: article
 categories: [a4, actual]
 title: Зачем нужно регистрировать торговую марку
-img: tatyana-zhila.jpg
+img: tm.jpg
 author: tatyana-zhila
 --- 
 В Украине, в отличие от западных юрисдикций, исключительные права на торговую марку возникают  не с даты начала использования
