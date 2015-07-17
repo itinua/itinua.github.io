@@ -1,5 +1,5 @@
 ---
 layout: userprofile
-author: tatyana-zhila.md
+author: tatyana-zhila
 ---
 Патентный поверенный.
