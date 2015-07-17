@@ -71,9 +71,9 @@ p {
 .top-4 { top: -4px;}
 .top-5 { top: -5px;}
 
-.font80 { font-size: 80%}
-.font90 { font-size: 90%}
-.font100 { font-size: 100%}
+.line12 { line-height: 1.2em;}
+.line15 { line-height: 1.5em;}
+.line20 { line-height: 2.0em;}
 
 
 .top0 { 
