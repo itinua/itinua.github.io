@@ -2,7 +2,7 @@
 layout: article
 categories: [a4, actual]
 title: Передача прав на объекты интеллектуальной собственности в Украине 
-img: 
+img: peredacha prav na ob int sobstvennosty.jpg
 author: tatyana-zhila
 --- 
 Как известно, одним из трёх составляющих права собственности является право распоряжения. Распоряжаться можно не только  вещами,
