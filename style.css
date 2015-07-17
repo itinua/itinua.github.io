@@ -71,6 +71,8 @@ p {
 .top-4 { top: -4px;}
 .top-5 { top: -5px;}
 
+.font100 { font-size: 100%}
+
 
 .top0 { 
    top: 0!important;  
@@ -166,7 +168,7 @@ header {padding: 0 0 1em 0;}
 
   background: #ffcc00;
   color: #4d4d4d;
-  font-size: 1.3em;
+  font-size: 1.25em;
   font-weight: 300;
 }
 
