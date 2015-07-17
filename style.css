@@ -297,8 +297,8 @@ header {padding: 0 0 1em 0;}
     color: #fff;
     background: #ffcc00;
     font-weight: bold;
-    font-size:80%;
-    padding: 0 .7em 0 .6em;
+    font-size:85%;
+    padding: .2em .7em .1em .6em;
     margin: 0 .8em 0 0;
 
 }
@@ -528,10 +528,10 @@ header {padding: 0 0 1em 0;}
 
 .add-tutorial .row p{
   font-size: 120%;
-  line-height: 1.3em;
+  line-height: 2em;
   text-align: left;
   font-weight: 300;
-  margin: .1em 0 0 0;
+  margin: .2em 0 0 0;
 }
 
 .add-tutorial .main-btn {
@@ -889,7 +889,7 @@ h2 {
 
 .article-body h1,
 .article-header {
-  color: #f2b800;
+  color: #337ab7;
   font-weight: normal;
   margin: .5em 0 .25em 0;
 }
@@ -1310,7 +1310,7 @@ blockquote:after {
 ol {
     counter-reset:li; /* Initiate a counter */
 
-    margin:2em 0 0 2em; /* Remove the default left margin */
+    margin:2em 0 1em 2em; /* Remove the default left margin */
     padding-left:0; /* Remove the default left padding */
 }
 ol > li {
@@ -1415,6 +1415,7 @@ ol ol li:last-child {margin-bottom:0;}
 .main-article img {
   width: 100%;
 }
+
 
 .pagination {
   margin: 2.5em 1em 3em 0; }
