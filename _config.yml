@@ -50,12 +50,12 @@ authors:
 
   anna-ivanenko:
     name: Анна Иваненко
-    job: юрист
+    job: Юрист
     image: anya.jpg
 
   katerina-timchenko:
     name: Катерина Тимченко
-    job: юрист
+    job: Юрист
     image: katerina-timchenko.jpg
     fb: https://www.facebook.com/ktimchenko
     ln: https://www.linkedin.com/profile/view?id=42676613&trk=nav_responsive_tab_profile
@@ -65,8 +65,9 @@ authors:
 
   katerina-britskaya:
     name: Катерина Брицкая
-    job: юрист
+    job: Юрист
     image: katerina-britskaya.jpg
+    web: http://www.laudis.ua/
     
   tak-audit:
     name: Так-аудит
@@ -87,7 +88,7 @@ authors:
     ln: 
     tw:
     g_:
-    web: info@laudis.ua
+    web: http://www.laudis.ua/
     git: 
     
 

@@ -1,0 +1,43 @@
+---
+layout: body
+---
+    <div class="container"> <!--  MAin Conteiner-->
+
+      <div class="row">
+
+           <div class="col-md-1 left-col">
+               </div>
+
+        <div class="col-md-7" id="mainpart">   <!--  CENTER -->
+
+            {{content}}
+
+        </div> <!-- CENTER ends -->
+
+        <div class="col-md-3 right-col">
+            <h3 class="block-header">
+           <span class="square-pointer">!</span>Вакансии</h3>
+
+            <ul>
+            {% for post in site.categories.ads limit: 4 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+            </li>
+           {% endfor %}
+          </ul>
+
+            {% include ads.html %}
+
+          <br />
+        </div>
+
+      </div><!-- row ends -->
+
+      <br />
+
+        {% include actual.html %}
+
+
+      <br />
+
+    </div> <!--  MAin Conteiner-->

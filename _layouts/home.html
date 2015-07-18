@@ -14,7 +14,7 @@ layout: body
            <span class="square-pointer">!</span>Новое</h3>
 
           <ul class="link-list">
-            {% for post in site.posts limit: 10 %}
+            {% for post in site.posts limit: 5 %}
               {% if post.categories contains "ads"%}
               {% else%}
             <li>
@@ -23,9 +23,10 @@ layout: body
             </li>
               {% endif %}
            {% endfor %}
-
-
           </ul>
+            <p class="all-articles">
+                <a class="" href="/content/list/all_news.html">Все Новое</a>
+            </p>
           <br  /><br  />
           
           <h3 class=" line15"> Есть воросы? &nbsp; Наши специалисты ответят Вам:</h3>
