@@ -1,17 +1,23 @@
+{% assign find = false %}
 {% if page.categories contains "job" %}
+{% assign find = true %}
     https://github.com/itinua/itinua.github.io/blob/master/_posts/job/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
 {% endif %}
 
+{% if find == false %}
 {% for cat in site.all_countries %}
     {% if page.categories contains cat.id %}
-           https://github.com/itinua/itinua.github.io/blob/master/_posts/{{cat.id}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
+        {% assign find = true %}
+           https://github.com/itinua/itinua.github.io/blob/master/_posts/country/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
     {% endif %}
 {% endfor %}
+{% endif %}
 
+{% if find == false %}
 {% for cat in site.all_categories %}
     {% if page.categories contains cat.id %}
+            {% assign find = true %}
            https://github.com/itinua/itinua.github.io/blob/master/_posts/[{{cat.id}}] {{cat.name}}/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
     {% endif %}
 {% endfor %}
-
-
+{% endif %}
