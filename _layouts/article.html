@@ -20,12 +20,12 @@ layout: body
               {% for category in page.categories  %}
                     {% if category == "actual" %}
                     {% elsif category == "featured" %}
-                    {% elsif category == "ads" %}
+                    {% elsif category == "job" %}
                     {% else %}
 
                         {% for post in site.categories[category] %}
 
-                        {% if post.categories contains "ads" %}
+                        {% if post.categories contains "job" %}
                             {% else %}
 
 
@@ -39,6 +39,10 @@ layout: body
                     {% endif %}
                 {% endfor %}
           </ul>
+
+             <p class="all-articles">
+                <a class="" href="/content/list/all_articles.html">Все разделы</a>
+            </p>
 
         </div>
         <div class="col-md-7 article-body">  <!--  CENTER    -->
@@ -139,7 +143,7 @@ layout: body
            <span class="square-pointer">!</span>Вакансии</h3>
 
             <ul>
-            {% for post in site.categories.ads limit: 4 %}
+            {% for post in site.categories.job limit: 4 %}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>
             </li>

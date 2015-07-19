@@ -17,7 +17,6 @@ url: http://itin.com.ua
 all_countries:
 - id: poland
   name: Польша
-  url: poland.html
 
 all_categories:
 - id: a1

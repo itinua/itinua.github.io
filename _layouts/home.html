@@ -48,7 +48,7 @@ layout: body
            <span class="square-pointer">!</span>Вакансии</h3>
 
             <ul>
-            {% for post in site.categories.ads limit: 4 %}
+            {% for post in site.categories.job limit: 4 %}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>
             </li>
