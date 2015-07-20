@@ -700,7 +700,7 @@ header {padding: 0 0 1em 0;}
 
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
 
-.popular { margin-top: 3em;}
+.popular { margin: 3em 0 2em 0;}
 
 .popular h3 { 
     text-align: center;
