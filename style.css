@@ -3,7 +3,7 @@
 body {
   padding: 0 0 0 0 ;
   color: #333;
-  line-height: 1.20em;
+  line-height: 1.2em;
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
   min-height: 850px;
@@ -330,7 +330,7 @@ header {padding: 0 0 1em 0;}
   padding: 0;
 }
 .link-list li{
-  padding: .8em .8em .5em .8em;
+  padding: 1em .8em .2em .8em;
   margin: 5px 0;}
   
 .link-list li.current{
@@ -400,11 +400,11 @@ header {padding: 0 0 1em 0;}
 
 
 .section-title {
-  padding: 1em 1em .7em 1em;
+  padding: .8em 1em .6em 1em;
   text-align: center;
   background: #ffcc00;
   color: #4d4d4d;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: 300;
 
   position: relative;
@@ -454,7 +454,11 @@ header {padding: 0 0 1em 0;}
 .main-article h3 {
   margin-top: .25em;}
 
-.all-articles { text-align: right;}
+.all-articles { 
+  text-align: right;
+  padding-top: .2em;
+}
+
 .all-articles a {
   padding-right: .8em;
   border-right: #ffd733 2px solid;
@@ -470,7 +474,7 @@ header {padding: 0 0 1em 0;}
   height: 0;
 
   top: .40em;
-  right: 2px;
+  right: -4px;
   border-style: solid;  
   border-width: 4px 0 4px 5px;
   border-color: transparent #ffcc00 transparent transparent ; 
@@ -645,14 +649,14 @@ header {padding: 0 0 1em 0;}
 .jobs-list {
   list-style-type: none;
   margin-bottom: 2em;
+  padding-left: 0;
 }
 
 .jobs-list li{
   border-bottom: #dbdbdb 1px solid;
-  padding: .5em .5em .5em 2em;
-  margin: 5px 0;
+  padding: .7em .5em .7em 2em;
 
-  background: url(images/info/position.png) 50% 0 no-repeat}
+  background: url(images/info/position.png) 0 50% no-repeat}
 
 
 /*-------------*/
@@ -804,7 +808,8 @@ footer h4 {
 }
 
 footer .row{
-  margin-bottom: 1.5em!important;
+  margin-bottom: 1em!important;
+  margin-top: 1em!important;
 }
 
 footer ul{ padding:0 0;}
