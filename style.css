@@ -82,8 +82,8 @@ p {
    display: block;}
 
 
-h1 { font-size: 2em; font-weight: 300;}
-h2 { font-size: 1.65em; font-weight: 300;}
+h1 { font-size: 1.8em; font-weight: 300; line-height: 1.5em}
+h2 { font-size: 1.6em; font-weight: 300;}
 h3 { font-size: 1.35em; font-weight: 300;}
 h4 { font-size: 1.25em; font-weight: 300;}
 h5 { font-size: 1.05em}
@@ -183,7 +183,7 @@ header {padding: 0 0 1em 0;}
   white-space: nowrap;
 }
 
-.side-btn { width: 95%;}
+.side-btn { display: block;}
 
 .head-octocat img{
 
@@ -343,15 +343,6 @@ header {padding: 0 0 1em 0;}
   text-decoration: none;
 }
 
-.link-list li:after{ 
-  content: " " ;
-  height: 1em;
-  margin: 0 -.8em;
-  display: block;
-  border-bottom: #dbdbdb 1px solid;
-
-  position: relative;
-  top: .7em;}
 
 .link-list a {
   display: block;}
@@ -408,7 +399,7 @@ header {padding: 0 0 1em 0;}
   font-weight: 300;
 
   position: relative;
-  margin-bottom: 0;
+  margin: .5em 0 0 0!important;
 }
 
 
@@ -466,7 +457,7 @@ header {padding: 0 0 1em 0;}
   position: relative;
 }
 
-.all-articles a:before {
+.all-articles a:after {
   content: " ";
   position: absolute;
 
@@ -474,7 +465,8 @@ header {padding: 0 0 1em 0;}
   height: 0;
 
   top: .40em;
-  right: -4px;
+  left: -5px;
+  z-index: 10;
   border-style: solid;  
   border-width: 4px 0 4px 5px;
   border-color: transparent #ffcc00 transparent transparent ; 
@@ -529,7 +521,7 @@ header {padding: 0 0 1em 0;}
 
 .add-tutorial h2{
   font-weight: 300!important;
-  line-height: 1.5em;
+  line-height: 1.6em;
   padding: 0 2em ;
   text-align: center;
 }
@@ -654,11 +646,15 @@ header {padding: 0 0 1em 0;}
 
 .jobs-list li{
   border-bottom: #dbdbdb 1px solid;
-  padding: .7em .5em .7em 2em;
+  padding: .8em .5em .8em 2.2em;
 
   background: url(images/info/position.png) 0 50% no-repeat}
 
 
+
+.dsq-widget-list {
+  padding-left: 0!important;
+}
 /*-------------*/
 
 
@@ -800,6 +796,7 @@ footer {
   background: #4d4d4d;
   padding: 2.5em;
   color: #fff;
+  color: #afafaf;
 }
 
 footer h4 {

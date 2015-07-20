@@ -41,7 +41,7 @@ layout: body
           </ul>
 
              <p class="all-articles">
-                <a class="" href="/content/list/all_articles.html">Все разделы</a>
+                <a href="/content/list/all_articles.html">Все разделы</a>
             </p>
 
         </div>
@@ -139,10 +139,9 @@ layout: body
 
         <div class="col-md-3 right-col">
 
-            <h3 class="block-header">
-           <span class="square-pointer">!</span>Вакансии</h3>
+            <h3 class="block-header">Вакансии</h3>
 
-            <ul>
+            <ul class="jobs-list">
             {% for post in site.categories.job limit: 4 %}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>
