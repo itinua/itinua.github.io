@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /
+Host: itin.com.ua
