@@ -85,7 +85,7 @@ p {
 h1 { font-size: 2em; font-weight: 300;}
 h2 { font-size: 1.65em; font-weight: 300;}
 h3 { font-size: 1.35em; font-weight: 300;}
-h3 { font-size: 1.25em; font-weight: 300;}
+h4 { font-size: 1.25em; font-weight: 300;}
 h5 { font-size: 1.05em}
 
 .uppercase { text-transform: uppercase;}
@@ -811,7 +811,8 @@ footer {
 }
 
 footer h4 {
-  font-weight: lighter;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
 footer img{
@@ -1143,7 +1144,7 @@ blockquote:after {
   float: left;
 }
 
-.socials {
+p.socials {
   padding: 1em 2em 1em 1em;
   margin-top: -2em;
   clear: both;
