@@ -44,8 +44,12 @@ layout: body
 
 
         <div class="col-md-3 right-col">
+
+
+
+
             <h3 class="block-header">
-           <span class="square-pointer">!</span>Вакансии</h3>
+           </span>Вакансии</h3>
 
             <ul class="jobs-list">
             {% for post in site.categories.job limit: 4 %}
@@ -55,6 +59,9 @@ layout: body
            {% endfor %}
           </ul>
 
+                    <h3 class="block-header">
+           </span>Коментарии</h3>
+             <script type="text/javascript" src="http://itinua.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=100"></script>
 
             {% include ads.html %}
         
