@@ -84,7 +84,7 @@ p {
 
 h1 { font-size: 1.8em; font-weight: 300; line-height: 1.5em}
 h2 { font-size: 1.6em; font-weight: 300;}  /* 22px */
-h3 { font-size: 1.4em; font-weight: 300;}  /* 20px */
+h3 { font-size: 1.4em; font-weight: 300; line-height: 1.2em;}  /* 20px */
 h4 { font-size: 1.25em; font-weight: 300;}  /* 18px */
 h5 { font-size: 1.1em} /* 16px */
 
@@ -522,9 +522,9 @@ header {padding: 0 0 1em 0;}
 
 .all-countries { 
     padding: 0 0 10px 0;
-    margin-bottom: 20px;
     overflow: hidden;
-
+    position: relative;
+    top: 5px;
     border-bottom: #dbdbdb 1px solid;}
 
 .all-countries li{
@@ -540,6 +540,18 @@ header {padding: 0 0 1em 0;}
   width: 54px;
   margin: 0 auto;
   display: block; }
+
+.countries-posts img{
+  position: relative;
+  top: -3px;
+  left: -4px;
+}
+
+.countries-posts span{
+  font-size: 0.7em;
+  position: relative;
+  top: -2px; 
+}
 
 /*------------------------------  TUTtorial  /*  md - max-container :: 970px */  ----------------------------------------*/
 
