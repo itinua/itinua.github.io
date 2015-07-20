@@ -832,7 +832,7 @@ footer a {
   text-decoration: underline;
 }
 
-.itua-links { 
+.itua-links a{ 
   margin: 0 1.5em 0 0;}
 
 footer a:hover{
