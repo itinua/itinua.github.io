@@ -25,14 +25,14 @@ layout: body
            {% endfor %}
           </ul>
             <p class="all-articles">
-                <a class="" href="/content/list/all_news.html">Все Новое</a>
+                <a class="" href="/content/list/all_news.html">Всё Новое</a>
             </p>
           <br  /> 
           
-          <h3 class="line12"> Есть воросы? &nbsp; Наши специалисты ответят Вам:</h3>
+          <h4 class="line12"> Есть воросы? &nbsp; Наши специалисты ответят Вам:</h4>
 
           <br  /><br  />
-          <p><a href="/content/napisat-v-redaktsiyu.html" class="main-btn head-button">Задать вопрос</a> </p>
+          <p><a href="/content/napisat-v-redaktsiyu.html" class="main-btn side-btn">Задать вопрос</a> </p>
 
           <br  /><br  />
 
@@ -47,7 +47,7 @@ layout: body
             <h3 class="block-header">
            <span class="square-pointer">!</span>Вакансии</h3>
 
-            <ul>
+            <ul class="jobs-list">
             {% for post in site.categories.job limit: 4 %}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>

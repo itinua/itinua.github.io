@@ -170,7 +170,7 @@ header {padding: 0 0 1em 0;}
 
   background: #ffcc00;
   color: #4d4d4d;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -182,6 +182,9 @@ header {padding: 0 0 1em 0;}
 
   white-space: nowrap;
 }
+
+.side-btn { width: 95%;}
+
 .head-octocat img{
 
   max-width: 90px;
@@ -451,15 +454,15 @@ header {padding: 0 0 1em 0;}
 .main-article h3 {
   margin-top: .25em;}
 
-.section .all-articles { text-align: right;}
-.section .all-articles a {
-  padding-left: .8em;
-  border-left: #ffd733 2px solid;
+.all-articles { text-align: right;}
+.all-articles a {
+  padding-right: .8em;
+  border-right: #ffd733 2px solid;
 
   position: relative;
 }
 
-.section .all-articles a:before {
+.all-articles a:before {
   content: " ";
   position: absolute;
 
@@ -467,10 +470,10 @@ header {padding: 0 0 1em 0;}
   height: 0;
 
   top: .40em;
-  left: -2px;
+  right: 2px;
   border-style: solid;  
   border-width: 4px 0 4px 5px;
-  border-color: transparent transparent transparent #ffcc00; 
+  border-color: transparent #ffcc00 transparent transparent ; 
 }
 
 
@@ -639,36 +642,21 @@ header {padding: 0 0 1em 0;}
   margin: 0 auto 1.5em auto;
 }
 
- /*
-.right-col {
-  text-align: right;
+.jobs-list {
+  list-style-type: none;
+  margin-bottom: 2em;
 }
 
-.right-col .ads img{
-  margin: 1.5em auto .5em auto;
-}
+.jobs-list li{
+  border-bottom: #dbdbdb 1px solid;
+  padding: .5em .5em .5em 2em;
+  margin: 5px 0;
+
+  background: url(images/info/position.png) 50% 0 no-repeat}
 
 
-@media (max-width: 992px) { 
-  .right-col {
-    text-align: left;
-  }  
-  .right-col .ads img {
-    width: auto!important;
-    margin: 0 .5em .5em 0!important; }
+/*-------------*/
 
-}
-
-
-
-
-@media (min-width: 1200px) { 
-  #mainpart > div{
-    margin-right: -8%;
-  }
-}
-
- */
 
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
 
@@ -815,8 +803,8 @@ footer h4 {
   font-size: 1.2em;
 }
 
-footer img{
-
+footer .row{
+  margin-bottom: 1.5em!important;
 }
 
 footer ul{ padding:0 0;}
