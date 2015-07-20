@@ -330,11 +330,12 @@ header {padding: 0 0 1em 0;}
   padding: 0;
 }
 .link-list li{
-  padding: 1em .8em .5em .8em;
+  padding: 1em 0 .5em 0;
   margin: 5px 0;}
   
 .link-list li.current{
     background: #ededed;
+    padding-left:.5em;    
   } 
 .link-list li.current a,
 .link-list li.current a:hover{
