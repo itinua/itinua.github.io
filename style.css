@@ -811,14 +811,11 @@ footer {
 }
 
 footer h4 {
-  text-transform: uppercase;
   font-weight: lighter;
 }
 
 footer img{
-  margin: 0 1em 1em 0;
-  position: relative;
-  top: -.5em;
+
 }
 
 footer ul{ padding:0 0;}
@@ -848,7 +845,7 @@ footer a:hover{
 }
 
 footer .partners { 
- margin-top: .6em;} 
+ margin:0 ;} 
 
 footer .partners a{ 
 text-decoration: none;}
