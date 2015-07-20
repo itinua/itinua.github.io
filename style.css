@@ -83,10 +83,10 @@ p {
 
 
 h1 { font-size: 1.8em; font-weight: 300; line-height: 1.5em}
-h2 { font-size: 1.6em; font-weight: 300;}
-h3 { font-size: 1.35em; font-weight: 300;}
-h4 { font-size: 1.25em; font-weight: 300;}
-h5 { font-size: 1.05em}
+h2 { font-size: 1.6em; font-weight: 300;}  /* 22px */
+h3 { font-size: 1.4em; font-weight: 300;}  /* 20px */
+h4 { font-size: 1.25em; font-weight: 300;}  /* 18px */
+h5 { font-size: 1.1em} /* 16px */
 
 .uppercase { text-transform: uppercase;}
 
@@ -330,10 +330,8 @@ header {padding: 0 0 1em 0;}
   padding: 0;
 }
 .link-list li{
-  padding: 1em .8em .7em .8em;
-  margin: 5px 0;
-  border-bottom: #dbdbdb 1px solid;
-  }
+  padding: 1em .8em .5em .8em;
+  margin: 5px 0;}
   
 .link-list li.current{
     background: #ededed;
@@ -345,6 +343,15 @@ header {padding: 0 0 1em 0;}
   text-decoration: none;
 }
 
+.link-list li:after{ 
+  content: " " ;
+  height: 1em;
+  margin: 0 -.8em;
+  display: block;
+  border-bottom: #dbdbdb 1px solid;
+
+  position: relative;
+  top: .7em;}
 
 .link-list a {
   display: block;}
@@ -449,14 +456,12 @@ header {padding: 0 0 1em 0;}
 
 .all-articles { 
   text-align: right;
-  padding-top: .2em;
-  margin-right: 10px;
+  padding: 1em 0 .5em 0;
 }
 
 .all-articles a {
-  padding-right: .8em;
   border-right: #ffd733 2px solid;
-
+  padding-right: 12px;
   position: relative;
 }
 
@@ -468,10 +473,10 @@ header {padding: 0 0 1em 0;}
   height: 0;
 
   top: .40em;
-  left: 3px;
+  right: 0;
   z-index: 10;
   border-style: solid;  
-  border-width: 4px 0 4px 5px;
+  border-width: 4px 5px 4px 0 ;
   border-color: transparent #ffcc00 transparent transparent ; 
 }
 
@@ -515,6 +520,26 @@ header {padding: 0 0 1em 0;}
 }
 
 
+.all-countries { 
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    border-bottom: #dbdbdb 1px solid;}
+
+.all-countries li{
+  float: left;
+  width: 14%;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 90%;
+}
+
+.all-countries li img { 
+  width: 54px;
+  margin: 0 auto;
+  display: block; }
 
 /*------------------------------  TUTtorial  /*  md - max-container :: 970px */  ----------------------------------------*/
 
@@ -643,7 +668,7 @@ header {padding: 0 0 1em 0;}
 
 .jobs-list {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: .5em;
   padding-left: 0;
 }
 
