@@ -11,7 +11,7 @@ layout: main
 
 
     <div class="section-group row">
-
+    <ul>
           {% for post in site.categories.[item.id] %}
            {% if post.url != id %}
 
@@ -26,7 +26,8 @@ layout: main
            {% endif %}
 
          {% endfor %}
-        </div>
+      </ul>
+    </div>
 
 
 

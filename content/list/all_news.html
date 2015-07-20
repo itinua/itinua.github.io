@@ -2,10 +2,11 @@
 layout: simple
 ---
 <h1>Новое</h1>
+<ul>
 {% for post in site.posts %}
     <li>
     <a  href="{{post.url}}">{{post.title}}</a>
     <span class="date-format">{% include date.html %}</span>
     </li>
 {% endfor %}
-
+</ul>

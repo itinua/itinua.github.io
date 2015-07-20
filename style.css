@@ -301,7 +301,7 @@ header {padding: 0 0 1em 0;}
     color: #fff;
     background: #ffcc00;
     font-weight: bold;
-    font-size:85%;
+    font-size:90%;
     padding: .2em .7em .1em .6em;
     margin: 0 .8em 0 0;
 
@@ -314,7 +314,7 @@ header {padding: 0 0 1em 0;}
   width: 0;
   height: 0;
 
-  top: .45em;
+  top: .5em;
   left: 1.5em;
   border-style: solid;  
   border-width: 4px 0 4px 5px;
@@ -327,7 +327,7 @@ header {padding: 0 0 1em 0;}
   padding: 0;
 }
 .link-list li{
-  padding: 1em .8em .5em .8em;
+  padding: .8em .8em .5em .8em;
   margin: 5px 0;}
   
 .link-list li.current{
@@ -810,6 +810,11 @@ footer {
   color: #fff;
 }
 
+footer h4 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
 footer img{
   margin: 0 1em 1em 0;
   position: relative;
@@ -823,9 +828,13 @@ footer li{
 
 footer a {
   line-height: 2em;
-  margin: 0 1.5em 0 0;
+  margin: 0 0.5em 0 0;
   text-decoration: underline;
 }
+
+.itua-links { 
+  margin: 0 1.5em 0 0;}
+
 footer a:hover{
   color: #fff;
 }
@@ -1147,7 +1156,7 @@ blockquote:after {
 .socials a,
 .socials span{
   margin: 0 .7em 0 0; 
-  opacity: 0.50;
+  opacity: 0.70;
   filter: alpha(opacity=50);
 } 
 
