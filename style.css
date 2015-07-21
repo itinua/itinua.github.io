@@ -156,11 +156,8 @@ header {padding: 0 0 1em 0;}
 .block-header {
   text-transform: uppercase;
   font-weight: normal;
+  margin-top: 1em;
 }
-
-.col-md-2 .block-header,
-.col-sm-2 .block-header {
-    margin-left: .5em;}
 
 .main-btn {
   padding: .7em 1.2em;
@@ -252,7 +249,7 @@ header {padding: 0 0 1em 0;}
     margin: .3em 0 0;
   }
   .user-login  {
-    text-align: right;
+    text-align: t-colt;
     float: right!important;
   }
   .user-login img{
@@ -347,12 +344,11 @@ header {padding: 0 0 1em 0;}
 .link-list li:after{ 
   content: " " ;
   height: 1em;
-  margin: 0 -.8em;
   display: block;
   border-bottom: #dbdbdb 1px solid;
 
   position: relative;
-  top: .7em;}
+  top: .75em;}
 
 .link-list a {
   display: block;}
@@ -401,7 +397,7 @@ header {padding: 0 0 1em 0;}
 
 
 .section-title {
-  padding: .8em 1em .6em 1em;
+  padding: .8em 1em .7em 1em;
   text-align: center;
   background: #ffcc00;
   color: #4d4d4d;
@@ -409,7 +405,7 @@ header {padding: 0 0 1em 0;}
   font-weight: 300;
 
   position: relative;
-  margin: .5em 0 0 0!important;
+  margin: 1em 0 0 0!important;
 }
 
 
@@ -450,8 +446,11 @@ header {padding: 0 0 1em 0;}
 
 
 .main-article {
-  margin: .5em 0 .25em 0;
+  margin-top: .5em; 
+  margin-bottom: .25em;
+  position: relative;  
 }
+
 .main-article h3 {
   margin-top: .25em;}
 
@@ -489,7 +488,7 @@ header {padding: 0 0 1em 0;}
 
 .main-article img { 
   max-width: 105%;
-  margin-top: 1em;
+  margin-top: .25em;
 }
 
 @media (max-width: 768px) /* sm */{ 
@@ -552,6 +551,109 @@ header {padding: 0 0 1em 0;}
   font-size: 0.7em;
   position: relative;
   top: -2px; 
+}
+
+
+
+/*--------------------- All POSTs for countries ------------------*/
+
+
+.country-menu {
+  list-style-type: none;
+  margin-bottom: .5em;
+  padding-left: 0;
+
+  position: fixed;
+  top: 27.5em;
+}
+
+
+
+
+.country-menu li{
+  border-bottom: #dbdbdb 1px solid;
+  padding: .8em  .5em .8em .2em;
+}
+.country-menu li img{
+  margin-right: .25em;
+}
+
+
+@media (max-width: 1180px) { 
+
+  .country-menu {
+     position: static;
+    top: auto;
+  }
+}
+
+
+
+.country-item-block .jobs-list{
+  border-bottom: #dbdbdb 1px solid;
+  border-top: #dbdbdb 1px solid;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+.country-item-block .jobs-list li{
+  width: 25%; 
+  float: left;
+  margin: .5em 0 .2em 0;
+  border:none;
+}
+
+.country-item-block {
+  margin: -2em 0 4em 0;
+} 
+.country-item-block h2 { 
+  font-size: 1.1em;
+  font-weight: 300;
+  z-index: 10;
+  padding: 1.2em 1.2em 1.1em .7em;
+  background: #fff;
+  position: relative;
+  top: 3.3em;
+  left: 1.2em;
+  display: inline;
+  margin: 0;
+
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.country-item-block h2 img{ 
+  margin-right: .2em;
+  width: 40px;
+}
+
+
+.country-item-block h2 { 
+  font-size: 1.1em;
+  font-weight: 300;
+  z-index: 10;
+  padding: 1.2em 1.2em 1.1em .7em;
+  background: #fff;
+  position: relative;
+  top: 3.3em;
+  left: 1.2em;
+  display: inline;
+  margin: 0;
+
+  border-bottom: #dbdbdb 1px solid;
+}
+
+@media (max-width: 768px) { 
+
+.country-item-block h2 img{ 
+  margin-right: .2em;
+  width: 20px;
+}
+
+  .country-item-block h2 { 
+    font-size: 1em;
+    padding: 1em 1.2em .7em .8em;
+    top: 2.7em;
+  }
+
 }
 
 /*------------------------------  TUTtorial  /*  md - max-container :: 970px */  ----------------------------------------*/
@@ -671,8 +773,9 @@ header {padding: 0 0 1em 0;}
 /*------------------------------  RIGHT  ----------------------------------------*/
 
 
+
 .right-col {
-  padding-top: 1em;
+
   padding-bottom: 1em; }
 
 .right-col .ads img{
@@ -691,12 +794,9 @@ header {padding: 0 0 1em 0;}
 
   background: url(images/info/position.png) 0 50% no-repeat}
 
-
-
 .dsq-widget-list {
   padding-left: 0!important;
 }
-/*-------------*/
 
 
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
@@ -859,6 +959,7 @@ footer a {
   line-height: 2em;
   margin: 0 0.5em 0 0;
   text-decoration: underline;
+  white-space: nowrap;
 }
 
 .itua-links a{ 
@@ -985,7 +1086,7 @@ h2 {
 
 .article-body ul{
   color: #ffcc00!important;
-  padding: 0 0 1em 2em;
+  padding: 0 0 1em 1em;
   font-weight: 600;
 }
 .article-body ul li {
@@ -1317,7 +1418,7 @@ p.socials {
 
 .bulleted-list{
 
-  padding: 0 0 1em 0em;
+  padding: 1em 0em 1em 1em;
   margin-left: 0;
   font-weight: 600;
 }
