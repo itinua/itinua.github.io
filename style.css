@@ -156,7 +156,7 @@ header {padding: 0 0 1em 0;}
 .block-header {
   text-transform: uppercase;
   font-weight: normal;
-  margin-top: 1em;
+  margin-top: 1.2em;
 }
 
 .main-btn {
@@ -405,7 +405,7 @@ header {padding: 0 0 1em 0;}
   font-weight: 300;
 
   position: relative;
-  margin: 1em 0 0 0!important;
+  margin: 1.2em 0 0 0!important;
 }
 
 
