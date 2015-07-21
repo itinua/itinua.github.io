@@ -12,4 +12,4 @@ layout: main
 *  
 *  
 
-[Питише нам](/content/napisat-v-redaktsiyu.html)
+[Питише нам](/content/napisat-v-redaktsiyu.html) или [Добавляйте](/content/add-material.html) самостоятельно
