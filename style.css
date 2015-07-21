@@ -1020,7 +1020,7 @@ h2 {
 .article-body h3,
 .article-body h4 {
   font-weight: 400;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .article-body p{
@@ -1028,14 +1028,14 @@ h2 {
 }
 
 .article-body img{
-  margin: 0 0 .75em 0;
+  margin: 0 0 .25em 0;
 }
 
 .article-body h1,
 .article-header {
   color: #337ab7;
   font-weight: normal;
-  margin: .5em 0 .25em 0;
+  margin: .5em 0 .1em 0;
 }
 
 .article-body .article-data {
