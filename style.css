@@ -573,10 +573,10 @@ header {padding: 0 0 1em 0;}
 
 .country-menu li{
   border-bottom: #dbdbdb 1px solid;
-  padding: .8em  .5em .8em .2em;
+  padding: .8em  0 .8em .2em;
 }
 .country-menu li img{
-  margin-right: .25em;
+  margin-right: .2em;
 }
 
 
@@ -793,7 +793,7 @@ header {padding: 0 0 1em 0;}
   border-bottom: #dbdbdb 1px solid;
   padding: .8em .5em .8em 2.2em;
 
-  background: url(images/info/position.png) 0 50% no-repeat}
+  background: url(images/info/position.png) 0 10px no-repeat}
 
 .dsq-widget-list {
   padding-left: 0!important;
@@ -1149,7 +1149,8 @@ blockquote:after {
 
 .edit-article {
   border-top: 1px solid #e4e4e4;
-  padding-top: .2em;
+  padding-top: .5em;
+  margin-top: .5em;
   font-size: .85em;
 
 }
@@ -1161,8 +1162,9 @@ blockquote:after {
 .edit-article img{
   width: 18px;
   position: relative; 
-  top: 3px;
-  margin-right: .2em;  
+  top: 2px;
+  margin-right: .2em; 
+  margin-bottom: 1em;
 }
 
 .git-cliche img{ 
