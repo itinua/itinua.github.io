@@ -18,6 +18,24 @@ all_countries:
 - id: poland
   name: Польша
 
+- id: denmark
+  name: Дания
+
+- id: germany
+  name: Германия
+
+- id: latvia
+  name: Латвия
+
+- id: thailand
+  name: Тайланд
+
+- id: norway
+  name: Норвегия
+
+- id: netherlands
+  name: Нидерланды
+
 all_categories:
 - id: a1
   name: Работа с иностранными компаниями

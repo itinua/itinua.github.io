@@ -1,0 +1,92 @@
+---
+layout: body
+---
+
+ <div class="container"> <!--  MAin Conteiner-->
+
+
+      <div class="row"> <!--  Content  -->
+        <div class="col-md-9">   <!--  Content /9  -->
+            <h2 class="section-title">
+                Все вакансии
+                </h2>
+            <span class="triangle-bottom top0"></span>
+
+
+        <div class="row ">  <!--  Content Columns   -->
+
+          <div class="col-md-2">
+
+              <ul class="country-menu">
+                     {% for country in site.all_countries %}
+
+                       <li><a href="#{{country.id}}" ><img  width="32" src="/images/countries/{{country.id}}.png" alt="{{country.name}}" /> {{country.name}}  </a></li>
+                      {% endfor %}
+
+              </ul>
+
+          </div>
+
+
+          <div class="col-md-10">
+
+   {% for country in site.all_countries %}
+              {% if site.categories.[country.id].first %}
+              <h2> <img src="/images/countries/{{country.id}}.png" width="45" alt="{{country.name}}"> {{country.name}} </h2>
+
+            <div id="{{country.id}}" class="country-item-block">
+
+
+                <ul class="bulleted-list">
+                     {% for post in site.categories.[country.id]  %}
+                    {% if post.categories contains "job" %}
+                    <li>
+                    <a  href="{{post.url}}">{{post.title}}</a>
+                    <span class="date-format">{% include date.html %}</span>
+                  </li>
+
+                    {% else %}
+
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <div>
+                </div>
+
+            </div> <!-- country ITEM ends  -->
+                    {% endif %}
+              {% endfor %}
+
+
+
+          </div>  <!--  MAIN ends  -->
+
+        </div>     <!--  Content Columns - ends  -->
+
+      </div>   <!--  Content /9 ends  -->
+
+
+
+        <div class="col-md-3 right-col">
+
+
+          <div>
+            <br />
+            {% include ads.html %}
+          </div>
+
+          <br />
+        </div>
+
+      </div><!-- row ends -->
+
+
+
+      <br />      <br />
+
+      {% include actual.html %}
+
+      <br /><br /><br />
+
+    </div> <!--  MAin Conteiner-->

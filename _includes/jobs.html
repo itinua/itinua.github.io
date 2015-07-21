@@ -1,0 +1,8 @@
+{% for post in site.categories.["job"] %}
+<ul class="jobs-list">
+    <li><a href="{{post.url}}">{{post.title}}</a> <img src="/images/countries/{{post.categories.first}}.png" width="24" alt="{{post.categories.first}}"/></li>
+</ul>
+{% endfor %}
+
+  <p class="all-articles">
+            <a href="/content/list/all_jobs.html">Все вакансии</a> </p>

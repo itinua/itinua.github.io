@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-
 {% for item in site.all_categories %}
 
     <div class="section">
@@ -50,3 +49,45 @@ layout: home
     </div><!-- SECTION -->
 
 {% endfor %}
+
+<div class="section">
+            <h2 class="section-title">
+
+              <a href="">Тематика страны</a>
+              <a class="pull-right" href="/content/list/countries.html"></a> &nbsp;</h2>
+            <span class="triangle-bottom top0"></span>
+
+
+            <ul class="all-countries">
+                {% for country in site.all_countries %}
+              <li><a href="/content/list/countries.html#{{country.id}}" ><img src="images/countries/{{country.id}}.png" alt="{{country.name}}" /> {{country.name}}  </a></li>
+            {% endfor %}
+
+            </ul>
+    <!--
+
+            <div class="section-group countries-posts row">
+              <div class="col-sm-4">
+
+
+                  <h3>
+                    <img src="images/countries/poland.png" width="36" alt="PL" /> <span> Польша</span> <br />
+                    <a href="working-countries.html#poland">Как открыть фирму и  начать свой бизнес в Польше</a></h3>
+                </div>
+              <div class="col-sm-4">
+                <h3>
+                  <img src="images/countries/denmark.png" width="36"  alt="PL" /> <span>Дания</span> <br />
+                  <a href="working-countries.html#denmark">Дизайн конференуия в Дании</a></h3></div>
+
+              <div class="col-sm-4">
+                <h3>
+                  <img src="images/countries/poland.png" width="36"  alt="PL" /> <span>Польша</span> <br />
+                  <a href="working-countries.html#poland">Конкурсный набор разработчиков в офис Google </a></h3>
+                </div>
+            </div>
+
+            <p class="all-articles">
+              <a href="section.html">Все статьи раздела</a>
+            </p>
+    -->
+          </div><!-- SECTION -->
