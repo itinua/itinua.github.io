@@ -5,7 +5,7 @@ title: .Net Developer в Польше
 ---
 Medical branch for 3-6 months first project (5+ specialists)
 
-### ![Reward](/images/info/wallet.png) Salary: EUR 3100
+### ![Reward](/images/info/wallet.png) Salary: €3100
 ------
 ## Requirements
 
