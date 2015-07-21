@@ -34,4 +34,8 @@ technologies at least on middle level (practically) can be a reason for rejectio
 * Knowledge of extJS or jQuery
 * knowledge of instruments of raportowych e.g.: DevExpress, Crystal
 
-Send your resume to e-mail: hr-it@pl-ua-by.com 
+Send your resume to e-mail: <a href="mailto:hr-it@pl-ua-by.com">hr-it@pl-ua-by.com </a>
+
+------
+
+
