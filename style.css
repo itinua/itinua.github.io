@@ -328,7 +328,7 @@ header {padding: 1em 0;}
 }
 .link-list li{
   padding: 1em 0 .5em 0;
-  margin: 5px 0;}
+  margin: 8px 0 3px 0;}
   
 .link-list li.current{
     background: #ededed;
@@ -367,11 +367,11 @@ header {padding: 1em 0;}
     margin: -1em 0 2em 0;}
 
   .link-list li {
-    padding: .8em .4em .2em .8em;
+    padding: .8em .4em .2em 0;
     position: relative;
   }  
   .link-list li:after{ 
-    top: .4em;}
+    top: .3em;}
 
   .link-list li a{
     margin-left: 6.5em;
@@ -385,6 +385,10 @@ header {padding: 1em 0;}
     width: auto;
     z-index: 2}
 
+}
+
+.side-btn {
+  display: inline;
 }
 
 
@@ -453,6 +457,11 @@ header {padding: 1em 0;}
 
 .main-article h3 {
   margin-top: .25em;}
+
+.section-group h4{
+  word-wrap: break-word;
+}
+
 
 .all-articles { 
   text-align: right;
@@ -541,6 +550,13 @@ header {padding: 1em 0;}
   margin: 0 auto;
   display: block; }
 
+@media (max-width: 992px) {
+  .all-countries li img { 
+    width: 25px;
+    margin: 0 auto;
+    display: block; }
+}
+
 .countries-posts img{
   position: relative;
   top: -3px;
@@ -552,6 +568,8 @@ header {padding: 1em 0;}
   position: relative;
   top: -2px; 
 }
+
+
 
 
 
