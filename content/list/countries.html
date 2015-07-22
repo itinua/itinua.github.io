@@ -35,8 +35,8 @@ layout: body
               {% if site.categories.[country.id].first %}
               
 
+                <h2> <img src="/images/countries/{{country.id}}.png" width="45" alt="{{country.name}}"> {{country.name}} </h2>
             <div id="{{country.id}}" class="country-item-block">
-              <h2> <img src="/images/countries/{{country.id}}.png" width="45" alt="{{country.name}}"> {{country.name}} </h2>
 
                 <ul class="bulleted-list">
                      {% for post in site.categories.[country.id]  %}

@@ -1,16 +1,28 @@
+{% assign find = false %}
+
 {% if page.categories contains "news" %}
+  {% assign find = true %}
   <a href="/content/list/news.html">Новости</a>
 {% endif %}
-{% for cat in site.all_categories %}
-    {% if page.categories contains cat.id %}
-           <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
-    {% endif %}
-{% endfor %}
 
+{% if find == false %}
 {% for cat in site.all_countries %}
     {% if page.categories contains cat.id %}
+    {% assign find = true %}
            <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
     {% endif %}
 {% endfor %}
+{% endif %}
+
+
+{% if find == false %}
+{% for cat in site.all_categories %}
+    {% if page.categories contains cat.id %}
+    {% assign find = true %}
+           <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
+    {% endif %}
+{% endfor %}
+{% endif %}
+
 
 

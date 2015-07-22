@@ -27,32 +27,34 @@ layout: body
 
             <div class="row month-articles">    <!--  month view  -->
 
-               {% for post in site.categories.[page.page_category] %}
+
+                   {% assign post=site.categories.[page.page_category].first %}
+                  <div class="col-sm-2">
+                    <div class=" month-view">
+                      <span class="date-month">{% include month.html %}</span>
+                      <span class="date-year">{{ post.date |date: '%d' }}</span>
+                    </div>
+                        <p class="all-articles">
+                    <a class="" href="/content/list/all_articles.html">Все разделы</a>
+                </p>
+                  </div>
+
+                  <div class="col-sm-10">
+             {% for post in site.categories.[page.page_category] %}
                 {% if post.categories contains "featured" %}
-              <div class="col-sm-2">
-                <div class=" month-view">
-                  <span class="date-month">{% include month.html %}</span>
-                  <span class="date-year">{{ post.date |date: '%d' }}</span>
-                </div>
-                    <p class="all-articles">
-                <a class="" href="/content/list/all_articles.html">Все разделы</a>
-            </p>
-              </div>
+                    <div class="main-article row">
+                      <div class="col-sm-6">
+                           <div class="img-crop">
+                        <img src="/images/{{post.img}}" alt="Working in Google office"/></div>
+                          </div>
+                      <div class="col-sm-6">
+                        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                        <span class="date-format">{% include date.html %}</span>
+                        <p>{{post.content | | truncatewords: 25 }}</p></div>
 
-              <div class="col-sm-10">
+                    </div>
 
 
-                <div class="main-article row">
-                  <div class="col-sm-6">
-                       <div class="img-crop">
-                    <img src="/images/{{post.img}}" alt="Working in Google office"/></div>
-                      </div>
-                  <div class="col-sm-6">
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                    <span class="date-format">{% include date.html %}</span>
-                    <p>{{post.content | | truncatewords: 25 }}</p></div>
-
-                </div>
                     {% endif %}
                   {% endfor %}
 
