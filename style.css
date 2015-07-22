@@ -534,7 +534,8 @@ header {padding: 1em 0;}
     overflow: hidden;
     position: relative;
     top: 5px;
-    border-bottom: #dbdbdb 1px solid;}
+    /* border-bottom: #dbdbdb 1px solid; */
+    }
 
 .all-countries li{
   float: left;
