@@ -13,7 +13,7 @@ layout: body
           <h3 class="block-header">Новое</h3>
 
           <ul class="link-list">
-            {% for post in site.posts limit: 5 %}
+            {% for post in site.posts limit: 6 %}
               {% if post.categories contains "job"%}
               {% elsif post.categories contains "news"%}
               {% else%}
@@ -25,7 +25,7 @@ layout: body
            {% endfor %}
           </ul>
             <p class="all-articles">
-                <a class="" href="/content/list/all_news.html">Всё Новое</a>
+                <a class="" href="/content/list/all_news.html">Все новое</a>
             </p>
           <br  /> 
           
