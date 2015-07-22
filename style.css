@@ -462,10 +462,9 @@ header {padding: 1em 0;}
   word-wrap: break-word;
 }
 
-
 .all-articles { 
   text-align: right;
-  padding: 1em 0 .5em 0;
+  padding: .5em 0;
 }
 
 .all-articles a {
@@ -592,22 +591,25 @@ header {padding: 1em 0;}
 
 .country-menu li{
   border-bottom: #dbdbdb 1px solid;
-  padding: .8em  0 .8em .2em;
+  padding: .8em  .2em .8em .4em;
 }
 .country-menu li img{
-  margin-right: .2em;
+  margin-right: .4em;
 }
 
 
 @media (max-width: 1180px) { 
 
   .country-menu {
-     position: static;
+    position: static;
     top: auto;
   }
 }
 
-
+.country-item-block .main-article{
+  margin-top: -2.2em;
+  z-index: -1;
+}
 
 .country-item-block .jobs-list{
   border-bottom: #dbdbdb 1px solid;
@@ -618,47 +620,35 @@ header {padding: 1em 0;}
 .country-item-block .jobs-list li{
   width: 25%; 
   float: left;
-  margin: .5em 0 .2em 0;
+  margin: 2em .5em 0 .2em 0;
   border:none;
 }
 
+
+
 .country-item-block {
-  margin: -2em 0 4em 0;
-} 
+  margin: 0 0 4em 0; } 
+
 .country-item-block h2 { 
   font-size: 1.1em;
   font-weight: 300;
   z-index: 10;
-  padding: 1.2em 1.2em 1.1em .7em;
+  padding: .8em 1.2em .8em .5em;
   background: #fff;
-  position: relative;
-  top: 3.3em;
-  left: 1.2em;
+  margin: 1em 0 ;
+
   display: inline;
-  margin: 0;
 
   border-bottom: #dbdbdb 1px solid;
 }
 
 .country-item-block h2 img{ 
-  margin-right: .2em;
+  margin: -.25em .5em 0 0;
   width: 40px;
 }
 
-
-.country-item-block h2 { 
-  font-size: 1.1em;
-  font-weight: 300;
-  z-index: 10;
-  padding: 1.2em 1.2em 1.1em .7em;
-  background: #fff;
-  position: relative;
-  top: 3.3em;
-  left: 1.2em;
-  display: inline;
-  margin: 0;
-
-  border-bottom: #dbdbdb 1px solid;
+.country-item-block ul{
+  margin-top: 1em;
 }
 
 @media (max-width: 768px) { 
@@ -802,7 +792,8 @@ header {padding: 1em 0;}
   margin: 0 auto 1.5em auto;
 }
 
-.jobs-list {
+.jobs-list,
+.new-list {
   list-style-type: none;
   margin-bottom: .5em;
   padding-left: 0;
@@ -817,6 +808,14 @@ header {padding: 1em 0;}
 .dsq-widget-list {
   padding-left: 0!important;
 }
+
+
+.new-list {
+  border-bottom: #dbdbdb 1px solid;}
+
+.new-list li{
+  padding: .6em .5em .6em 2em;
+  background: url(images/info/news.png) 0 12px no-repeat}
 
 
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
@@ -1467,6 +1466,8 @@ p.socials {
 .bulleted-list li a{
   font-size: 1.15em;
 }
+
+
 
 
 

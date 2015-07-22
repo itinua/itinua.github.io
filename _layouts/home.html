@@ -31,9 +31,9 @@ layout: body
           
           <h4 class="line12"> Есть воросы? &nbsp; Наши специалисты ответят Вам:</h4>
 
- 
-          <p><a href="/content/napisat-v-redaktsiyu.html" class="main-btn side-btn">Задать вопрос</a> </p>
           <br  />
+          <p><a href="/content/napisat-v-redaktsiyu.html" class="main-btn side-btn">Задать вопрос</a> </p>
+          <br  /><br  />
             <p><a href="/content/we-ask-for-an-article.html" class="main-btn side-btn">Запрос на статью</a> </p>
             <br/>
             <br  />
@@ -49,17 +49,17 @@ layout: body
 
   <h3 class="block-header">
            </span>Новости</h3>
-             <ul class="bulleted-list">
+             <ul class="new-list">
             {% for post in site.categories.news limit:5 %}
 
              <li>
-    <a  href="{{post.url}}">{{post.title}}</a>
-    <span class="date-format">{% include date.html %}</span>
-    </li>
+              <a  href="{{post.url}}">{{post.title}}</a> <br />
+              <span class="date-format">{% include date.html %}</span>
+              </li>
 
             {% endfor %}
                    </ul>
-  <p class="all-articles">
+        <p class="all-articles">
             <a href="/content/list/news.html">Все новости</a> </p>
 
 
