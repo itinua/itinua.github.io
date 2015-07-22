@@ -1,3 +1,6 @@
+{% if page.categories contains "news" %}
+  <a href="/content/list/news.html">Новости</a>
+{% endif %}
 {% for cat in site.all_categories %}
     {% if page.categories contains cat.id %}
            <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
@@ -9,3 +12,5 @@
            <a href="/content/list/{{cat.url}}">{{cat.name}}</a>
     {% endif %}
 {% endfor %}
+
+

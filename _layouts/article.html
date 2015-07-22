@@ -41,6 +41,8 @@ layout: body
           </ul>
 
              <p class="all-articles">
+
+
                  {% assign is_country = false %}
                  {% for country in site.all_countries %}
                     {% if page.categories contains country.id%}
@@ -51,6 +53,8 @@ layout: body
 
                  {% if is_country == true %}
                      <a href="/content/list/countries.html">Все страны</a>
+                 {% elsif page.categories contains "news"%}
+                    <a href="/content/list/news.html">Все новости</a>
                  {% else%}
                      <a href="/content/list/all_articles.html">Все разделы</a>
                  {% endif %}

@@ -1,4 +1,10 @@
 {% assign find = false %}
+
+{% if page.categories contains "news" %}
+{% assign find = true %}
+    https://github.com/itinua/itinua.github.io/blob/master/_posts/news/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
+{% endif %}
+
 {% if page.categories contains "job" %}
 {% assign find = true %}
     https://github.com/itinua/itinua.github.io/blob/master/_posts/job/{{ page.date | date: "%Y-%m-%d" }}-{{page.url | replace:'.html','.md' | replace:'/','' }}
