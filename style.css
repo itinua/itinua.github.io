@@ -791,7 +791,8 @@ header {padding: 1em 0;}
   margin: 0 auto 1.5em auto;
 }
 
-.jobs-list {
+.jobs-list,
+.new-list {
   list-style-type: none;
   margin-bottom: .5em;
   padding-left: 0;
