@@ -15,6 +15,7 @@ layout: body
           <ul class="link-list">
             {% for post in site.posts limit: 5 %}
               {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news"%}
               {% else%}
             <li>
               <a  href="{{post.url}}"> {{post.title}}</a>
