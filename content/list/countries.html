@@ -16,7 +16,7 @@ layout: body
 
         <div class="row ">  <!--  Content Columns   -->
 
-          <div class="col-md-2">
+          <div class="col-md-3">
 
               <ul class="country-menu">
                      {% for country in site.all_countries %}
@@ -29,7 +29,7 @@ layout: body
           </div>
 
 
-          <div class="col-md-10">
+          <div class="col-md-9">
 
    {% for country in site.all_countries %}
               {% if site.categories.[country.id].first %}
