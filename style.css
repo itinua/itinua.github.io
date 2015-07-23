@@ -75,7 +75,10 @@ p {
 .line15 { line-height: 1.5em;}
 .line20 { line-height: 2.0em;}
 
-.border-top {  border-top: #dbdbdb 1px solid;}
+.border-top { 
+  border-top: #dbdbdb 1px solid;
+  padding-top: .25em ;
+  margin-top: .25em;}
 
 .top0 { 
    top: 0!important;  
@@ -333,7 +336,8 @@ header {padding: 1em 0;}
   
 .link-list li.current{
     background: #ededed;
-    padding-left:.5em;    
+    padding-left:.5em; 
+    padding-right:.5em;       
   } 
 .link-list li.current a,
 .link-list li.current a:hover{
