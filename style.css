@@ -1180,9 +1180,9 @@ blockquote:after {
 .edit-article img{
   width: 18px;
   position: relative; 
-  top: 2px;
-  margin-right: .2em; 
-  margin-bottom: 1em;
+  top: 3px;
+  margin-right: .25em; 
+  margin-bottom: .5em;
 }
 
 .git-cliche img{ 
