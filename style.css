@@ -75,6 +75,7 @@ p {
 .line15 { line-height: 1.5em;}
 .line20 { line-height: 2.0em;}
 
+.border-top {  border-top: #dbdbdb 1px solid;}
 
 .top0 { 
    top: 0!important;  
