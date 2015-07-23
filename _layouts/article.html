@@ -67,17 +67,17 @@ layout: body
 
             <h1 class="article-header"> {{page.title}} </h1>
 
+              <hr />
               <p> 
                 <span class="article-data">{% include date.html %}</span>
 
               {% for category in site.all_categories %}
               {% if page.categories contains category.id %}
-                <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}" class="pull-right" target="_blank"> Скачать статью в .PDF</a>
+                <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}" class="pull-right" target="_blank"> Скачать в .PDF</a>
             {% break %}
               {% endif %}
              {% endfor %}
               </p>
-
               {{content}}
 
 
