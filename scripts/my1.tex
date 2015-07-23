@@ -1,0 +1,38 @@
+\documentclass[a4paper]{article}
+
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref}
+
+\author{A.\,N.~Other}
+\title{Some things I did}
+
+\usepackage{fontspec}
+\setmainfont{Georgia}
+
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={$author-meta$},
+            pdftitle={$title-meta$},
+            colorlinks=true,
+            citecolor=$if(citecolor)$$citecolor$$else$blue$endif$,
+            urlcolor=$if(urlcolor)$$urlcolor$$else$blue$endif$,
+            linkcolor=$if(linkcolor)$$linkcolor$$else$magenta$endif$,
+            pdfborder={0 0 0}} 
+ 
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Все об IT Бизнесе}
+\rhead{\includegraphics[width=2cm]{ITinua}}
+\rfoot{Страница \thepage}
+ 
+\begin{document}
+\LARGE{$title$}
+
+\normalsize 
+$body$
+
+\end{document}

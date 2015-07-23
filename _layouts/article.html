@@ -69,6 +69,13 @@ layout: body
 
               <p class="article-data"> {% include date.html %}</p>
 
+              {% for category in site.all_categories %}
+              {% if page.categories contains category.id %}
+              <a href="/print/pdf/{{page.url | replace:'.html','.pdf'}}" target="_blank">PDF</a>
+            {% break %}
+              {% endif %}
+             {% endfor %}
+
               {{content}}
 
 
