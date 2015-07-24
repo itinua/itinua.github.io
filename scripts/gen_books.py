@@ -1,6 +1,6 @@
 import os
 import re
-os.system("rm -rf ../print/pdf")
+#os.system("rm -rf ../print/pdf")
 os.system("mkdir ../print/pdf")
 for fn in os.listdir('../_posts'):
     if "[" in fn:
@@ -11,7 +11,8 @@ for fn in os.listdir('../_posts'):
                 name = name.replace(".md",".pdf")
                 path = path.replace("[","\[").replace("]","\]").replace(" ","\ ")
                 print path
-                os.system("pandoc --template=my.latex --variable sansfont=Arial --variable fontsize=12pt -V geometry:margin=1in -V mainfont=Georgia  -s "+path+" --latex-engine=xelatex  -o ../print/pdf/"+name)
+                if not os.path.isfile("../print/pdf/"+name):
+                    os.system("pandoc --template=my.latex --variable sansfont=Arial --variable fontsize=12pt -V geometry:margin=1in -V mainfont=Georgia  -s "+path+" --latex-engine=xelatex  -o ../print/pdf/"+name)
 
 
 
