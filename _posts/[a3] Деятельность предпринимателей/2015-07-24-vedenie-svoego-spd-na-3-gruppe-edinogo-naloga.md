@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual, featured]
-title: Ведение своего СПД на 3 группе единого налога
+title: Ведение СПД самостоятельно на 3 группе единого налога
 img: happy man wiht comp.jpg
 author: anna-ivanenko
 --- 
