@@ -69,15 +69,10 @@ layout: body
 
               <p class="border-top"> 
                 <span class="article-data">{% include date.html %}</span>
-
-              {% for category in site.all_categories %}
-              {% if page.categories contains category.id %}
-                <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}" class="pull-right" target="_blank"> Скачать в .PDF</a>
-            {% break %}
-              {% endif %}
-             {% endfor %}
+                 {% include pdf.html %}
               </p>
-              {{content}}
+
+                  {{content}}
 
 
 <span class='st_facebook_large' displayText='Facebook'></span>

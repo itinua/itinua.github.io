@@ -175,8 +175,8 @@ $endfor$
 \fancyhf{}
 \rhead{Все об IT Бизнесе}
 \lhead{\includegraphics[width=2cm]{ITinua}}
-\rfoot{Страница \thepage}
-\lfoot{itin.com.ua}
+\chead{\thepage}
+
 
 \begin{document}
 

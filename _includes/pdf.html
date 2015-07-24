@@ -1,0 +1,8 @@
+{% if page.date < site.book_date %}
+    {% for category in site.all_categories %}
+    {% if page.categories contains category.id %}
+    <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}" class="pull-right" target="_blank"> PDF</a>
+    {% break %}
+    {% endif %}
+    {% endfor %}
+{% endif %}
