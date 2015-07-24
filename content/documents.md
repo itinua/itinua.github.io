@@ -9,5 +9,5 @@ layout: main
 * [Реквізити для сплати єдиного податку, єдиного соціального внеску](https://taxer.ua/uk/directory)
 * [Декларация о доходах](http://itin.com.ua/pdf/f369975n36.doc)
 * [Регистрационная карточка для получения ЭЦП](http://itin.com.ua/pdf/1_RK_dlya_fizuchnuh_osib.pdf)
-* [форма 5 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n227.doc)
-* [форма 4 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n234.doc)
+* [Форма 5 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n227.doc)
+* [Форма 4 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n234.doc)
