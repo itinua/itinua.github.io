@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual]
-title: РРО кому из предпринимателей обязательно его применять
+title: Нужно ли применять РРО предпринимателям 2 и 3 групп единого налога
 img: rro.jpg
 author: anna-ivanenko
 ---
