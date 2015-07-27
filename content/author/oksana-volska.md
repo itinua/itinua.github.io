@@ -2,7 +2,7 @@
 layout: userprofile
 author: oksana-volska
 ---
-Варшава
+Юридическая компания PL-UA-BY Partners
 
 skype: pl-ua-by
 
