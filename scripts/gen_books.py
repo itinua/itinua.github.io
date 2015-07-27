@@ -1,7 +1,7 @@
 import os
 import re
 #os.system("rm -rf ../print/pdf")
-os.system("mkdir ../print/pdf")
+#os.system("mkdir ../print/pdf")
 for fn in os.listdir('../_posts'):
     if "[" in fn:
         for md in os.listdir('../_posts/'+fn):

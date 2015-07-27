@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{page.title}}</title>
+
+    <style>
+
+    body {
+      max-width: 800px;
+      margin: 1em auto;
+      padding: 1em 2em;
+      font-size: 14pt;
+      color: #444;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 1.5em 0 .1em 0;
+      font-weight: 300;}
+
+    h1 {
+      margin: 1em 0 -.4em 0;
+      font-weight: lighter;}
+
+    .headline  {
+        position: relative;
+        line-height: 2em;}
+    .headline  span{
+        position: absolute;
+        left: 50%;
+        top: 5%;}
+    .headline strong{
+      float:right;
+      padding-left: 2em;
+      }
+    .headline a {
+     padding-right: 2em;}
+
+    table {
+      border-left: 1px solid #999;
+      border-top: 1px solid #999;}
+    table th,
+    table td{
+      text-align: left;
+      border-right: 1px solid #999;
+      border-bottom: 1px solid #999;
+      padding: .1em .5em 0 .25em;
+      margin: 0;}
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="headline">
+        <a href="/"><img src="/images/info/ITinua.png" width="92" alt="IT in ua" /></a>
+        <strong>Все об IT Бизнесе</strong>
+
+      </div>
+
+    <hr />
+
+
+            <h1> {{page.title}} </h1>
+              <p><em>{% include category_name.html %}</em>
+              </p>
+
+                {{content}}
+
+
+              <hr />
+
+     {% assign author = site.authors[page.author] %}
+            {% if author %}
+              <p>
+                <span>Автор:</span> &nbsp; &nbsp;  {{author.name}}, <em> {{author.job}}</em>
+              </p>
+
+      {% endif %}
+
+              <br />
+
+
+  </body>
+</html>

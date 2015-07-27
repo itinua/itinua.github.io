@@ -1,6 +1,10 @@
 {% for category in site.all_categories %}
 {% if page.categories contains category.id %}
-<a href="/print/pdf{{page.url | replace:'.html','.pdf'}}" class="pull-right" target="_blank">PDF</a>
+
+<a href="/print/pdf{{page.url | replace:'.html','.pdf'}}"  target="_blank">PDF</a>
+<a href="/print/html{{page.url}}" target="_blank">HTML</a>
+
+
 {% break %}
 {% endif %}
 {% endfor %}
