@@ -2,4 +2,8 @@
 layout: userprofile
 author: oksana-volska
 ---
-Юрист
+Варшава
+skype: pl-ua-by
+info@pl-ua-by.com
+www.pl-ua-by.com
+
