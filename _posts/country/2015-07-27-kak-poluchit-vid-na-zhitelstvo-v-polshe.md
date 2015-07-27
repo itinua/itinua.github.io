@@ -2,7 +2,7 @@
 layout: article
 categories: [poland, actual, featured]
 title: Как получить вид на жительство в Польше
-img: 
+img: polwa.jpg
 author: oksana-volska
 ---
 Иностранный гражданин, получивший ВНЖ (временный вид на жительство) в Польше, получает ряд преимуществ:
