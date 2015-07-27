@@ -50,6 +50,8 @@ p {
 .push-right { margin-right: 1em;}
 .push-left { margin-left: 1em;}
 
+.float-right { float: right}
+
 .no-p { padding: 0!important}
 
 .top0, 
