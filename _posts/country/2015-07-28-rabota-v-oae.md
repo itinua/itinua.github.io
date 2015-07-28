@@ -2,7 +2,7 @@
 layout: article
 categories: [United Arab Emirates, actual]
 title: Работа в ОАЭ
-img: 
+img: oae.png
 author: konstantin-kozlovskii
 --- 
 *Данная рубрика создана в формате интервью людей, которые живут за границей, выходцев с Украины или других постсоветских стран.* 
