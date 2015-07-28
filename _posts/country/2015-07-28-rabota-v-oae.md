@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [United Arab Emirates, actual]
+categories: [United-Arab-Emirates, actual]
 title: Работа в ОАЭ
 img: oae.png
 author: konstantin-kozlovskii
