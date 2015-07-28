@@ -559,9 +559,13 @@ header {padding: 1em 0;}
 
 @media (max-width: 992px) {
   .all-countries li img { 
-    width: 25px;
+    width: 21px;
     margin: 0 auto;
     display: block; }
+
+  .all-countries li a{
+    font-size: 80%;
+  }
 }
 
 .countries-posts img{
