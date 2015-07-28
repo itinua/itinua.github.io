@@ -1,8 +1,11 @@
-{{page.date}}+
-{{site.book_date}}
+{% capture pageDate %}{{page.date | date: '%s'}}{% endcapture %}
+{% capture siteDate %}{{site.book_date | date: '%s'}}{% endcapture %}
+
+
+
 {% assign find = false %}
 {% for category in site.all_categories %}
-{% if page.categories contains category.id %}
+{% if page.categories contains category.id and page.date <= site.book_date %}
 <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}"  target="_blank" title="Download in .PDF">PDF</a> &nbsp;
 <a href="/print/html{{page.url}}" target="_blank"  title="View as .html page">HTML</a>
 {% assign find = true %}
@@ -13,7 +16,7 @@
 {% if find == false %}
 
 {% for category in site.all_countries %}
-{% if page.categories contains category.id %}
+{% if page.categories contains category.id and page.date <= site.book_date  %}
 <a href="/print/pdf{{page.url | replace:'.html','.pdf'}}"  target="_blank" title="Download in .PDF">PDF</a> &nbsp;
 <a href="/print/html{{page.url}}" target="_blank"  title="View as .html page">HTML</a>
 {% assign find = true %}
