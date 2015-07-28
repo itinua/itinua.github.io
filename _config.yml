@@ -37,7 +37,7 @@ all_countries:
 - id: netherlands
   name: Нидерланды
   
-- id: United Arab Emirates
+- id: United-Arab-Emirates
   name: ОАЭ
 
 all_categories:
