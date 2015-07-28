@@ -557,7 +557,7 @@ header {padding: 1em 0;}
   margin: 0 auto;
   display: block; }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .all-countries li img { 
     width: 21px;
     margin: 0 auto;
