@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3, actual]
+categories: []
 title: РРО кому из предпринимателей обязательно его приобретать и применять
 img: rro1.jpg
 author: anna-ivanenko
