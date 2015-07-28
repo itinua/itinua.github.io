@@ -1004,10 +1004,11 @@ footer a:hover{
 }
 
 footer .partners { 
- margin:0 ;} 
+ margin: 1em 0 ;} 
 
 footer .partners a{ 
-text-decoration: none;}
+  text-decoration: none;
+  margin-right: 1em;}
 
 
 
