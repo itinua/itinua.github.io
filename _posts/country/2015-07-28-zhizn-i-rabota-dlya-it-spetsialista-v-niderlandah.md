@@ -2,7 +2,7 @@
 layout: article
 categories: [netherlands, actual]
 title: Жизнь и работа для IT-специалиста в Нидерландах
-img: 
+img: niderlandu.jpeg
 author: giya-lezhava
 ---
 *Данная рубрика создана в формате интервью людей, которые живут за границей, выходцев с Украины или других постсоветских стран.*
