@@ -11,7 +11,7 @@ name: ITIN.ua
 description: Все об IT Бизнесе - Собираем знания вместе
 
 admin_email: ivan.ivanenko@gmail.com
-book_date: 2015-07-27 00:00:00
+book_date: 2015-07-28 00:00:00
 
 url: http://itin.com.ua
 
@@ -37,7 +37,7 @@ all_countries:
 - id: netherlands
   name: Нидерланды
   
-- id: United-Arab-Emirates
+- id: united-arab-emirates
   name: ОАЭ
 
 all_categories:

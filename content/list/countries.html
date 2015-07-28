@@ -54,14 +54,18 @@ layout: body
 
                 <div>
 
-
                     {% if site.categories.[country.id].first %}
-                  <h4>Вакансии</h4>
 
-                  <ul class="jobs-list">
+                      {% assign first = false %}
                       {% for post in site.categories.[country.id]  %}
                       {% if post.categories contains "job" %}
-                    <li><a href="{{post.url}}">{{post.title}}</a></li>
+                        {% if first == false    %}
+                      <h4>Вакансии</h4>
+                  <ul class="jobs-list">
+                      {% endif %}
+                      <li><a href="{{post.url}}">{{post.title}}</a></li>
+
+                       {% assign first = true %}
                       {% endif %}
                       {% endfor %}
 

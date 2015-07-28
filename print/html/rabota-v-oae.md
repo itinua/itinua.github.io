@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: html
 categories: [united-arab-emirates, actual]
 title: Работа в ОАЭ
 img: United Arab Emirates.png

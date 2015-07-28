@@ -26,9 +26,34 @@ layout: main
          {% endfor %}
       </ul>
     </div>
-
-
-
-
 {% endfor %}
+
+
+
+    <h2 class="section-title">
+      <a href="/content/list/countries.html">Страны</a>
+       </h2>
+    <span class="triangle-bottom top0"></span>
+
+
+    <div class="section-group row">
+    <ul>
+        {% for item in site.all_countries %}
+          {% for post in site.categories.[item.id] %}
+           {% if post.url != id  %}
+            {% if post.categories contains "job" %}
+             {% else %}
+             <li>
+                <a  href="{{post.url}}">{{post.title}}</a>
+            <span class="date-format">{% include date.html %}</span>
+            </li>
+
+            {% endif %}
+           {% endif %}
+
+         {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+
 
