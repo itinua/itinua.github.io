@@ -13,3 +13,6 @@ layout: main
 * [Регистрационная карточка для получения ЭЦП](http://itin.com.ua/pdf/1_RK_dlya_fizuchnuh_osib.pdf)
 * [Форма 5 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n227.doc)
 * [Форма 4 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n234.doc)
+* [Инвойс_ Сайты посредники .doc](http://itin.com.ua/pdf/Инвойс_ Сайты посредники .doc)
+* [Инвойс_upwork.doc](http://itin.com.ua/pdf/Инвойс_upwork.doc)
+* [Инвойс_Прямые клиенты .doc](http://itin.com.ua/pdf/Инвойс_Прямые клиенты .doc)
