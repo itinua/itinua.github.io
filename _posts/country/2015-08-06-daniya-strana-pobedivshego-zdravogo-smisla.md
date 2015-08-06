@@ -2,7 +2,7 @@
 layout: article
 categories: [denmark]
 title: Дания страна победившего здравого смысла
-img: 
+img: dania2.jpg
 author: aleksander-skakunov
 ---
 Вот уже полгода, как я живу в Копенгагене, столице Дании. В этой статье я хочу показать, почему я считаю эту страну 
