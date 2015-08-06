@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [denmark]
+categories: [denmark, actual]
 title: Дания страна победившего здравого смысла
 img: dania2.jpg
 author: aleksander-skakunov
