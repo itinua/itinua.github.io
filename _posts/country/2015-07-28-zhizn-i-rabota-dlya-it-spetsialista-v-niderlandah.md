@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [netherlands, actual, featured]
+categories: [netherlands, actual]
 title: Жизнь и работа для IT-специалиста в Нидерландах
 img: niderlandu.jpeg
 author: giya-lezhava
