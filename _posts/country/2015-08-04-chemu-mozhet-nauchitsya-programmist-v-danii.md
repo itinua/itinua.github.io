@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [denmark, actual]
+categories: [denmark, actual, featured]
 title: Чему может научиться программист в Дании
 img: kopengagen.jpg
 author: aleksander-skakunov
