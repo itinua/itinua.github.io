@@ -1,5 +1,11 @@
-{% capture pageDate %}{{page.date | date: '%s'}}{% endcapture %}
-{% capture siteDate %}{{site.book_date | date: '%s'}}{% endcapture %}
+{% assign pageDate = page.date | date: '%s' | plus : 0 %}
+{% assign siteDate = site.book_date | date: '%s' | plus : 0 %}
+
+{% if pageDate >= siteDate %}
+    no
+{% else %}
+    show
+{% endif %}
 
 
 
