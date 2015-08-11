@@ -830,6 +830,12 @@ header {padding: 1em 0;}
   background: url(images/info/news.png) 0 12px no-repeat}
 
 
+.newitems-carousel .carousel{
+  padding-bottom: 3em!important;
+  margin: 0 5em;
+}
+
+
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
 
 .popular { padding: 2em 0;}
