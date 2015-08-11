@@ -830,9 +830,9 @@ header {padding: 1em 0;}
   background: url(images/info/news.png) 0 12px no-repeat}
 
 
-.newitems-carousel .inner div{
-  padding-bottom: 3em!important;
-  margin: 0 5em;
+.newitems-carousel {
+  padding-bottom: 2em!important;
+  margin: 2em 0;
 }
 
 
