@@ -41,7 +41,7 @@ all_countries:
   name: ОАЭ
   
 - id: ofshori
-  name: Офшоры
+  name: Оффшоры
 
 all_categories:
 - id: a1
