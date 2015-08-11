@@ -2,7 +2,7 @@
 layout: article
 categories: [ofshori, actual]
 title: Когда есть смысл в регистрации Оффшора
-img: ofshori.png
+img: offSHor.jpg
 author: evgenii-sergeev
 --- 
 
