@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [news]
-title: РеPayPal, ApplePay, GoogleWallet скоро в Україні
+title: PayPal, ApplePay, GoogleWallet скоро в Україні
 ---
 Національний банк України відзначає та вітає жвавий інтерес бізнесу та інтернет-спільноти України до використання 
 сучасних систем розрахунків у мережі Інтернет (таких як PayPal, ApplePay, GoogleWallet та інших міжнародних систем 
