@@ -831,10 +831,45 @@ header {padding: 1em 0;}
 
 
 .newitems-carousel {
-  padding-bottom: 2em!important;
   margin: 2em 0;
 }
 
+.newitems-carousel .carousel {
+  padding-bottom: 2em;
+}
+
+.newitems-carousel  .carousel-indicators{
+  bottom: 0!important;
+}
+
+.dark-indicators {
+  bottom: 0px;
+}
+
+.dark-indicators li {
+  width: 9px;
+  height: 9px;
+  margin: 2px 3px;
+
+  background-color: #aaa \9;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+.dark-indicators li:hover {
+  width: 12px;
+  height: 12px;
+  margin: 0 1px 0 2px;
+}
+
+.dark-indicators .active,
+.dark-indicators .active:hover {
+  width: 13px;
+  height: 13px;
+  margin: 0 2px;
+  background-color: #aaa!important;
+}
 
 /*------------------------------  POPular  /*  sm - max-container :: 750px */----------------------------------------*/
 
