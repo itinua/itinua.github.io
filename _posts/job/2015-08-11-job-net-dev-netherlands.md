@@ -3,7 +3,7 @@ layout: article
 categories: [netherlands, job]
 title: .Net Developer в  Нидерландах
 ---
-### ![Reward](/images/info/wallet.png)  .Net Developer (Relocation TO NETHERLANDS)
+### ![Reward](/images/info/wallet.png) .Net Developer (Relocation TO NETHERLANDS)
 
 
 

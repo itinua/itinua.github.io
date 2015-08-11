@@ -73,25 +73,29 @@ layout: body
 
                   {{content}}
 
+              <hr />
 
-<span class='st_facebook_large' displayText='Facebook'></span>
-<span class='st_linkedin_large' displayText='LinkedIn'></span>
-<span class='st_pocket_large' displayText='Pocket'></span>
-<span class='st_twitter_large' displayText='Tweet'></span>
+              <p class="push-left"> Поделиться &nbsp;&nbsp;
+                  <span class='st_facebook_large' displayText='Facebook'></span>
+                  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                  <span class='st_pocket_large' displayText='Pocket'></span>
+                  <span class='st_twitter_large' displayText='Tweet'></span>
+              </p>
 
 
-              <p class="edit-article">
 
+              <p class="push-right dit-article-">
 
-                <a href="{% include edit_url.html %}" target="_blank">
-                  <img src="/images/info/gitHUB-blue.png" width="25" alt="gitHUB" /></span>
-                  Редактировать материал</a> 
+                Вам есть чем дополнить/уточнить? <br/>
+                <a href="{% include edit_url.html %}" class="main-button" target="_blank">
+                  <img src="/images/info/gitHUB-blue.png" width="25" alt="gitHUB" /> 
+                  Редактировать материал на github</a>  <br />
                 <a href="{% include history_url.html %}" class="pull-right" target="_blank">
                   <img src="/images/info/history.png" width="24" alt="i" />
                   История изменений</a> 
               </p>
 
-
+              <hr />
 
 
 
