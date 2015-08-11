@@ -3,9 +3,9 @@ layout: article
 categories: [netherlands, job]
 title: .Net Developer в  Нидерландах
 ---
-.Net Developer (Relocation TO NETHERLANDS)
+### ![Reward](/images/info/wallet.png)  .Net Developer (Relocation TO NETHERLANDS)
 
-### ![Reward](/images/info/wallet.png) 
+
 
 ------
 
@@ -24,7 +24,7 @@ To expand our team we are looking for .NET developer who join our team to realiz
 
 ###  What will you do as a developer?
  * You strengthen our team  as .NET Developer
- *  * You are working with a development team, the scrum master and the client which functionalities are desirable and looks at how these features can be realized in sprints
+ * You are working with a development team, the scrum master and the client which functionalities are desirable and looks at how these features can be realized in sprints
  * You divide the tasks with the team and realize (in C #), document and test (functionality, safety, performance) the functionality picked up by you (including UI, backend)
  * You work with Visual Studio 2013, .NET 4.5 
 
