@@ -3,9 +3,13 @@ layout: userprofile
 author: evgenii-sergeev
 ---
 Консультант компании Intelligent Solution Group Limited, которая занимается регистрацией и обслуживанием нерезидентных компаний.
-Связаться можно по номерам телефонов:
-+380-68-472-3920, 
-+380 (44) 223 4702, 
+
+http://isg-consult.com/
+
+info@isg-consult.com
+
++380 (44) 223 4702
+
 +371 2964 4764
-Также можете написать мне на почту: info@isg-consult.com
+
 
