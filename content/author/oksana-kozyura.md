@@ -1,5 +1,5 @@
 ---
 layout: userprofile
-author: oksana-kozyura
+author: oksana-kuzyura
 ---
 oxanakuzyura@gmail.com
