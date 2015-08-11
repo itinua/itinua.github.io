@@ -1179,8 +1179,7 @@ blockquote:after {
 
 
 .edit-article {
-
-
+  text-align: right;
   font-size: .85em;
 
 }
