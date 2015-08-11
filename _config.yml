@@ -39,6 +39,9 @@ all_countries:
   
 - id: united-arab-emirates
   name: ОАЭ
+  
+- id: ofshori
+  name: Офшоры
 
 all_categories:
 - id: a1
