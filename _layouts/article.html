@@ -75,7 +75,8 @@ layout: body
 
               <hr />
 
-              <p class="float-left"> Поделиться &nbsp;&nbsp;<br />
+              <div class="">
+              <p class="float-left"> Поделиться<br /><br />
                   <span class='st_facebook_large' displayText='Facebook'></span>
                   <span class='st_linkedin_large' displayText='LinkedIn'></span>
                   <span class='st_pocket_large' displayText='Pocket'></span>
@@ -86,15 +87,17 @@ layout: body
 
               <p class="edit-article">
 
-                Вам есть чем дополнить/уточнить? Редактируйте материал на github:<br/>
+                Вам есть чем дополнить/уточнить?<br/>
                 <a href="{% include edit_url.html %}" class="main-btn" target="_blank">
                   <img src="/images/info/gitHUB-blue.png" width="25" alt="gitHUB" /> 
-                  Редактировать</a>  <br />
+                   Редактируйте материал на github</a>  <br />
+                   <br />
                 <a href="{% include history_url.html %}" class="pull-right" target="_blank">
                   <img src="/images/info/history.png" width="24" alt="i" />
                   История изменений</a> 
               </p>
 
+              </div>
               <hr />
 
               <br />
