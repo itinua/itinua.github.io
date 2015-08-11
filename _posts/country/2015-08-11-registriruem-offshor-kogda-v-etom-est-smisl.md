@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [ofshori, actual]
-title: Регистрируем Оффшор: когда в этом есть смысл
+title: Когда есть смысл в регистрации Оффшора
 img: go-to-offshore.png
 author: evgenii-sergeev
 --- 
