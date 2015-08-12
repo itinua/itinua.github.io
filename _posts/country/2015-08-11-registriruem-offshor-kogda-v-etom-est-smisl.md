@@ -96,4 +96,11 @@ author: evgenii-sergeev
 
 Мы как профессионалы в данном деле, готовы вам помочь в развитии вашего бизнеса.
 
+Компания Intelligent Solution Group Ltd
+http://isg-consult.com/
+info@isg-consult.com
++380 (44) 223 4702
++371 2964 4764
+
+
 
