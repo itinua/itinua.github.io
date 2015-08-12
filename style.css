@@ -835,7 +835,8 @@ header {padding: 1em 0;}
 }
 
 .newitems-carousel .carousel {
-  padding-bottom: 4em;
+  padding-bottom: 3em;
+  min-height:110px;
 }
 
 .newitems-carousel  .carousel-indicators{
