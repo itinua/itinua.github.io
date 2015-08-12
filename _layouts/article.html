@@ -102,12 +102,15 @@ layout: body
 
             {% assign author = site.authors[page.author] %}
             {% if author %}
+            <h2>Автор</h2>
 
           <div class="liner author-block">
+
             <div class="row">
 
 
               <div class="col-lg-7 author-info">
+
                 <div class="author-photo step-sign">
                     <a href="/content/author/{{page.author}}.html">
                   <img src="/images/author/{{author.image}}" width="64" alt="user" />
@@ -115,7 +118,7 @@ layout: body
                   <span class="step-arrow"></span>
                 </div>
 
-                <h4><span class="fading">Автор:</span>
+                <h4>
                      <a href="/content/author/{{page.author}}.html">
                     {{author.name}}
                          </a>
@@ -136,7 +139,7 @@ layout: body
             {% endif %}
 
 
-            <h2>Похожие статьи: </h2>
+            <h2>Похожие статьи </h2>
 
              <ul class="list">
 
@@ -163,15 +166,7 @@ layout: body
                 {% endfor %}
           </ul>
 
-              <br />
-
-
-
-
-
-
-          <br />
-
+ <h2>Комментарии </h2>
              <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
