@@ -98,7 +98,7 @@ author: evgenii-sergeev
 
 Компания Intelligent Solution Group Ltd
 
-http://isg-consult.com/
+[http://isg-consult.com/](http://isg-consult.com/)
 
 info@isg-consult.com
 
