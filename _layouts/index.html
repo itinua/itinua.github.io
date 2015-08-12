@@ -7,44 +7,55 @@ layout: home
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators dark-indicators  ">
+
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          {% for i in (1..5)%}
+         <li data-target="#carousel-example-generic" data-slide-to="{{i}}"></li>
+          {% endfor %}
+
+
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
 
-        <div class="item active">
+          {% assign first = true %}
+          {% for item in site.categories.featured | limit: 6 %}
+
+              {% if first %}
+          <div class="item active">
+              {% else %}
+              <div class="item ">
+              {% endif %}
+                  {% assign first = false %}
+
           <div class="row">
 
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/kak-propisat-i-vipisat-inostrantsa.html">Регистрируем иностранца по адресу в Украине</a>
+            <div class="col-sm-12">
+                <div class=" row">
+
+                    <div class="col-sm-4">
+                        <div class="img-crop">
+                         <img src="/images/{{item.img}}" alt="{{item.title}}">
+                        </div>
+                     </div>
+
+                    <div class="col-sm-8">
+                     <h3> <a href="{{item.url}}">{{item.title}}</a></h3>
+                         <p>{{item.content | | truncatewords: 20 }}</p>
+
+                    </div>
+                </div>
               </div>
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/registriruem-offshor-kogda-v-etom-est-smisl.html">Когда есть смысл в регистрации Оффшора</a>
-              </div>
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/yak-propisati-ta-vipisati-inozemtsya.html">Як прописати та виписати іноземця</a>
-              </div> 
+
 
           </div>
         </div>
+          {% endfor %}
 
-        <div class="item">
-          <div class="row">
 
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/pochemu-stoit-zhit-v-danii.html">Почему стоит жить в Дании</a>
-              </div>
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/chto-nado-znat-dlya-pereezda-na-rabotu-v-daniyu.html">Что надо знать для переезда на работу в Данию</a>
-              </div>
-            <div class="col-sm-4">
-              <a href="http://itin.com.ua/zaschita-avtorskih-prav-na-kompyuternuyu-programmu-v-ssha.html">Защита авторских прав на компьютерную программу в США</a>
-              </div> 
 
-          </div>
-          </div>
+
       </div>
 
     </div>
@@ -83,7 +94,7 @@ layout: home
            {% if post.url != id %}
            {% assign i=i | plus:1 %}
            <div class="col-sm-4">
-                 <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                 <h5><a href="{{post.url}}">{{post.title}}</a></h5>
 
             </div>
            {% endif %}

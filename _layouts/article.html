@@ -188,8 +188,29 @@ layout: body
             <a href="/content/list/all_jobs.html">Все вакансии</a> </p>
 
          {% include ads.html %}
-        
-          <br /> 
+          <br />
+
+             <h3 class="block-header">Новое</h3>
+
+          <ul class="link-list">
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+              {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news1"%}
+              {% else %}
+              {% if counter < 18 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+
+            </li>
+               {% endif %}
+             {% assign counter = counter | plus: 1 %}
+              {% endif %}
+           {% endfor %}
+          </ul>
+
+          <br  />
+
         </div> 
 
       </div><!-- row ends -->

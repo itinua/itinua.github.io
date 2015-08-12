@@ -3,6 +3,26 @@ layout: main
 ---
 
 
-<h1>404</h1>
+<h1> - 404 - Страница не найдена</h1>
 
-<h2>Страница не найдена</h2>
+
+ <h3 class="block-header">Последние статьи</h3>
+
+          <ul class="link-list">
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+              {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news1"%}
+              {% else %}
+              {% if counter < 20 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+
+            </li>
+               {% endif %}
+             {% assign counter = counter | plus: 1 %}
+              {% endif %}
+           {% endfor %}
+          </ul>
+
+          <br  />
