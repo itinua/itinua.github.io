@@ -835,7 +835,7 @@ header {padding: 1em 0;}
 }
 
 .newitems-carousel .carousel {
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .newitems-carousel  .carousel-indicators{
@@ -843,7 +843,7 @@ header {padding: 1em 0;}
 }
 
 .dark-indicators {
-  bottom: 0px;
+  bottom: 0px!important;
 }
 
 .dark-indicators li {
