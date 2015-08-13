@@ -45,7 +45,7 @@ To expand our team we are looking for .NET developer who join our team to realiz
  * Issuing health insurance (to be paid by you)
  * Support with renting the flat​
 
-Send your resume to e-mail: <a href="mailto:info@itin.com.ua">hr-it@pl-ua-by.com </a>
+Send your resume to e-mail: <a href="mailto:info@itin.com.ua"> </a>
 
 ------
 
