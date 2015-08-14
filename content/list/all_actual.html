@@ -22,7 +22,11 @@ layout: home
       </div>
       <div class="col-sm-9">
         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+
         {{post.content | truncatewords: 30 | replace: "<em>","" | replace: "</em>",""}}
+          <br/>
+          <span class="date-format">{% include date.html %}</span>
+
       </div>
  </div>
 {% endif %}
