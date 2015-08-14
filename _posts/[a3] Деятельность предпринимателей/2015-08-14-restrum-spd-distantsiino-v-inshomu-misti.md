@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual]
-title: Реєструєм СПД дистанційно в іншому місті 
+title: Реєструєм ФОП дистанційно в іншому місті 
 img: predpr d.jpg
 author: katerina-britskaya
 --- 
