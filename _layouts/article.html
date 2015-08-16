@@ -62,6 +62,7 @@ layout: body
 
             <h2>Интересное</h2>
             {% for post in site.categories.actual limit:8 %}
+            <div class="row">
              <div class="article-img">
                   {% if post.img %}
                   <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
@@ -71,6 +72,7 @@ layout: body
                   <span class="triangle-bottom"> </span>
                 </div>
               <a href="{{post.url}}">{{post.title}}</a>
+                </div>
               {% endfor %}
             <br/>
 
