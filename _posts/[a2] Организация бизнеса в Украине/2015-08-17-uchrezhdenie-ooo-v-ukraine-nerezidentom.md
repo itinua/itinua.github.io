@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a2, actual]
-title: Учреждение ООО в Украине нерезидентом (Set up a company by non-resident)
+title: Set up a company by non-resident (Учреждение ООО в Украине нерезидентом)
 img: un.jpg
 author: katerina-timchenko
 ---
