@@ -1,7 +1,7 @@
 ---
 layout: article
-categories: [a2, actual, featured]
-title: Set up a company by non-resident (Учреждение ООО в Украине нерезидентом)
+categories: [a2, actual,]
+title: Учреждение ООО в Украине нерезидентом (Set up a company by non-resident)
 img: un.jpg
 author: katerina-timchenko
 ---
@@ -31,9 +31,9 @@ authorities might require it).
 It should be mentioned though that there is a legal way to avoid this requirement, which would make the process of 
 registration of company a bit longer.
 
-**3. Power of attorney authorizing persons who sign the foundation documents (e.g. Charter) and the Minutes of the General **
-**Meeting of Participants/Founders on behalf of the companies-founders and individuals who will take all actions required for**
-**the registration of LLC in Ukraine**
+**3. Power of attorney authorizing persons who sign the foundation documents (e.g. Charter) and the Minutes of the General 
+Meeting of Participants/Founders on behalf of the companies-founders and individuals who will take all actions required for
+the registration of LLC in Ukraine**
 
 The power of attorney is required if none of the individuals indicated in the extract (see item 2 above) as those who has 
 authority to represent the founder is going to be physically present in Ukraine to sign the Articles, minutes and other 
