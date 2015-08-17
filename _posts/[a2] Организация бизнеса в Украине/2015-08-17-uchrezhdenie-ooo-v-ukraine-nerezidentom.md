@@ -47,9 +47,9 @@ the local authorities where LLC will shall be registered, including tax inspecti
 signed lease agreement. Before establishment of the company, this agreement can be signed by the authorized representative 
 of any company-founder or at least the address should be known to start registration process.
 
-The above documents (clauses 1-3) should be legalized or apostilled (if the country is a party to a convention Hague 
+**The above documents (clauses 1-3) should be legalized or apostilled (if the country is a party to a convention Hague 
 Convention Abolishing the Requirement for Legalisation for Foreign Public Documents, October 5, 1965). If the company-founder
-is CIS-based legal entity the documents should be only notarized.
+is CIS-based legal entity the documents should be only notarized.**
 
 If any of the documents referenced above consists of more than one page, then all pages of such document should be stitched
 together to ensure that no page can be removed and that not only the last page but the whole document is notarized and
