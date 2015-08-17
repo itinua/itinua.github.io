@@ -22,18 +22,6 @@ all_countries:
 - id: denmark
   name: Дания
 
-- id: germany
-  name: Германия
-
-- id: latvia
-  name: Латвия
-
-- id: thailand
-  name: Тайланд
-
-- id: norway
-  name: Норвегия
-
 - id: netherlands
   name: Нидерланды
   
