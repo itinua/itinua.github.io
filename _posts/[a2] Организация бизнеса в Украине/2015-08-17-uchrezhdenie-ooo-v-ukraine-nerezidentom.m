@@ -1,10 +1,11 @@
 ---
 layout: article
-categories: [a2, actual,]
+categories: [a2, actual]
 title: Учреждение ООО в Украине нерезидентом (Set up a company by non-resident)
 img: un.jpg
 author: katerina-timchenko
 ---
+
 Bellow you can find the list of documents to set up a company by non-resident. Please, note that points 1-3 referrer to 
 foreign legal entities founding the company in Ukraine. If the founder is a foreigner individual, instead of that documents
 he/she would need to provide duly legalized (or appostilled or just notarized, depending of the origin country) Power or 
