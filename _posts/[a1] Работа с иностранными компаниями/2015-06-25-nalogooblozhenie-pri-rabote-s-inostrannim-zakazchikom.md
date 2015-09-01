@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, actual]
-title: Налогообложение при работе с иностранным заказчиком
+title: Налогообложение при работе с иностранным контрагентом
 img: money-minimal.jpg
 author: katerina-timchenko
 ---
