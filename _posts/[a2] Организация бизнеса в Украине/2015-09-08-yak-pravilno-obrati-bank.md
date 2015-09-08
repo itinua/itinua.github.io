@@ -2,7 +2,7 @@
 layout: article
 categories: [a2, actual]
 title: Як правильно обрати банк
-img: 
+img: denegnuy podarok.jpeg
 author: anna-ivanenko
 ---
 
