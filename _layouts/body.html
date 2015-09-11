@@ -15,8 +15,15 @@
       <meta name="description" content="{{page.title }}">
       <meta name="keys" content="{{page.content || truncatewords: 20 }}">
     <title>{{ page.title }}</title>
-      {% else %}
-      <title>IT in ua — Все о IT Бизнесе</title>
+      {% elsif page.page_category %}
+      {% for cat in site.all_categories %}
+        {% if page.page_category == cat.id %}
+               <title>  {{cat.name}}</title>
+        {% endif %}
+    {% endfor %}
+
+        {% else %}
+        <title>{{site.description}}</title>
       {% endif %}
 
     <!-- Bootstrap -->
