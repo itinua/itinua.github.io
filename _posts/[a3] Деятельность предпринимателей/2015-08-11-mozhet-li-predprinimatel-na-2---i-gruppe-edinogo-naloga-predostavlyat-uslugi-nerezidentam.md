@@ -3,7 +3,7 @@ layout: article
 categories: [a3, actual]
 title: Может ли предприниматель на 2 - й группе единого налога предоставлять услуги нерезидентам
 img: predpr vopros.jpg
-author: oksana-kozyura
+author: oksana-kuzyura
 --- 
 Условием пребывания ФЛП на второй группе единого налога является следующее *(абзац 2 п. 4 ст. 291 НКУ)*:
 
