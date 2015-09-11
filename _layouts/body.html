@@ -14,7 +14,14 @@
       {%if page.title %}
       <meta name="description" content="{{page.title }}">
       <meta name="keys" content="{{page.content || truncatewords: 20 }}">
-    <title>{{ page.title }}</title>
+
+      <meta property="og:title" content="{{page.title}}" />
+      <meta property="og:site_name" content="{{site.description}}"/>
+      <meta property="og:description" content={{page.content || truncatewords: 20 }} />
+      <meta property="og:type" content="article" />
+      <meta property="og:image" content="/images/{{page.img}}" />
+
+         <title>{{ page.title }}</title>
       {% elsif page.page_category %}
       {% for cat in site.all_categories %}
         {% if page.page_category == cat.id %}
