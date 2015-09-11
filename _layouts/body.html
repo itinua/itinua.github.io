@@ -14,20 +14,21 @@
       {%if page.title %}
       <meta name="description" content="{{page.title }}">
       <meta name="keys" content="{{page.content || truncatewords: 20 }}">
-      <link rel="image_src" href="{{site.url}}/images/{{page.img}}" />
+      <link rel="image_src" href="{{site.url}}/images/{{page.img}}" >
       <title>{{ page.title }}</title>
 
 
 
 
 
-<meta property="og:title" content="{{page.title}}"/>
-<meta property="og:type" content="article"/>
-<meta property="og:url" content="{{site.url}}"/>
-<meta property="og:image" content="{{site.url}}/images/{{page.img}}"/>
-<meta property="og:site_name" content="{{site.description}}"/>
-<meta property="fb:app_id" content="127336904283105"/>
-<meta property="og:description"  content="{{page.content || truncatewords: 20 }}"/>
+<meta property="og:title" content="{{page.title}}" >
+<meta property="og:type" content="article" >
+<meta property="og:url" content="{{site.url}}" >
+<meta property="og:image" content="{{site.url}}/images/{{page.img}}" >
+<meta property="og:site_name" content="{{site.description}}" >
+<meta property="fb:app_id" content="127336904283105" >
+
+<meta property="og:description"  content="{{page.content || truncatewords: 20 }}" >
 
 
       {% elsif page.page_category %}
