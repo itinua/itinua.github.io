@@ -1,15 +1,15 @@
 ---
 layout: body
+withLine: true
 ---
 
 
-    {% include search.html %}
 
 
     <div class="container main-container"> <!--  MAin Conteiner-->
 
       <div class="row">
-        <div class="col-md-2 left-col"> <!--  LEFT -->
+        <div class="col-md-3 left-col"> <!--  LEFT -->
             <h2 class="section-title">
               {% include category_name.html %}
             </h2>
@@ -60,33 +60,32 @@ layout: body
 
             </p>
 
-            <h2>Интересное</h2>
-            <div class="popular">
-            {% for post in site.categories.actual limit:8 %}
-            
 
-             <div class="article-img">
-                  {% if post.img %}
-                  <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
-                  {% else %}
-                  <div class="img-crop"> <img src="/images/getImage.jpeg" alt="{{post.title}}"/></div>
-                  {% endif %}
-                  <span class="triangle-bottom"> </span>
+             <h3 class="block-header">Новое</h3>
 
-                  
-              <a href="{{post.url}}">{{post.title}}</a>
-                </div>
-             
-              {% endfor %}
-            <br/>
+          <ul class="link-list">
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+              {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news1"%}
+              {% else %}
+              {% if counter < 18 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
 
-            <p class="all-articles">
-             <a href="/content/list/all_actual.html">Все интересное</a>
-            </p>
-          </div>
+            </li>
+               {% endif %}
+             {% assign counter = counter | plus: 1 %}
+              {% endif %}
+           {% endfor %}
+          </ul>
+
+          <br  />
+
+
 
         </div>
-        <div class="col-md-7 article-body">  <!--  CENTER    -->
+        <div class="col-md-8 article-body">  <!--  CENTER    -->
 
 
             <h1 class="article-header"> {{page.title}} </h1>
@@ -96,6 +95,8 @@ layout: body
                 <span class="float-right"> {% include pdf.html %}</span>
               </p>
 
+
+                  <img src="/images/{{page.img}}" align="left"  style="border: 10px solid white; width: 350px;">
                   {{content}}
 
               <hr />
@@ -212,51 +213,9 @@ layout: body
 
         <div class="col-md-3 right-col">
 
-            {% for country in site.all_countries %}
-            {% if country.id == page.categories.first%}
-
-
-            <h3 class="block-header">{{country.name}} Вакансии</h3>
-
-            {% endif %}
-            {% endfor %}
-
-            <ul class="jobs-list">
-            {% for post in site.categories.[page.categories.first] limit: 4 %}
-                {% if post.categories contains "job" %}
-            <li>
-              <a  href="{{post.url}}"> {{post.title}}</a>
-            </li>
-                {% endif %}
-           {% endfor %}
-          </ul>
-
-             <p class="all-articles">
-            <a href="/content/list/all_jobs.html">Все вакансии</a> </p>
-
          {% include ads.html %}
-          <br />
 
-             <h3 class="block-header">Новое</h3>
 
-          <ul class="link-list">
-            {% assign counter = 0 %}
-            {% for post in site.posts %}
-              {% if post.categories contains "job"%}
-              {% elsif post.categories contains "news1"%}
-              {% else %}
-              {% if counter < 18 %}
-            <li>
-              <a  href="{{post.url}}"> {{post.title}}</a>
-
-            </li>
-               {% endif %}
-             {% assign counter = counter | plus: 1 %}
-              {% endif %}
-           {% endfor %}
-          </ul>
-
-          <br  />
 
         </div> 
 

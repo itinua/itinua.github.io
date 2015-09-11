@@ -9,7 +9,7 @@ layout: body
     <div class="container"> <!--  MAin Conteiner-->
 
       <div class="row">
-        <div class="col-md-2">     <!--  LEFT -->
+        <div class="col-md-3">     <!--  LEFT -->
           <h3 class="block-header">Новое</h3>
 
           <ul class="link-list">
@@ -31,57 +31,22 @@ layout: body
             <p class="all-articles">
                 <a class="" href="/content/list/all_news.html">Все новое</a>
             </p>
-          <br  /> 
-          
-          <h4 class="line12"> Есть воросы? &nbsp; Наши специалисты ответят Вам:</h4>
-
-          <!--
           <br  />
-          <p><a href="/content/napisat-v-redaktsiyu.html" class="main-btn side-btn">Задать вопрос</a> </p>
-          -->
-          <br  /><br  />
-            <p><a href="/content/we-ask-for-an-article.html" class="main-btn side-btn">Запрос на статью</a> </p>
-            <br/>
-            <br  />
+
+
+            <h3 class="block-header">
+           </span>Коментарии</h3>
+             <script type="text/javascript" src="http://itinua.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=100"></script>
+
 
         </div>
-        <div class="col-md-7" id="mainpart">   <!--  CENTER -->
+        <div class="col-md-8" id="mainpart">   <!--  CENTER -->
             {{content}}
         </div> <!-- CENTER ends -->
 
 
 
-        <div class="col-md-3 right-col">
 
-  <h3 class="block-header">
-           </span>Новости</h3>
-             <ul class="new-list">
-            {% for post in site.categories.news limit:5 %}
-
-             <li>
-              <a  href="{{post.url}}">{{post.title}}</a> <br />
-              <span class="date-format">{% include date.html %}</span>
-              </li>
-
-            {% endfor %}
-                   </ul>
-        <p class="all-articles">
-            <a href="/content/list/news.html">Все новости</a> </p>
-
-
-            <h3 class="block-header">
-           </span>Вакансии</h3>
-
-            {% include jobs.html %}
-
-                    <h3 class="block-header">
-           </span>Коментарии</h3>
-             <script type="text/javascript" src="http://itinua.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=100"></script>
-
-            {% include ads.html %}
-        
-          <br /> 
-        </div> 
 
       </div><!-- row ends -->
 
