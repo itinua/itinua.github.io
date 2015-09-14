@@ -14,9 +14,32 @@
       {%if page.title %}
       <meta name="description" content="{{page.title }}">
       <meta name="keys" content="{{page.content || truncatewords: 20 }}">
-    <title>{{ page.title }}</title>
-      {% else %}
-      <title>IT in ua — Все о IT Бизнесе</title>
+      <link rel="image_src" href="{{site.url}}/images/{{page.img}}" >
+      <title>{{ page.title }}</title>
+
+
+
+
+
+<meta property="og:title" content="{{page.title}}" >
+<meta property="og:type" content="article" >
+<meta property="og:url" content="{{site.url}}" >
+<meta property="og:image" content="{{site.url}}/images/{{page.img}}" >
+<meta property="og:site_name" content="{{site.description}}" >
+<meta property="fb:app_id" content="127336904283105" >
+
+<meta property="og:description"  content="{{page.content || truncatewords: 20 }}" >
+
+
+      {% elsif page.page_category %}
+      {% for cat in site.all_categories %}
+        {% if page.page_category == cat.id %}
+               <title>  {{cat.name}}</title>
+        {% endif %}
+    {% endfor %}
+
+        {% else %}
+        <title>{{site.description}}</title>
       {% endif %}
 
     <!-- Bootstrap -->
@@ -36,26 +59,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+
     <script type="text/javascript">stLight.options({publisher: "fd89589b-cfe2-4ff8-abd3-d774ee399eff", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     <script type="text/javascript" src="/dist/js/jquery-2.1.4.min.js"></script>
   </head>
   <body class="">
 
- <div class="container" >
-   <div class="ads-long">   
- 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- TOP TOP -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:980px;height:120px"
-     data-ad-client="ca-pub-8347903083053959"
-     data-ad-slot="9275496873"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
- </div>
+
 
   <header >
     <div class="container" >
@@ -70,14 +80,10 @@
 
         <div class="col-sm-7">
             <h1 class="IT-point">
-            Все об <strong> IT Бизнесе</strong></h1>
+            Юридическая помощь в <strong> IT Бизнесе</strong></h1>
         </div>
 
-        <div class="col-md-3 head-git">  
-          <a class="main-btn head-button" href="/content/add-material.html">Добавить материал</a>
-          <a class="head-octocat" href="https://github.com/itinua/itinua.github.io" target="_blank">
-            <img src="/images/info/github-transparent.png"></a>
-        </div>
+
       </div>
 
     </div>

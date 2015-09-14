@@ -1,7 +1,7 @@
 ---
 layout: main
+title: Техподдержка
 ---
-
 #Техподдержка
 Пишите нам на ivan.ivanenko@gmail.com
 

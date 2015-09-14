@@ -1,15 +1,15 @@
 ---
 layout: body
+withLine: true
 ---
 
 
-    {% include search.html %}
 
 
     <div class="container main-container"> <!--  MAin Conteiner-->
 
       <div class="row">
-        <div class="col-md-2 left-col"> <!--  LEFT -->
+        <div class="col-md-3 left-col"> <!--  LEFT -->
             <h2 class="section-title">
               {% include category_name.html %}
             </h2>
@@ -60,48 +60,79 @@ layout: body
 
             </p>
 
-            <h2>Интересное</h2>
-            {% for post in site.categories.actual limit:8 %}
-            <div class="row">
-             <div class="article-img">
-                  {% if post.img %}
-                  <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
-                  {% else %}
-                  <div class="img-crop"> <img src="/images/getImage.jpeg" alt="{{post.title}}"/></div>
-                  {% endif %}
-                  <span class="triangle-bottom"> </span>
-                </div>
-              <a href="{{post.url}}">{{post.title}}</a>
-                </div>
-              {% endfor %}
-            <br/>
 
-            <p class="all-articles">
-             <a href="/content/list/all_actual.html">Все интересное</a>
-            </p>
+             <h3 class="block-header">Новое</h3>
+
+          <ul class="link-list">
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+              {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news1"%}
+              {% else %}
+              {% if counter < 18 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+
+            </li>
+               {% endif %}
+             {% assign counter = counter | plus: 1 %}
+              {% endif %}
+           {% endfor %}
+          </ul>
+
+          <br  />
+
+
 
         </div>
-        <div class="col-md-7 article-body">  <!--  CENTER    -->
+        <div class="col-md-8 article-body">  <!--  CENTER    -->
 
 
             <h1 class="article-header"> {{page.title}} </h1>
 
               <p class="border-top"> 
-                <span class="article-data">{% include date.html %}</span>
+                <span class="article-data">{% include date.html %}  </span>
+                <span class="article-data"> {% include category_name.html %}</span>
                 <span class="float-right"> {% include pdf.html %}</span>
               </p>
 
+
+                  <img src="/images/{{page.img}}" align="left"  style="border: 10px solid white; width: 350px;">
                   {{content}}
 
               <hr />
 
               <div style="overflow:hidden">
-              <p class="float-left"> Поделиться<br /><br />
-                  <span class='st_facebook_large' displayText='Facebook'></span>
-                  <span class='st_linkedin_large' displayText='LinkedIn'></span>
-                  <span class='st_pocket_large' displayText='Pocket'></span>
-                  <span class='st_twitter_large' displayText='Tweet'></span>
-              </p>
+              <p style="margin:0px;"><b> Расшарить</b></p>
+
+
+
+
+                      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your share button code -->
+    <div class="fb-share-button"
+        data-href="http://www.your-domain.com/your-page.html"
+        data-layout="button_count">
+    </div>
+
+
+               <script type="text/javascript">(function() {
+  if (window.pluso)if (typeof window.pluso.start == "function") return;
+  if (window.ifpluso==undefined) { window.ifpluso = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    var h=d[g]('body')[0];
+    h.appendChild(s);
+  }})();</script>
+<div class="pluso" data-background="transparent" data-options="big,square,line,horizontal,nocounter,theme=04" data-services="facebook,twitter,google,linkedin,evernote"></div>
 
 
 
@@ -207,51 +238,9 @@ layout: body
 
         <div class="col-md-3 right-col">
 
-            {% for country in site.all_countries %}
-            {% if country.id == page.categories.first%}
-
-
-            <h3 class="block-header">{{country.name}} Вакансии</h3>
-
-            {% endif %}
-            {% endfor %}
-
-            <ul class="jobs-list">
-            {% for post in site.categories.[page.categories.first] limit: 4 %}
-                {% if post.categories contains "job" %}
-            <li>
-              <a  href="{{post.url}}"> {{post.title}}</a>
-            </li>
-                {% endif %}
-           {% endfor %}
-          </ul>
-
-             <p class="all-articles">
-            <a href="/content/list/all_jobs.html">Все вакансии</a> </p>
-
          {% include ads.html %}
-          <br />
 
-             <h3 class="block-header">Новое</h3>
 
-          <ul class="link-list">
-            {% assign counter = 0 %}
-            {% for post in site.posts %}
-              {% if post.categories contains "job"%}
-              {% elsif post.categories contains "news1"%}
-              {% else %}
-              {% if counter < 18 %}
-            <li>
-              <a  href="{{post.url}}"> {{post.title}}</a>
-
-            </li>
-               {% endif %}
-             {% assign counter = counter | plus: 1 %}
-              {% endif %}
-           {% endfor %}
-          </ul>
-
-          <br  />
 
         </div> 
 
@@ -266,3 +255,4 @@ layout: body
       <br /><br /><br />
 
     </div> <!--  MAin Conteiner-->
+

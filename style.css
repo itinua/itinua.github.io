@@ -334,13 +334,15 @@ header {padding: 1em 0;}
   padding: 0;
 }
 .link-list li{
-  padding: .5em 0 .1em 0;
-  margin: 5px 0 1px 0;}
+  padding: .8em 0 .2em 0;
+  margin: 0 0;
+
+  border-bottom: #dbdbdb 1px solid;
+}
   
 .link-list li.current{
     background: #ededed;
-    padding-left:.5em; 
-    padding-right:.5em;       
+    padding: .8em 0 .2em 0;
   } 
 .link-list li.current a,
 .link-list li.current a:hover{
@@ -349,14 +351,6 @@ header {padding: 1em 0;}
   text-decoration: none;
 }
 
-.link-list li:after{ 
-  content: " " ;
-  height: .5em;
-  display: block;
-  border-bottom: #dbdbdb 1px solid;
-
-  position: relative;
-  top: .25em;}
 
 .link-list a {
   display: block;}
@@ -382,7 +376,7 @@ header {padding: 1em 0;}
     top: .3em;}
 
   .link-list li a{
-    margin-left: 6.5em;
+    margin-left: 7em;
   }  
 
   .link-list .date-format {
@@ -932,6 +926,8 @@ header {padding: 1em 0;}
   height: auto;
 }
 
+.article-img { position: relative; }
+
 /* ————- xs : <  768  ——————— */
 /* ————- sm : >= 768  (760)——————— */
 /* ————- md : >= 992  (970)——————— */
@@ -973,8 +969,6 @@ header {padding: 1em 0;}
     float: left;
     width: 30%;
     margin: 0 1em 1em 0;   
-
-    position: relative;
     overflow: visible;
     margin-bottom: 2em;
 

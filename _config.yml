@@ -8,7 +8,7 @@ lsi: false
 pygments: true
 
 name: ITIN.ua
-description: Все об IT Бизнесе - Собираем знания вместе
+description: Юридическая помощь в IT Бизнесе - Собираем знания вместе
 
 admin_email: info@itin.com.ua
 book_date: 2015-08-11 00:00:00 +0000
@@ -21,18 +21,6 @@ all_countries:
 
 - id: denmark
   name: Дания
-
-- id: germany
-  name: Германия
-
-- id: latvia
-  name: Латвия
-
-- id: thailand
-  name: Тайланд
-
-- id: norway
-  name: Норвегия
 
 - id: netherlands
   name: Нидерланды
@@ -168,4 +156,15 @@ authors:
     tw:
     g_:
     web:
+    git: 
+    
+  oksana-kuzyura:
+    name: Оксана Кузюра
+    job: бухгалтер
+    image: 
+    fb: 
+    ln: 
+    tw:
+    g_:
+    web: 
     git: 
