@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Працевлаштування іноземця в Україні  
-img: inostranecrabota.jpg
+img: inostrustr.jpg
 author: katerina-britskaya
 ---
 Компанія, яка вирішила працевлаштувати іноземця, повинна пройти процедуру оформлення дозволу на застосування праці в центрі 
