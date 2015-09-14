@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual, featured]
 title: Ведение СПД самостоятельно на 3 группе единого налога
-img: happy man wiht comp.jpg
+img: vedeniespdsam.png
 author: anna-ivanenko
 --- 
 Очень приятно получать от наших читателей отзывы, которые вдохновляют работать еще лучше. Вот пример такого отзыва, после которого мы решили написать статью на актуальную тему:
