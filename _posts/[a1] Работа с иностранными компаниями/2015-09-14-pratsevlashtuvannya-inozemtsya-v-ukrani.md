@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, actual]
-title:Працевлаштування іноземця в Україні  
+title: Працевлаштування іноземця в Україні  
 img: 
 author: katerina-britskaya
 ---
