@@ -62,7 +62,7 @@ author: katerina-britskaya
 Корисні посилання для роботодавців, що знаходяться в Києві:
 
 [Реєстр рішень центру зайнятості, де можна прослідкувати про резкльтат розгляду доків]
-( http://www.dcz.gov.ua/kie/control/uk/publish/category?cat_id=19776 )
+(http://www.dcz.gov.ua/kie/control/uk/publish/category?cat_id=19776 )
 
 [Реквізити для перерахування коштів за видачу дозволу ]
-( http://www.dcz.gov.ua/kie/control/uk/publish/article?art_id=19929&cat_id=19775)
+(http://www.dcz.gov.ua/kie/control/uk/publish/article?art_id=19929&cat_id=19775)
