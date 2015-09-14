@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3, actual,]
+categories: [a1, actual,]
 title: Як прописати та виписати іноземця
 img: vremennaya-registraciya.jpg
 author: anna-ivanenko
