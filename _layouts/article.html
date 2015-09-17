@@ -9,82 +9,7 @@ withLine: true
     <div class="container main-container"> <!--  MAin Conteiner-->
 
       <div class="row">
-        <div class="col-md-3 left-col"> <!--  LEFT -->
-            <h2 class="section-title">
-              {% include category_name.html %}
-            </h2>
-            <span class="triangle-bottom top0"></span>
 
-          <ul class="link-list">
-
-              {% for category in page.categories.first  %}
-                    {% if category == "actual" %}
-                    {% elsif category == "featured" %}
-                    {% elsif category == "job" %}
-                    {% else %}
-
-                        {% for post in site.categories[category] %}
-
-                        {% if post.categories contains "job" %}
-                            {% else %}
-
-
-           <li {% if page.url == post.url %}class="current"{% endif %}>
-              <a href="{{post.url}}">{{post.title}}</a>
-              <span class="date-format">{% include date.html %}</span>
-            </li>
-              {% endif %}
-
-                          {% endfor %}
-                    {% endif %}
-                {% endfor %}
-          </ul>
-
-             <p class="all-articles">
-
-                 {% assign is_country = false %}
-                 {% for country in site.all_countries %}
-                    {% if page.categories contains country.id%}
-                        {% assign is_country = true %}
-                    {% endif %}
-                 {% endfor %}
-
-
-                 {% if is_country == true %}
-                     <a href="/content/list/countries.html">Все страны</a>
-                 {% elsif page.categories contains "news"%}
-                    <a href="/content/list/news.html">Все новости</a>
-                 {% else%}
-                     <a href="/content/list/all_articles.html">Все разделы</a>
-                 {% endif %}
-
-            </p>
-
-
-             <h3 class="block-header">Новое</h3>
-
-          <ul class="link-list">
-            {% assign counter = 0 %}
-            {% for post in site.posts %}
-              {% if post.categories contains "job"%}
-              {% elsif post.categories contains "news1"%}
-              {% else %}
-              {% if counter < 18 %}
-            <li>
-              <a  href="{{post.url}}"> {{post.title}}</a>
-
-            </li>
-               {% endif %}
-             {% assign counter = counter | plus: 1 %}
-              {% endif %}
-           {% endfor %}
-          </ul>
-
-          <br  />
-
-
-
-        </div>
         <div class="col-md-8 article-body">  <!--  CENTER    -->
 
 
@@ -233,6 +158,84 @@ withLine: true
 
 
         </div> <!-- CENTER ends -->
+
+
+                  <div class="col-md-3 left-col"> <!--  LEFT -->
+            <h2 class="section-title">
+              {% include category_name.html %}
+            </h2>
+            <span class="triangle-bottom top0"></span>
+
+          <ul class="link-list">
+
+              {% for category in page.categories.first  %}
+                    {% if category == "actual" %}
+                    {% elsif category == "featured" %}
+                    {% elsif category == "job" %}
+                    {% else %}
+
+                        {% for post in site.categories[category] %}
+
+                        {% if post.categories contains "job" %}
+                            {% else %}
+
+
+           <li {% if page.url == post.url %}class="current"{% endif %}>
+              <a href="{{post.url}}">{{post.title}}</a>
+              <span class="date-format">{% include date.html %}</span>
+            </li>
+              {% endif %}
+
+                          {% endfor %}
+                    {% endif %}
+                {% endfor %}
+          </ul>
+
+             <p class="all-articles">
+
+                 {% assign is_country = false %}
+                 {% for country in site.all_countries %}
+                    {% if page.categories contains country.id%}
+                        {% assign is_country = true %}
+                    {% endif %}
+                 {% endfor %}
+
+
+                 {% if is_country == true %}
+                     <a href="/content/list/countries.html">Все страны</a>
+                 {% elsif page.categories contains "news"%}
+                    <a href="/content/list/news.html">Все новости</a>
+                 {% else%}
+                     <a href="/content/list/all_articles.html">Все разделы</a>
+                 {% endif %}
+
+            </p>
+
+
+             <h3 class="block-header">Новое</h3>
+
+          <ul class="link-list">
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+              {% if post.categories contains "job"%}
+              {% elsif post.categories contains "news1"%}
+              {% else %}
+              {% if counter < 18 %}
+            <li>
+              <a  href="{{post.url}}"> {{post.title}}</a>
+
+            </li>
+               {% endif %}
+             {% assign counter = counter | plus: 1 %}
+              {% endif %}
+           {% endfor %}
+          </ul>
+
+          <br  />
+
+
+
+        </div>
 
 
 
