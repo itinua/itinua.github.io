@@ -37,7 +37,8 @@ and type of shareholders),
 
 •	tax residence certificate can be easily obtained.
  
-KEY CORPORATE FEATURES
+**KEY CORPORATE FEATURES**
+
 ![KEY CORPORATE FEATURES](/images/Picture clipping.jpg)
 
 Now you know the benefits of opening business in Slovakia and you can choose the most appropriate option.
