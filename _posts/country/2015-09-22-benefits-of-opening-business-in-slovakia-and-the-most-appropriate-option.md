@@ -36,8 +36,6 @@ The attractiveness of Slovakia as an international business centre is based on t
 and type of shareholders),
 
 •	tax residence certificate can be easily obtained.
- 
-**KEY CORPORATE FEATURES**
 
 ![KEY CORPORATE FEATURES](/images/tablslovakia.png)
 
