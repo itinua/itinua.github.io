@@ -158,8 +158,18 @@ authors:
     web:
     git: 
     
-  oksana-kuzyura:
-    name: Оксана Кузюра
+  protteco-trust-company-ltd:
+    name: PROTTECO TRUST COMPANY LTD
+    job: 
+    image: 
+    fb: 
+    ln: 
+    tw:
+    g_:
+    web: http://www.protteco.com/
+    git: 
+
+  name: Оксана Кузюра
     job: бухгалтер
     image: 
     fb: 
@@ -167,4 +177,4 @@ authors:
     tw:
     g_:
     web: 
-    git: 
+    git:
