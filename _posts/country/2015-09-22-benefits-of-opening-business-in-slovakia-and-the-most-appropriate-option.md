@@ -20,22 +20,22 @@ rates – 20 % (standard rate) and 10 % (reduced rate). Slovakia has signed 62 D
 
 The attractiveness of Slovakia as an international business centre is based on the following advantages:
 
-•	EU and OECD compliant tax system,
+*	EU and OECD compliant tax system,
 
-•	respectable EU jurisdiction, with EU Parent-Subsidiary and Royalties and Interest Directives fully in place,
+*	respectable EU jurisdiction, with EU Parent-Subsidiary and Royalties and Interest Directives fully in place,
 
-•	image (never black-listed country), unusual business jurisdiction,
+*	image (never black-listed country), unusual business jurisdiction,
 
-•	established wide network of DTTs,
+*	established wide network of DTTs,
 
-•	no thin capitalisation rules,
+*	no thin capitalisation rules,
 
-•	incoming dividends are not subject to the income tax,
+*	incoming dividends are not subject to the income tax,
 
-•	outgoing dividends are not subject to any withholding tax (notwithstanding the residence 
+* outgoing dividends are not subject to any withholding tax (notwithstanding the residence 
 and type of shareholders),
 
-•	tax residence certificate can be easily obtained.
+*	tax residence certificate can be easily obtained.
 
 ![KEY CORPORATE FEATURES](/images/tablslovakia.png)
 
