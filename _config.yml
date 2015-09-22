@@ -31,7 +31,7 @@ all_countries:
 - id: ofshori
   name: Оффшоры
   
-  - id: Slovakia
+  - id: slovakia
   name: Словакия
 
 all_categories:
