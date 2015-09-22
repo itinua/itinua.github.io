@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [Slovakia, actual]
+categories: [slovakia, actual]
 title: Benefits of opening business in Slovakia and the most appropriate option
 img: slovakia.jpg
 author: PROTTECO TRUST COMPANY LTD
