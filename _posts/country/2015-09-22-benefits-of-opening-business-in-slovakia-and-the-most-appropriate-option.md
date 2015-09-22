@@ -39,6 +39,7 @@ and type of shareholders),
 
 ![KEY CORPORATE FEATURES](/images/tablslovakia.png)
 
+
 Now you know the benefits of opening business in Slovakia and you can choose the most appropriate option.
 
  
