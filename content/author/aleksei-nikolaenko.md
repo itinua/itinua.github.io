@@ -2,7 +2,7 @@
 layout: userprofile
 author: aleksei-nikolaenko
 ---
-Представитель Novira Capital
+Представитель **Novira Capital**
 
 Пикк, 11, Таллин 10123
 
