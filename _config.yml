@@ -33,6 +33,9 @@ all_countries:
   
 - id: slovakia
   name: Словакия
+  
+- id: estoniya
+  name: Эстония  
 
 all_categories:
 - id: a1
