@@ -104,11 +104,11 @@ header {padding: 1em 0;}
 .main-header { position: relative;}
 
 .IT-point{
-  font-size: 1.8em;
+  font-size: 2.4em;
   color: #4d4d4d;
   font-weight: lighter;
   text-align: center;
-  margin: .2em 0 0 0;
+/* margin: .2em 0 0 0; */
 }
 .IT-point strong { 
   color: #337ab7;
@@ -128,7 +128,7 @@ header {padding: 1em 0;}
 
 .IT-moto img{
   margin-left: 1.1em;
-  width: 102px;
+  width: 142px;
 }
 .IT-moto a {  display: block;}
 .IT-moto a:hover{ 
