@@ -880,6 +880,10 @@ header {padding: 1em 0;}
   border-bottom: #ffcc00 7px solid; 
 
 }
+.popular1 {
+  border:1px solid #ffcc00;
+}
+
 .popular .triangle-bottom { 
   top: .75em;
   position: relative;
