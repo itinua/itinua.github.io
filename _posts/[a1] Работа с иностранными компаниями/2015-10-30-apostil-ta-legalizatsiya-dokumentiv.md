@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Апостиль та легалізація документів
-img: 
+img: konlegaz.jpg
 author: katerina-britskaya
 ---
 Офіційні документи,  що видані в Україні, мають юридичну силу на території іншої держави після їх засвідчення у встановленому 
