@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2, actual]
+categories: 
 title: Пожежні перевірки офісів. Права орендарів
 img: pozharka.jpg
 author: katerina-timchenko
