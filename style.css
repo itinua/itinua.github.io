@@ -108,7 +108,7 @@ header {padding: 1em 0;}
   color: #4d4d4d;
   font-weight: lighter;
   text-align: center;
-/* margin: .2em 0 0 0; */
+  margin: .2em 0 0 0; 
 }
 .IT-point strong { 
   color: #337ab7;
@@ -124,6 +124,7 @@ header {padding: 1em 0;}
 .IT-moto em{
   white-space: nowrap;
   display: block;
+    text-align: center;
   min-width: 12em}
 
 .IT-moto img{
@@ -154,6 +155,18 @@ header {padding: 1em 0;}
   padding: 0 2em;
 }
 
+
+/*---------------------------------- Main Menu ---------------------------------------*/
+
+.main-menu a {
+    text-transform: uppercase;
+    color: #fc0;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+/*---------------------------------- Main Menu ---------------------------------------*/
 
 .search-label {
   margin-top: 2em;
