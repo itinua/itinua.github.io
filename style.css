@@ -939,24 +939,22 @@ display: block;
 /*---------------- Cropping ACTUAL images to fit same height  -----------------------*/
 
 
-
-
 .img-crop {
-  position: relative;
-  overflow: hidden;
+  /* max-width: 1200px; /* img src width (if known) */
+  max-height: 150px;
+  overflow: hidden; 
 }
 
 
 .img-crop img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 100%!important;
-
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-  margin: 0!important;
+  /* corrects inline gap in enclosing div */
+  display: block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; 
 }
 
 .img-crop img.portrait {
