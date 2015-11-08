@@ -962,6 +962,7 @@ margin-left: 1em;}
   height: auto;
 }
 
+.article-img { position: relative; }
 
 /* ————- xs : <  768  ——————— */
 /* ————- sm : >= 768  (760)——————— */
@@ -970,7 +971,7 @@ margin-left: 1em;}
 
 
 
-.article-img { position: relative; }
+
 
 
 @media (min-width: 768px) { 
