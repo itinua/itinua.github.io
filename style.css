@@ -104,11 +104,10 @@ header {padding: 1em 0;}
 .main-header { position: relative;}
 
 .IT-point{
-  font-size: 2.4em;
+  font-size: 1.8em;
   color: #4d4d4d;
   font-weight: lighter;
-  text-align: center;
-  margin: .2em 0 0 0; 
+  margin: .5em 0 0 1em; 
 }
 .IT-point strong { 
   color: #337ab7;
@@ -162,7 +161,23 @@ header {padding: 1em 0;}
     text-transform: uppercase;
     color: #fc0;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1em;
+    margin: 0 2em 0 0;
+}
+.main-menu div .btn {
+    text-transform: uppercase;
+    color: #fc0;
+    font-weight: bold;
+    font-size: 1em;
+    
+    border:none!important;
+}
+
+.main-menu div a {
+    text-transform: none;
+    color: #ccc;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 
