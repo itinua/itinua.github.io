@@ -124,8 +124,8 @@ display: block;
 .IT-moto em{
   white-space: nowrap;
   display: block;
-    text-align: center;
-  min-width: 12em}
+  min-width: 12em;
+margin-left: 1em;}
 
 .IT-moto img{
   margin-left: 1.1em;
@@ -962,12 +962,16 @@ display: block;
   height: auto;
 }
 
-.article-img { position: relative; }
 
 /* ————- xs : <  768  ——————— */
 /* ————- sm : >= 768  (760)——————— */
 /* ————- md : >= 992  (970)——————— */
 /* ————- lg : >= 1200 (1170)——————— 
+
+
+
+.article-img { position: relative; }
+
 
 @media (min-width: 768px) { 
   .img-crop { height: 95px;}
