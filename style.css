@@ -107,7 +107,7 @@ header {padding: 1em 0;}
   font-size: 1.8em;
   color: #4d4d4d;
   font-weight: lighter;
-  margin: .55em 0 .35em 0; 
+  margin: .55em 0 .5em 0; 
 display: block;
 }
 .IT-point strong { 
@@ -967,7 +967,7 @@ display: block;
 /* ————- xs : <  768  ——————— */
 /* ————- sm : >= 768  (760)——————— */
 /* ————- md : >= 992  (970)——————— */
-/* ————- lg : >= 1200 (1170)——————— */
+/* ————- lg : >= 1200 (1170)——————— 
 
 @media (min-width: 768px) { 
   .img-crop { height: 95px;}
@@ -1032,7 +1032,7 @@ display: block;
  
 }
 
-
+*/
 
 /* ————————————————————————————————  Footer ———————————————————————————————————————— */
 
