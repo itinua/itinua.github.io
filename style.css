@@ -107,7 +107,8 @@ header {padding: 1em 0;}
   font-size: 1.8em;
   color: #4d4d4d;
   font-weight: lighter;
-  margin: .55em 0 .35em 1em; 
+  margin: .55em 0 .35em 0; 
+display: block;
 }
 .IT-point strong { 
   color: #337ab7;
@@ -157,14 +158,13 @@ header {padding: 1em 0;}
 
 /*---------------------------------- Main Menu ---------------------------------------*/
 
-.main-menu .btn-group{
-    margin: 0 0 0 2em; }
+
 .main-menu a {
     text-transform: uppercase;
     color: #fc0;
     font-weight: bold;
     font-size: 1em;
-    margin: 0 0 0 2em;
+    margin: 0 2em 0 0;
 }
 .main-menu div .btn {
     text-transform: uppercase;
