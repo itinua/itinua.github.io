@@ -171,7 +171,8 @@ margin-left: 1em;}
 
 }
 .main-menu a {
-    margin-right: 2em!important;  
+    margin-right: 2em!important;
+    margin-top:0.2em;
 }
 
 .main-menu div .btn {
