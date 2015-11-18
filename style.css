@@ -164,7 +164,7 @@ margin-left: 1em;}
     color: #fc0;
     font-weight: bold;
     font-size: 1em;
-    margin: 0 2em 0 0;
+    margin: 0 2em 0 -1em;
 }
 .main-menu div .btn {
     text-transform: uppercase;
