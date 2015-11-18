@@ -158,8 +158,11 @@ margin-left: 1em;}
 
 /*---------------------------------- Main Menu ---------------------------------------*/
 
+.main-menu {
+  margin-left: -1em;
+}
 
-.main-menu a,
+.main-menu>a,
 .main-menu div .btn {
     text-transform: uppercase;
     color: #fc0;
