@@ -916,6 +916,9 @@ margin-left: 1em;}
 
 .popular .img-crop img{
   min-height:200px;
+  width:auto;
+  max-width:200%;
+  
 }
 
 .popular1 {
