@@ -185,7 +185,7 @@ margin-left: 1em;}
     color: #337ab7;
 }
 
-.main-menu div a {
+.main-menu ul a {
     text-transform: none;
     color: #666;
     font-weight: normal;
@@ -922,9 +922,9 @@ margin-left: 1em;}
 }
 
 .popular .img-crop img{
-  min-height:125px;
+  min-height:130px;
   width:auto;
-  max-width:150%;
+  max-width:130%;
   
 }
 
