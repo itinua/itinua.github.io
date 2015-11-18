@@ -162,16 +162,22 @@ margin-left: 1em;}
   margin-left: -1em;
 }
 
-.main-menu>a,
+.main-menu div a,
 .main-menu div .btn {
     text-transform: uppercase;
     color: #fc0;
     font-weight: bold;
     font-size: 1em;
-    margin: 0 2em 0 -1em;
+
 }
+.main-menu div a {
+    margin: .2em 2em 0 -1em!important;  
+}
+
+
+
 .main-menu div .btn {
-    
+    margin: 0 2em 0 -1em; 
     border:none!important;
 }
 
