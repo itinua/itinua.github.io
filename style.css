@@ -913,8 +913,12 @@ margin-left: 1em;}
 .popular .img-crop {
   border-bottom: #ffcc00 7px solid;
   /* border: #ffcc00 2px solid;  */
-
 }
+
+.popular .img-crop img{
+  min-height:200px;
+}
+
 .popular1 {
   border:1px solid #ffcc00;
 }
