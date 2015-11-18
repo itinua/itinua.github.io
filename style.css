@@ -911,8 +911,8 @@ margin-left: 1em;}
 .popular .date-format { display: block;}
 
 .popular .img-crop {
-  /* border-bottom: #ffcc00 7px solid; */
-  border: #ffcc00 2px solid; 
+  border-bottom: #ffcc00 7px solid;
+  /* border: #ffcc00 2px solid;  */
 
 }
 .popular1 {
@@ -963,7 +963,9 @@ margin-left: 1em;}
   height: auto;
 }
 
+/*
 .article-img { position: relative; }
+*/
 
 /* ————- xs : <  768  ——————— */
 /* ————- sm : >= 768  (760)——————— */
