@@ -915,9 +915,9 @@ margin-left: 1em;}
 }
 
 .popular .img-crop img{
-  min-height:200px;
+  min-height:150px;
   width:auto;
-  max-width:200%;
+  max-width:150%;
   
 }
 
