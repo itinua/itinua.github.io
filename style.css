@@ -296,6 +296,10 @@ margin-left: 1em;}
     text-align: center;
     margin-top: .3em;
   }
+  .main-menu a {
+    margin-top:.5em!important;
+  }
+  
   .user-login  {
     text-align: t-colt;
     float: right!important;
