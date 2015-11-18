@@ -297,7 +297,7 @@ margin-left: 1em;}
     margin-top: .3em;
   }
   .main-menu a {
-    margin-top:.5em!important;
+    line-height:2.5em!important;
   }
   
   .user-login  {
