@@ -62,8 +62,8 @@ author: katerina-timchenko
 
 * [Скачать инвойс для сайтов посредников](http://itin.com.ua/pdf/Инвойс для сайтов посредников.doc)
 * [Скачать инвойс для Upwork](http://itin.com.ua/pdf/Инвойс_upwork.doc)
-* [Скачать инвойс для прямых клиентов](http://itin.com.ua/pdf/Инвойс_Прямые клиенты .doc)
-* [Скачать инвойс для Google](http://itin.com.ua/pdf/Инвойс_Гугл .doc)
+* [Скачать инвойс для прямых клиентов](http://itin.com.ua/pdf/Инвойс_Прямые_клиенты.doc)
+* [Скачать инвойс для Google](http://itin.com.ua/pdf/Инвойс_Гугл_6.doc)
 
 Другие полезные документы вы можете найте в соответствующем разделе [Документы](http://itin.com.ua/content/documents.html)
 _____________
