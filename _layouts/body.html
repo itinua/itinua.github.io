@@ -26,7 +26,14 @@
 <meta property="og:image:width" content="450">
 <meta property="og:image:height" content="298">
 
-<meta property="og:description"  content="{{page.content || truncatewords: 20 }}">
+      {% assign content1 = page.content || truncatewords: 20 %}
+
+{% if content1 == "" %}
+      <meta property="og:description"  content="{{site.about}}">
+{% else %}
+      <meta property="og:description"  content="{{page.content || truncatewords: 20 || strip_html }}">
+      {% endif %}
+
 
 
       {% elsif page.page_category %}

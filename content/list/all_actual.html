@@ -25,8 +25,9 @@ layout: home
       </div>
       <div class="col-sm-9">
         <h3 style="margin-top:0px;"><a href="{{post.url}}">{{post.title}}</a></h3>
-
-        {{post.content | truncatewords: 40 | replace: "<em>","" | replace: "</em>",""}}
+<p>
+        {{post.content | strip_html | truncatewords: 40 | replace: "<em>","" | replace: "</em>",""}}
+   </p>
           <br/>
           <span class="date-format">{% include date.html %}</span>
 
