@@ -13,22 +13,27 @@ layout: home
  <div class="row">
       <div class="col-sm-3">
 
+          <div class="popular">
             {% if post.img %}
+
                   <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
                   {% else %}
                   <div class="img-crop"> <img src="/images/getImage.jpeg" alt="{{post.title}}"/></div>
                   {% endif %}
+              </div>
 
       </div>
       <div class="col-sm-9">
-        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+        <h3 style="margin-top:0px;"><a href="{{post.url}}">{{post.title}}</a></h3>
 
-        {{post.content | truncatewords: 30 | replace: "<em>","" | replace: "</em>",""}}
+        {{post.content | truncatewords: 40 | replace: "<em>","" | replace: "</em>",""}}
           <br/>
           <span class="date-format">{% include date.html %}</span>
 
       </div>
  </div>
+<br/>
+<br/>
 {% endif %}
 
 {% endfor %}

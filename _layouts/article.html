@@ -22,9 +22,11 @@ withLine: true
               </p>
 
 
-
+               {% if page.img %}
                   <img src="/images/{{page.img}}" align="left"  style="border: 10px solid white; width: 350px;">
-
+                {% else %}
+            <img src="/images/getImage.jpeg" align="left"  style="border: 10px solid white; width: 350px;">
+                {% endif %}
                   {{content}}
 
               <hr />
