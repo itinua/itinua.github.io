@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual]
 title: З ким може співпрацювати ФОП на 2 групі єдиного податку
-img: 
+img: yakiFOPDo2G.jpg
 author: anna-ivanenko
 --- 
 
