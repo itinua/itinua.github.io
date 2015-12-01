@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Відкриття рахунків за кордоном
-img: 
+img: vidkruttyaRaxZaKordonom.jpg
 author: katerina-britskaya
 ---
 Для того, щоб відкрити рахунок за кордоном резиденту не потрібно отримувати попередніх дозволів чи ліцензій, але потрібно повідомити
