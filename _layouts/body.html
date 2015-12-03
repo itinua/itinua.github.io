@@ -12,14 +12,12 @@
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
       {%if page.title %}
-      <meta name="description" content="{{page.title }}">
-      <meta name="keys" content="{{page.content || truncatewords: 20 }}">
-      <link rel="image_src" href="/images/{{page.img}}" >
+
       <title>{{ page.title }}</title>
 
 <meta property="og:title" content="{{page.title}}">
 <meta property="og:type" content="article">
-<meta property="og:url" content="{{site.url}}">
+<meta property="og:url" content="{{site.url}}{{page.url}}">
 <meta property="og:image" content="{{site.url}}/images/{{page.img}}">
 <meta property="og:site_name" content="{{site.description}}">
 <meta property="fb:app_id" content="127336904283105">
@@ -47,14 +45,18 @@
         <title>{{site.description}}</title>
       {% endif %}
 
+      <meta name="description" content="{{page.title }}">
+      <meta name="keys" content="{{page.content || truncatewords: 20 }}">
+      <link rel="image_src" href="/images/{{page.img}}" >
+
     <!-- Bootstrap -->
-    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.url}}/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/style.css" rel="stylesheet">
+    <link href="{{site.url}}/style.css" rel="stylesheet">
 
     <!--[if lt IE 8]>
-      <link rel="stylesheet" type="text/css" href="/lte-ie7.css" />
+      <link rel="stylesheet" type="text/css" href="{{site.url}}/lte-ie7.css" />
     <![endif]-->
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -66,7 +68,7 @@
 
 
     <script type="text/javascript">stLight.options({publisher: "fd89589b-cfe2-4ff8-abd3-d774ee399eff", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-    <script type="text/javascript" src="/dist/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="{{site.url}}/dist/js/jquery-2.1.4.min.js"></script>
   </head>
   <body class="">
 
