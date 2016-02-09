@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual]
 title: Использование счетов Привата, платежи с карточек
-img: 
+img: flpkarta.png
 author: katerina-timchenko
 --- 
 Уважаемые предприниматели,
