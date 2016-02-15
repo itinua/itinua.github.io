@@ -65,6 +65,7 @@ author: katerina-timchenko
 * [Скачать инвойс для прямых клиентов](http://itin.com.ua/pdf/Инвойс_Прямые_клиенты.doc)
 * [Скачать инвойс для Google](http://itin.com.ua/pdf/Инвойс_Гугл_6.doc)
 * [Скaчать инвойс для AdSense](http://itin.com.ua/pdf/invoice adsens.doc)
+* [Скaчать инвойс для Apple](http://itin.com.ua/pdf/Invoice_Apple.doc)
 
 Другие полезные документы вы можете найте в соответствующем разделе [Документы](http://itin.com.ua/content/documents.html)
 _____________
