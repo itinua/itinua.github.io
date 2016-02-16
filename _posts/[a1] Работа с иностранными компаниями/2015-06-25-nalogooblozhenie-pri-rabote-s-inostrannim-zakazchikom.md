@@ -95,7 +95,7 @@ _____________
 
 ***Юридическая фирма "Laudis"***
 
-http://ru.laudis.ua/
+www.laudis.ua
 
 info@laudis.ua
 
