@@ -74,7 +74,7 @@ _____________
 
 *** Юридична фірма "Laudis" ***
 
-http://ru.laudis.ua/
+www.laudis.ua
 
 info@laudis.ua
 
