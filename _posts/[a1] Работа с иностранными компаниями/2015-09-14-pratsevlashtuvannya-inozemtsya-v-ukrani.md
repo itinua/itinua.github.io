@@ -67,9 +67,9 @@ author: katerina-britskaya
 ________
 Ми готові вирішити Ваші юридичні питання в сфері IT-бізнесу, тому, що ми спеціалізуємося на цьому.
 
-Юридична фірма "Laudis"
+**Юридична фірма "Laudis"**
 
-http://ru.laudis.ua/
+www.laudis.ua
 
 info@laudis.ua
 
