@@ -3,6 +3,12 @@ layout: body
 withLine: true
 ---
 
+ {% assign is_country = false %}
+                 {% for country in site.all_countries %}
+                    {% if page.categories contains country.id%}
+                        {% assign is_country = true %}
+                    {% endif %}
+                 {% endfor %}
 
 
 
@@ -29,7 +35,18 @@ withLine: true
                 {% endif %}
                   {{content}}
 
-              <hr />
+
+
+
+
+            {% if is_country == false %}
+             <div class="row">
+                 <hr />
+            {% include laudis_ua.html %}
+                 <hr />
+                 </div>
+            {% endif %}
+
 
               <div style="overflow:hidden">
               <p style="margin:0px;"><b> Расшарить</b></p>
@@ -197,12 +214,6 @@ withLine: true
 
              <p class="all-articles">
 
-                 {% assign is_country = false %}
-                 {% for country in site.all_countries %}
-                    {% if page.categories contains country.id%}
-                        {% assign is_country = true %}
-                    {% endif %}
-                 {% endfor %}
 
 
                  {% if is_country == true %}

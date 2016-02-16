@@ -57,13 +57,3 @@ apostilled (or legalized). Here in Ukraine these documents will be translated in
 translation before starting of registration process.
 
 The templates of the above documents along with English version of charter of LLC will be provided by the request. 
-____
- Law Firm "Laudis"
-
-www.laudis.ua
-
-info@laudis.ua
-
-+38 044 271 41 54
-
-+38 067 220 74 61

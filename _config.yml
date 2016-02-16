@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /:title.html
 auto: true
 relative_permalinks: false
