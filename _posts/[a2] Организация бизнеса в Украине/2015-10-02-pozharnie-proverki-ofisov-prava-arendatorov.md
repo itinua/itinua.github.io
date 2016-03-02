@@ -2,7 +2,7 @@
 layout: article
 categories: [a2, actual]
 title: Пожарные проверки офисов. Права арендаторов
-img: pozharka.jpg
+img: pozharnaya_bezopasnost.jpg
 author: katerina-timchenko
 ---
 В данной статье собрана обновленная информация по требованиям к проверкам пожарной безопасности, которая будет полезна 
