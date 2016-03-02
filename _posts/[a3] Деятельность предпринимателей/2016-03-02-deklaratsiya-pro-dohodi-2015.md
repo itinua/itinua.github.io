@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual]
 title: Декларація про доходи 2015
-img: 
+img: poddekl.jpg
 author: lyubomir-ostapiv
 ---
 
