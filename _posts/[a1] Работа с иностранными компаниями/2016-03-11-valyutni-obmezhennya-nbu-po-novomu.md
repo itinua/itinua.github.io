@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Валютні обмеження НБУ по-новому
-img: 
+img: valobm.jpg
 author: katerina-britskaya
 ---
 З 5 березня вступила в дію Постанова Правління НБУ № 140, якою Нацбанк затвердив нові обмеження на здійснення валютних операцій. 
