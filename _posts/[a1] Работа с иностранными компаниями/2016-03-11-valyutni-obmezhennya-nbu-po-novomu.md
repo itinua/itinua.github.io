@@ -28,4 +28,4 @@ author: katerina-britskaya
 
 Корисні посилання
 
-[http://www.bank.gov.ua/doccatalog/document?id=28222435Ё](http://www.bank.gov.ua/doccatalog/document?id=28222435Ё)
+[http://www.bank.gov.ua/doccatalog/document?id=28222435](http://www.bank.gov.ua/doccatalog/document?id=28222435)
