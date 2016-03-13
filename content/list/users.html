@@ -17,7 +17,11 @@ title: Авторы ресурса ITIN.ua
               <div class="col-lg-10 author-info">
                 <div class="author-photo step-sign">
                     <a href="/content/author/{{url}}.html">
+                        {% if user.image %}
                   <img src="/images/author/{{user.image}}" width="64" alt="user" />
+                        {% else %}
+                        <img src="/images/author/IT-user.png" width="64" alt="user" />
+                        {% endif %}
                         </a>
                   <span class="step-arrow"></span>
                 </div>

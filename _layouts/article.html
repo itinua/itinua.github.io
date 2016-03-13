@@ -110,7 +110,11 @@ withLine: true
 
                 <div class="author-photo step-sign">
                     <a href="/content/author/{{page.author}}.html">
+                        {% if author.image %}
                   <img src="/images/author/{{author.image}}" width="64" alt="user" />
+                        {% else %}
+                        <img src="/images/author/IT-user.png" width="64" alt="user" />
+                        {% endif %}
                         </a>
                   <span class="step-arrow"></span>
                 </div>
