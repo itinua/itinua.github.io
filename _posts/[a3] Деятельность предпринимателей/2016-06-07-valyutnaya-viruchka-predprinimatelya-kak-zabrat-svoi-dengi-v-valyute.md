@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual]
 title: Валютная выручка предпринимателя как забрать свои деньги в валюте
-img:jak zabratuValutu.jpg
+img: jak zabratuValutu.jpg
 author: katerina-timchenko
 ---
 Предпринимателей, работающих с нерезидентами, всегда интересовал вопрос о том, можно ли заработанную валюту, полученную на свой 
