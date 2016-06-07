@@ -11,7 +11,6 @@ title: Полезные документы, Скачать
 * [Умови використання Google Play](https://play.google.com/intl/en_ua/about/play-terms.html)
 * [Реквізити для сплати єдиного податку, єдиного соціального внеску](https://taxer.ua/uk/directory)
 * [Декларация о доходах](http://itin.com.ua/pdf/f445117n33 (1).xls)
-* [Регистрационная карточка для получения ЭЦП](http://itin.com.ua/pdf/1_RK_dlya_fizuchnuh_osib.pdf)
 * [Форма 5 для отчета по ЕСВ](http://itin.com.ua/pdf/f442135n497.doc)
 * [Инвойс для сайтов посредников](http://itin.com.ua/pdf/Инвойс для сайтов посредников.doc)
 * [Инвойс для Upwork](http://itin.com.ua/pdf/Инвойс_upwork.doc)
