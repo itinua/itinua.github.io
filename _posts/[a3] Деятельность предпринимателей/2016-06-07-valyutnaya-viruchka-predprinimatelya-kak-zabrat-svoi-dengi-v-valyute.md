@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual]
-title: Валютная выручка предпринимателя как забрать свои деньги в валюте
+title:  Как предпринимателю забрать свои деньги в валюте
 img: jak zabratuValutu.jpg
 author: katerina-timchenko
 ---
