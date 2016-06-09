@@ -6,4 +6,4 @@ img:
 author: katerina-britskaya
 --- 
 
-![Календар підприємця на 2016 рік](/images/Kalendar.pdf)
+![](/images/Kalendar.pdf)
