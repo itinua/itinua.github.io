@@ -5,4 +5,4 @@ title: Календар підприємця на 2016 рік
 img: 
 author: katerina-britskaya
 --- 
-[Календар підприємця на 2016 рік](/images/Kalendar.pdf)
+![Календар підприємця на 2016 рік](/images/Kalendar.pdf)
