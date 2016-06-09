@@ -7,4 +7,4 @@ author: katerina-britskaya
 --- 
 ![Календар підприємця на 2016 рік ](/images/KalendarP.jpg)
 
-[Скачати Календар підприємця на 2016 рік](/images/KalendarP.jpg)
+[Скачати Календар підприємця на 2016 рік](/images/Kalendar.pdf)
