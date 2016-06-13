@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual, featured]
-title: Ведение СПД самостоятельно на 3 группе единого налога
+title: Ведение предпринимателя самостоятельно на 3 группе единого налога
 img: MiniK.png
 author: anna-ivanenko 
 --- 
