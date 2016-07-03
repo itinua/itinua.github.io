@@ -1,106 +1,93 @@
 ---
 layout: home
 ---
-
-
 {% for item in site.all_categories %}
-
-    <div class="section">
+  <div class="section">
     <h2 class="section-title">
-      <a href="/content/list/{{item.url}}">{{ item.name }}</a>
-      <a class="pull-right" href="/content/list/{{item.url}}">{{ site.categories.[item.id] | size }}</a> </h2>
+      <a href="/content/list/{{ item.url }}">{{ item.name }}</a>
+      <a class="pull-right" href="/content/list/{{ item.url }}">{{ site.categories.[item.id] | size }}</a>
+    </h2>
     <span class="triangle-bottom top0"></span>
 
     <div class="main-article row">
-
-        {% for post in site.categories.[item.id] %}
-         {% if post.categories contains "featured" %}
+      {% for post in site.categories.[item.id] %}
+        {% if post.categories contains "featured" %}
           {% assign id = post.url %}
-      <div class="col-sm-6">
-          <div class="img-crop">
-            <img src="/images/{{post.img}}" alt="{{post.title}}"/>
+          <div class="col-sm-6">
+            <div class="img-crop">
+              <img src="/images/{{ post.img }}" alt="{{ post.title }}" />
+            </div>
           </div>
+          <div class="col-sm-6">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.content || strip_html || truncatewords: 25 }}</p>
           </div>
-      <div class="col-sm-6">
-        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-        <p>{{post.content || strip_html || truncatewords: 25 }}</p></div>
-        {% endif%}
-        {% endfor %}
+        {% endif %}
+      {% endfor %}
     </div><!-- row ends -->
     <br/>
     <div class="section-group row">
-          {% assign i = 0 %}
-          {% for post in site.categories.[item.id] %}
-           {% if post.url != id %}
-           {% assign i=i | plus:1 %}
-           <div class="col-sm-3">
- <div class="popular article-img">
-                <div class="img-crop">
-                    <img src="/images/{{post.img}}" alt="{{post.title}}"/>
+      {% for post in site.categories.[item.id] limit:4 %}
+        {% if post.url != id %}
+          <div class="col-sm-3">
+            <div class="popular article-img">
+              <div class="img-crop">
+                <img src="/images/{{ post.img }}" alt="{{ post.title }}"/>
               </div>
-     </div>
-                 <h5><a href="{{post.url}}">{{post.title}}</a></h5>
-
             </div>
-           {% endif %}
-           {% if i >= 4%}
-                 {% break %}
-            {% endif%}
-         {% endfor %}
-
+            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>  <!-- row ends -->
 
     <p class="all-articles">
       <a class="" href="/content/list/{{item.url}}">Все статьи раздела</a>
     </p>
-    </div><!-- SECTION -->
-
+  </div><!-- SECTION -->
 {% endfor %}
 
 <div class="section">
-            <h2 class="section-title">
+  <h2 class="section-title">
+    <a href="/content/list/countries.html">Cтраны</a>
+  </h2>
 
-              <a href="/content/list/countries.html">Cтраны</a>
-                </h2>
+  <span class="triangle-bottom top0"></span>
 
-            <span class="triangle-bottom top0"></span>
-
-
-            <ul class="all-countries">
-                {% for country in site.all_countries %}
-              <li><a href="/content/list/countries.html#{{country.id}}" ><img src="images/countries/{{country.id}}.png"  alt="{{country.name}}" /> {{country.name}}  </a></li>
-            {% endfor %}
-
-            </ul>
-
-    <div class="main-article row">
-
-        {% for country in site.all_countries %}
-              {% if site.categories.[country.id].first %}
-
-          {% for post in site.categories.[country.id]  %}
-                    {% if post.categories contains "featured" %}
-
-      <div class="col-sm-6">
-          <div class="img-crop">
-            <img src="/images/{{post.img}}" alt="{{post.title}}">
-          </div>
-      </div>
-      <div class="col-sm-6 top0">
-        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-          <p>
-        {{post.content | strip_html | truncatewords: 45 | replace: "<em>","" | replace: "</em>",""}}
-          </p>
-      </div>
-
-     {% endif %}
+  <ul class="all-countries">
+    {% for country in site.all_countries %}
+      <li>
+        <a href="/content/list/countries.html#{{ country.id }}">
+          <img src="images/countries/{{ country.id }}.png" alt="{{ country.name }}" />
+          {{ country.name }}
+        </a>
+      </li>
     {% endfor %}
- {% endif %}
+  </ul>
+
+  <div class="main-article row">
+    {% for country in site.all_countries %}
+      {% if site.categories.[country.id].first %}
+        {% for post in site.categories.[country.id] %}
+          {% if post.categories contains "featured" %}
+            <div class="col-sm-6">
+              <div class="img-crop">
+                <img src="/images/{{ post.img }}" alt="{{ post.title }}">
+              </div>
+            </div>
+            <div class="col-sm-6 top0">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p>
+                {{ post.content | strip_html | truncatewords: 45 | replace: "<em>","" | replace: "</em>","" }}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
- </div>
+  </div>
 
-            <p class="all-articles">
-              <a href="/content/list/countries.html">Все статьи раздела</a>
-            </p>
-
-     </div><!-- SECTION -->
+  <p class="all-articles">
+    <a href="/content/list/countries.html">Все статьи раздела</a>
+  </p>
+</div><!-- SECTION -->

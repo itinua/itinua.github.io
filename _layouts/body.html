@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,700italic,700,500italic,400italic,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      {%if page.title %}
-
+    {% if page.title %}
       <title>{{ page.title }}</title>
-
-<meta property="og:title" content="{{page.title}}">
-<meta property="og:type" content="article">
-<meta property="og:url" content="{{site.url}}{{page.url}}">
-<meta property="og:image" content="{{site.url}}/images/{{page.img}}">
-<meta property="og:site_name" content="{{site.description}}">
-<meta property="fb:app_id" content="127336904283105">
-<meta property="og:image:width" content="450">
-<meta property="og:image:height" content="298">
-
+      <meta property="og:title" content="{{ page.title }}">
+      <meta property="og:type" content="article">
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+      <meta property="og:image" content="{{ site.url }}/images/{{ page.img }}">
+      <meta property="og:site_name" content="{{ site.description }}">
+      <meta property="og:image:width" content="450">
+      <meta property="og:image:height" content="298">
+      <meta property="fb:app_id" content="127336904283105">
       {% assign content1 = page.content || truncatewords: 20 %}
 
-{% if content1 == "" %}
-      <meta property="og:description"  content="{{site.about}}">
-{% else %}
-      <meta property="og:description"  content="{{page.content || strip_html || truncatewords: 30 }}">
+      {% if content1 == "" %}
+        <meta property="og:description" content="{{ site.about }}">
+      {% else %}
+        <meta property="og:description" content="{{ page.content || strip_html || truncatewords: 30 }}">
       {% endif %}
-
-
-
-      {% elsif page.page_category %}
+    {% elsif page.page_category %}
       {% for cat in site.all_categories %}
         {% if page.page_category == cat.id %}
-               <title>  {{cat.name}}</title>
+          <title>{{ cat.name }}</title>
         {% endif %}
-    {% endfor %}
+      {% endfor %}
 
-        {% else %}
-        <title>{{site.description}}</title>
-      {% endif %}
+    {% else %}
+      <title>{{ site.description }}</title>
+    {% endif %}
 
-      <meta name="description" content="{{page.title }}">
-      <meta name="keys" content="{{page.content || strip_html || truncatewords: 20 }}">
-      <link rel="image_src" href="/images/{{page.img}}" >
+    <meta name="description" content="{{ page.title }}">
+    <meta name="keys" content="{{ page.content || strip_html || truncatewords: 20 }}">
+    <link rel="image_src" href="/images/{{ page.img }}" >
 
     <!-- Bootstrap -->
     <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -55,10 +44,6 @@
     <!-- Custom styles for this template -->
     <link href="/style.css" rel="stylesheet">
 
-    <!--[if lt IE 8]>
-      <link rel="stylesheet" type="text/css" href="{{site.url}}/lte-ie7.css" />
-    <![endif]-->
-    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -71,64 +56,53 @@
     <script type="text/javascript" src="/dist/js/jquery-2.1.4.min.js"></script>
   </head>
   <body class="">
+    <header >
+      <div class="container" >
+        <div class="row main-header">
+          <div class="col-sm-3 IT-moto">
+            <a href="/vse-ob-it-biznese.html">
+              <img src="/images/info/ITinua.png" alt="IT in UA: Юридическая помощь в IT Бизнесе" />
+            </a>
+            <em>Собираем знания вместе</em>
+          </div>
 
-
-
-  <header >
-
-    <div class="container" >
-
-      <div class="row main-header">
-        <div class="col-sm-3 IT-moto ">
-
-          <a href="/vse-ob-it-biznese.html"><img src="/images/info/ITinua.png"  alt="IT in UA: Юридическая помощь в IT Бизнесе" /></a>
-
-          <em>Собираем знания вместе</em>
-        </div>
-
-        <div class="col-sm-9">
+          <div class="col-sm-9">
             <h1 class="IT-point">
-            Юридическая помощь в <strong> IT Бизнесе</strong></h1>
-            
+              Юридическая помощь в <strong> IT Бизнесе</strong>
+            </h1>
             <div class="main-menu">
 
-                <!-- Single button -->
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Рубрики <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                      {% for item in site.all_categories %}
-                    <li><a href="/content/list/{{item.url}}">{{item.name}}</a></li>
-                      {% endfor %}
-                  </ul>
-                </div>
+              <!-- Single button -->
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Рубрики <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  {% for item in site.all_categories %}
+                    <li><a href="/content/list/{{ item.url }}">{{ item.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
 
-                <a href="/content/list/countries.html">Страны </a>
-                <a href="/content/list/all_actual.html">Новое</a>
-                 <a href="/content/documents.html">Документы</a>
-                
+              <a href="/content/list/countries.html">Страны</a>
+              <a href="/content/list/all_actual.html">Новое</a>
+              <a href="/content/documents.html">Документы</a>
             </div>
+          </div>
         </div>
-
-
       </div>
-
-    </div>
       {% if page.withLine %}
-      <hr class="thin-hr top5">
+        <hr class="thin-hr top5" />
       {% endif %}
-  </header>
+    </header>
 
-  {{ content }}
-
+    {{ content }}
 
     <footer>
       <div class="container">
-
         <div class="row">
           <div class="col-md-2">
-            <img src="/images/info/IT-inua-white.png" height="32px" alt="IT in UA: Юридическая помощь в IT Бизнесе"/>
+            <img src="/images/info/IT-inua-white.png" height="32" alt="IT in UA: Юридическая помощь в IT Бизнесе"/>
           </div>
           <div class="col-md-10 itua-links">
             <ul>
@@ -139,45 +113,49 @@
 
         <div class="row">
           <div class="col-md-2">
-          <h4>Наши партнеры</h4>
-          <br />
+            <h4>Наши партнеры</h4>
+            <br />
           </div>
           <div class="col-md-10">
             <ul>
               {% include footer_partners.html %}
             </ul>
           </div>
-
         </div>  <!-- row - partners -->
-
 
         <div class="row">
           <div class="col-md-2">
-          <h4>Мы в соцсетях </h4>
+            <h4>Мы в соцсетях </h4>
           </div>
           <div class="col-md-10">
             <ul class="socials">
-              <li><a href="/feed.xml" target="_blank" >
-                  <img src="/images/info/rss.png" height="30px"></a></li>
-              <li><a href="https://www.facebook.com/pages/Legal-and-Tax/1509772229235305" target="_blank" >
-                  <img src="/images/info/f.png" height="32px"></a></li>
-              <li><a href="https://www.linkedin.com/grp/home?gid=8345299" target="_blank" >
-                  <img src="/images/info/in.png" height="32px"></a></li>
-              
+              <li>
+                <a href="/feed.xml" target="_blank" >
+                  <img src="/images/info/rss.png" height="30">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/pages/Legal-and-Tax/1509772229235305" target="_blank" >
+                  <img src="/images/info/f.png" height="32">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/grp/home?gid=8345299" target="_blank" >
+                  <img src="/images/info/in.png" height="32">
+                </a>
+              </li>
               <!--
-              <li><a href="/" target="_blank" ><img src="/images/info/g+.png" height="32px"></a></li>
-              <li><a href="/" target="_blank" ><img src="/images/info/t.png" height="32px"></a></li>
+                <li><a href="/" target="_blank" ><img src="/images/info/g+.png" height="32px"></a></li>
+                <li><a href="/" target="_blank" ><img src="/images/info/t.png" height="32px"></a></li>
               -->
             </ul>
           </div>
         </div>  <!-- row - partners -->
-
-            <br />
-      <p>
-        &copy; 2015. Все права защищены. <br />
-       При использовании материалов сайта обязательным условием является наличие гиперссылки в пределах первого абзаца на страницу расположения исходной статьи с указанием бренда издания ITIN.COM.UA
-      </p>
-
+        <br />
+        <p>
+          &copy; 2015. Все права защищены. <br />
+          При использовании материалов сайта обязательным условием является наличие гиперссылки в пределах первого абзаца на страницу расположения исходной статьи с указанием бренда издания ITIN.COM.UA
+        </p>
       </div>
     </footer>
 
@@ -192,8 +170,6 @@
     <script src="/dist/js/bootstrap.min.js"></script>
     <script src="/js/jquery.mobile.custom.min.js"></script>
     <script src="/js/plugins.js"></script>
-
-
-{% include analytics.html %}
+    {% include analytics.html %}
   </body>
 </html>

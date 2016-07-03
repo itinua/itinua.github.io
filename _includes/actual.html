@@ -1,48 +1,48 @@
 {% include ads_top.html %}
-<div class="popular">
 
-        <h3 class="block-header">
-            Советуем почитать</h3>
-
-        <div class="row">
-           {% for post in site.categories.actual limit:4 %}
-
-          <div class="col-sm-3">
-              <div class="article-img">
-                  {% if post.img %}
-                  <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
-                  {% else %}
-                  <div class="img-crop"> <img src="/images/getImage.jpeg" alt="{{post.title}}"/></div>
-                  {% endif %}
-                  <span class="triangle-bottom"> </span>
-                </div>
-              <a href="{{post.url}}">{{post.title}}</a>
-
-
-          </div>
-            {% endfor %}
-        </div>  <!-- row ends -->
-        <br />
-     <div class="row">
-           {% for post in site.categories.actual offset:4 limit:4%}
-
-          <div class="col-sm-3">
-              <div class="article-img">
-                  {% if post.img %}
-                  <div class="img-crop"> <img src="/images/{{post.img}}" alt="{{post.title}}"/></div>
-                  {% else %}
-                  <div class="img-crop"> <img src="/images/getImage.jpeg" alt="{{post.title}}"/></div>
-                  {% endif %}
-                  <span class="triangle-bottom"> </span>
-                </div>
-              <a href="{{post.url}}">{{post.title}}</a>
-
-
-          </div>
-            {% endfor %}
-        </div>  <!-- row ends -->
-
+<div class="popular read-more">
+  <h3 class="block-header">Советуем почитать</h3>
+  <div class="row">
+    {% for post in site.categories.actual limit:4 %}
+      <div class="col-sm-3">
+        <div class="article-img">
+          {% if post.img %}
+            <div class="img-crop">
+              <img src="/images/{{ post.img }}" alt="{{ post.title }}" />
+            </div>
+          {% else %}
+            <div class="img-crop">
+              <img src="/images/getImage.jpeg" alt="{{ post.title }}"/>
+            </div>
+          {% endif %}
+          <span class="triangle-bottom"> </span>
+        </div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
+    {% endfor %}
+  </div>  <!-- row ends -->
+  <br />
+  <div class="row">
+    {% for post in site.categories.actual offset:4 limit:4 %}
+      <div class="col-sm-3">
+        <div class="article-img">
+          {% if post.img %}
+            <div class="img-crop">
+              <img src="/images/{{ post.img }}" alt="{{ post.title }}"/>
+            </div>
+          {% else %}
+            <div class="img-crop">
+              <img src="/images/getImage.jpeg" alt="{{ post.title }}"/>
+            </div>
+          {% endif %}
+          <span class="triangle-bottom"> </span>
+        </div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    {% endfor %}
+  </div>  <!-- row ends -->
+
+</div>
 <p class="all-articles">
-             <a href="/content/list/all_actual.html">Самое актуальное</a>
-            </p>
+  <a href="/content/list/all_actual.html">Самое актуальное</a>
+</p>
