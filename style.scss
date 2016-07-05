@@ -613,8 +613,16 @@ header {
   margin-top: .25em;
 }
 
-.section-group h4 {
-  word-wrap: break-word;
+.section-group {
+  h4 {
+    word-wrap: break-word;
+  }
+
+  @media (max-width: 375px) {
+    .article-img {
+      display: none;
+    }
+  }
 }
 
 .all-articles {
