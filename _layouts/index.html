@@ -4,8 +4,8 @@ layout: home
 {% for item in site.all_categories %}
   <div class="section">
     <h2 class="section-title">
-      <a href="/content/list/{{ item.url }}">{{ item.name }}</a>
-      <a class="pull-right" href="/content/list/{{ item.url }}">{{ site.categories.[item.id] | size }}</a>
+      <a class="pull-right counter" href="/content/list/{{ item.url }}">{{ site.categories.[item.id] | size }}</a>
+      <a class="title" href="/content/list/{{ item.url }}">{{ item.name }}</a>
     </h2>
     <span class="triangle-bottom top0"></span>
 

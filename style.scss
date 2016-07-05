@@ -571,22 +571,22 @@ header {
   position: relative;
   margin: 1.2em 0 0 0 !important;
 
-  a {
+  .title {
     color: #4d4d4d;
-    margin-right: 2em;
+  }
 
-    &+a {
-      font-size: .6em;
-      margin-right: 0;
-      position: relative;
-      top: .25em;
-      padding: 1px 0 2px 1.25em;
-      background: url(images/info/articles-count.png) 0 0 no-repeat;
-      background-size: 11px 64px;
+  .counter {
+    color: #4d4d4d;
+    font-size: .6em;
+    margin-right: 0;
+    position: relative;
+    top: .25em;
+    padding: 1px 0 2px 1.25em;
+    background: url(images/info/articles-count.png) 0 0 no-repeat;
+    background-size: 11px 64px;
 
-      &:hover {
-        background-position: 0 -50px;
-      }
+    &:hover {
+      background-position: 0 -50px;
     }
   }
 }
@@ -665,7 +665,7 @@ header {
     text-align: left;
   }
 
-  .section-title a+a{
+  .section-title .counter {
     font-size: .7em;
   }
 
