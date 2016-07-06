@@ -1,6 +1,5 @@
 markdown: kramdown
 permalink: /:title.html
-auto: true
 relative_permalinks: false
 
 safe: true
@@ -52,7 +51,7 @@ all_categories:
   url: deyatelnost-predprinimatelei.html
 
 - id: a4
-  name: Защита прав интеллектуальной собственности
+  name: Интеллектуальная собственность
   url: zaschita-prav-intellektualnoi-sobstvennosti.html
 
 authors:
