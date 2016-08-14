@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, actual, featured]
+categories: [a1, actual]
 title: Валютные упрощения этого лета 
 author: katerina-timchenko
 ---
