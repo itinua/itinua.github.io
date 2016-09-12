@@ -16,12 +16,12 @@
       <meta property="og:image:width" content="450">
       <meta property="og:image:height" content="298">
       <meta property="fb:app_id" content="127336904283105">
-      {% assign content1 = page.content || truncatewords: 20 %}
+      {% assign content1 = page.content | truncatewords: 20 %}
 
       {% if content1 == "" %}
         <meta property="og:description" content="{{ site.about }}">
       {% else %}
-        <meta property="og:description" content="{{ page.content || strip_html || truncatewords: 30 }}">
+        <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 30 }}">
       {% endif %}
     {% elsif page.page_category %}
       {% for cat in site.all_categories %}
@@ -35,7 +35,7 @@
     {% endif %}
 
     <meta name="description" content="{{ page.title }}">
-    <meta name="keys" content="{{ page.content || strip_html || truncatewords: 20 }}">
+    <meta name="keys" content="{{ page.content | strip_html | truncatewords: 20 }}">
     <link rel="image_src" href="/images/{{ page.img }}" >
 
     <!-- Bootstrap -->
