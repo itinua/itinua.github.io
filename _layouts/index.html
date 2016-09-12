@@ -4,13 +4,13 @@ layout: home
 {% for item in site.all_categories %}
   <div class="section">
     <h2 class="section-title">
-      <a class="pull-right counter" href="/content/list/{{ item.url }}">{{ site.categories.[item.id] | size }}</a>
+      <a class="pull-right counter" href="/content/list/{{ item.url }}">{{ site.categories[item.id] | size }}</a>
       <a class="title" href="/content/list/{{ item.url }}">{{ item.name }}</a>
     </h2>
     <span class="triangle-bottom top0"></span>
 
     <div class="main-article row">
-      {% for post in site.categories.[item.id] %}
+      {% for post in site.categories[item.id] %}
         {% if post.categories contains "featured" %}
           {% assign id = post.url %}
           <div class="col-sm-6">
@@ -20,7 +20,7 @@ layout: home
           </div>
           <div class="col-sm-6">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.content || strip_html || truncatewords: 25 }}</p>
+            <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
           </div>
         {% endif %}
       {% endfor %}
@@ -28,7 +28,7 @@ layout: home
     <br/>
     <div class="section-group row">
       {% assign counter = 0 %}
-      {% for post in site.categories.[item.id] %}
+      {% for post in site.categories[item.id] %}
         {% if post.url != id %}
           {% assign counter = counter | plus:1 %}
           <div class="col-sm-3">
@@ -72,8 +72,8 @@ layout: home
 
   <div class="main-article row">
     {% for country in site.all_countries %}
-      {% if site.categories.[country.id].first %}
-        {% for post in site.categories.[country.id] %}
+      {% if site.categories[country.id].first %}
+        {% for post in site.categories[country.id] %}
           {% if post.categories contains "featured" %}
             <div class="col-sm-6">
               <div class="img-crop">

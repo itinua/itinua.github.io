@@ -32,14 +32,14 @@ layout: body
           <div class="col-md-9">
 
    {% for country in site.all_countries %}
-              {% if site.categories.[country.id].first %}
+              {% if site.categories[country.id].first %}
               
 
                 <h2> <img src="/images/countries/{{country.id}}.png" width="45" alt="{{country.name}}"> {{country.name}} </h2>
             <div id="{{country.id}}" class="country-item-block">
 
                 <ul class="bulleted-list">
-                     {% for post in site.categories.[country.id]  %}
+                     {% for post in site.categories[country.id]  %}
                     {% if post.categories contains "job" %}
 
 
@@ -54,10 +54,10 @@ layout: body
 
                 <div>
 
-                    {% if site.categories.[country.id].first %}
+                    {% if site.categories[country.id].first %}
 
                       {% assign first = false %}
-                      {% for post in site.categories.[country.id]  %}
+                      {% for post in site.categories[country.id]  %}
                       {% if post.categories contains "job" %}
                         {% if first == false    %}
                       <h4>Вакансии</h4>

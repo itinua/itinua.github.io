@@ -7,13 +7,13 @@ title: Карта сайта, все разделы сайта
 
     <h2 class="section-title">
       <a href="/content/list/{{item.url}}">{{ item.name }}</a>
-      <a class="pull-right" href="/content/list/{{item.url}}">{{ site.categories.[item.id] | size }}</a> </h2>
+      <a class="pull-right" href="/content/list/{{item.url}}">{{ site.categories[item.id] | size }}</a> </h2>
     <span class="triangle-bottom top0"></span>
 
 
     <div class="section-group row">
     <ul>
-          {% for post in site.categories.[item.id] %}
+          {% for post in site.categories[item.id] %}
            {% if post.url != id %}
 
              <li>
@@ -40,7 +40,7 @@ title: Карта сайта, все разделы сайта
     <div class="section-group row">
     <ul>
         {% for item in site.all_countries %}
-          {% for post in site.categories.[item.id] %}
+          {% for post in site.categories[item.id] %}
            {% if post.url != id  %}
             {% if post.categories contains "job" %}
              {% else %}

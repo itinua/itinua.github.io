@@ -15,7 +15,7 @@ withLine: true
               <div class="col-xs-3 ">
 
                 <div class="user-photo">
-                    {% if {{site.authors[page.author].image}}%}
+                    {% if site.authors[page.author].image %}
                   <img src="/images/author/{{site.authors[page.author].image}}" width="100" alt="user" />
                     {% else %}
                      <img src="/images/author/IT-user.png" width="100" alt="user" />
