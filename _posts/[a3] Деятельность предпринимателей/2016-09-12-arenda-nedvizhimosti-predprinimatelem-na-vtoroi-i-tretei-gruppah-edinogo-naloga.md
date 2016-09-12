@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3]
+categories: [a3, actual]
 title: Аренда недвижимости предпринимателем на второй и третьей группах единого налога
 img: property-investment-1.png
 author: katerina-britskaya
