@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, actual, featured]
+categories: [a1, actual]
 title: Покупаем услуги у нерезидента 
 img:
 author: katerina-timchenko
