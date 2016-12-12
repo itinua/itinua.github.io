@@ -2,7 +2,7 @@
 layout: article
 categories: [a2]
 title: Зміни в порядку державної реєстрації бізнесу
-img: 
+img: sub-banner-business-law.jpg	
 author: katerina-britskaya
 ---
 
