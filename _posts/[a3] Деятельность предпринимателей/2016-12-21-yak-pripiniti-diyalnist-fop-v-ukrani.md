@@ -2,6 +2,7 @@
 layout: article
 categories: [a3]
 title: Як припинити діяльність ФОП в Україні
+img: buhgalter-24(23).jpg
 author: katerina-britskaya
 ---
 
