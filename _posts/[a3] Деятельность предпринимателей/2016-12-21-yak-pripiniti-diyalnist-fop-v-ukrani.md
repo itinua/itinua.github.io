@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3]
-title: як припинити діяльність ФОП в Україні
+title: Як припинити діяльність ФОП в Україні
 author: katerina-britskaya
 ---
 
