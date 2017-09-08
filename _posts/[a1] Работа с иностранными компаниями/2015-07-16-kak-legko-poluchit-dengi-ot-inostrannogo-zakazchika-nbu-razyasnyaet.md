@@ -61,7 +61,7 @@ author: katerina-timchenko
 УкрСиббанк и ОTP. Первые  три шаблона взяты с сайта http://dou.ua/, а инвойс для Google доработан юристами сайта http://itin.com.ua/.
 
 * [Скачать инвойс для сайтов посредников](http://itin.com.ua/pdf/Инвойс для сайтов посредников.doc)
-* [Скачать инвойс для Upwork](http://itin.com.ua/pdf/Инвойс_upwork.doc)
+* [Скачать инвойс для Upwork](http://itin.com.ua/pdf/Invoice Upwork.pdf)
 * [Скачать инвойс для прямых клиентов](http://itin.com.ua/pdf/Инвойс_Прямые_клиенты.doc)
 * [Скачать инвойс для Google](http://itin.com.ua/pdf/Инвойс_Гугл_6.doc)
 * [Скaчать инвойс для AdSense](http://itin.com.ua/pdf/invoice adsens.doc)
