@@ -15,7 +15,7 @@ author: katerina-timchenko
 
 **Теперь внешнеэкономический договор:**
 
--	**может быть не только в письменной форме (hard copies), но и в электронной форме. 
+-	**может быть не только в письменной форме (hard copies), но и в электронной форме.** 
 
 Например, обмен подписанным договором по имейлу каждой из сторон будет считаться такой электронной формой, достаточной для подвтерждения, что договор заключен. Об этом не лишним будет внести в договор соответствующую формулировку как то: "The Contract comes into force by exchange of its scanned and signed copies by Parties via e-mails stipulated hereto, on the later date of a Party signature."
 
