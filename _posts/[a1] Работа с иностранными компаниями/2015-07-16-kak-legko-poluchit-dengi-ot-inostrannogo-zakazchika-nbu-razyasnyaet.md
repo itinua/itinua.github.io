@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, actual, featured]
+categories: [a1]
 title: НБУ разъясняет как легко получить деньги от иностранного заказчика 
 img: Google.jpg
 author: katerina-timchenko
