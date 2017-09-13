@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, actual, featured]
-title: НБУ разъясняет как легко получить деньги от иностранного заказчика 
+title: Договор с нерезидентом в 2017 году Экспорт услуг 
 img: Google.jpg
 author: katerina-timchenko
 ---
