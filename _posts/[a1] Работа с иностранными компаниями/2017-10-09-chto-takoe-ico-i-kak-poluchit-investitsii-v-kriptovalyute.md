@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Что такое ICO и как получить инвестиции в криптовалюте
-img: opengraph.png
+img: 125adc32cd6f8bea4221685c28942f74.jpg
 author: lyubomir-ostapiv
 ---
 Вирішив зрозуміти як розвивається ICO і по ходу переклав якісну статтю про переваги та ризики ICO з Techcrunch.
