@@ -91,5 +91,4 @@ author: tatyana-zhila
 
 
 *При написании статьи были проанализированы  материалы семинара:*
-
 *Mastering the Game: Business and Legal Issues for Video Game Developers , Oct 29, 2015, Kraków, Małopolska*
