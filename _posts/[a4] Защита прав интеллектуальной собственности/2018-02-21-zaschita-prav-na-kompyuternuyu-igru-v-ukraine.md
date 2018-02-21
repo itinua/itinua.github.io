@@ -2,7 +2,7 @@
 layout: article
 categories: [a4, actual, featured]
 title: Защита прав на компьютерную игру в Украине
-img: copyright.jpg
+img: z-avtorskih-prav-na-kompyuternuyu-programmu.jpg
 author: tatyana-zhila
 --- 
 
