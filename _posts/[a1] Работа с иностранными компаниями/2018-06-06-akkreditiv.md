@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Аккредитив как инструмент платежа
-img: 
+img: letter.jpg
 author: konstantin-kozlovskii
 ---
 
