@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Аккредитив как инструмент платежа
-img: 125adc32cd6f8bea4221685c28942f74.jpg
+img: 
 author: konstantin-kozlovskii
 ---
 **АККРЕДИТИВ КАК ИНСТРУМЕНТ ПЛАТЕЖА**
