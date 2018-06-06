@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, actual]
-title: Что такое ICO и как получить инвестиции в криптовалюте
+title: Аккредитив как инструмент платежа
 img: 125adc32cd6f8bea4221685c28942f74.jpg
 author: konstantin-kozlovskii
 ---
