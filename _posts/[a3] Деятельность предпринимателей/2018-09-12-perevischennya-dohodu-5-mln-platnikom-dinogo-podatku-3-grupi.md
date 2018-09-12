@@ -2,7 +2,7 @@
 layout: article
 categories: [a3]
 title: Перевищення 5 млн доходу для третьої групи 
-img: 
+img: 50_m2.jpg
 author: daryna-varlam
 ---
 
