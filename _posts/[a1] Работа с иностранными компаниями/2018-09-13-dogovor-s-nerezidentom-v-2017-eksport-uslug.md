@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1, actual, featured]
-title: Договор с нерезидентом в 2017 году Экспорт услуг 
+title: Договор с нерезидентом в 2018 году Экспорт услуг 
 img: Google.jpg
 author: katerina-timchenko
 ---
