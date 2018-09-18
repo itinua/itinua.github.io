@@ -1,5 +1,5 @@
-
-Имейл для связи info@laudis.ua
+---
+layout: userprofile
 author: daryna-varlam
 ---
-Имейл для связи info@laudis.ua
+ЮФ Лаудис. Имейл для связи info@laudis.ua
