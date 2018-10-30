@@ -2,7 +2,7 @@
 layout: article
 categories: [a2, actual, featured]
 title: Как могут исключить из ООО
-img: tax-system.jpg
+img: корпправа.jpeg
 author: katerina-timchenko
 ---
 
