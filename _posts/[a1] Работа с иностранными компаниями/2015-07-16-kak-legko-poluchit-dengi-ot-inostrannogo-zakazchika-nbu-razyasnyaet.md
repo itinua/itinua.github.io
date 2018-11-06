@@ -60,11 +60,11 @@ author: katerina-timchenko
 Эти шаблоны согласованы с банками, с которыми активно работают фрилансеры - Райффайзен Банк Аваль, Приват, ПУМБ, 
 УкрСиббанк и ОTP. Первые  три шаблона взяты с сайта http://dou.ua/, а инвойс для Google доработан юристами сайта http://itin.com.ua/.
 
-* [Скачать инвойс для сайтов посредников](http://itin.com.ua/pdf/Инвойс для сайтов посредников.doc)
-* [Скачать инвойс для Upwork](http://itin.com.ua/pdf/Invoice Upwork.docx)
-* [Скачать инвойс для прямых клиентов](http://itin.com.ua/pdf/Инвойс_Прямые_клиенты.doc)
-* [Скачать инвойс для Google](http://itin.com.ua/pdf/Инвойс_Гугл_6.doc)
-* [Скaчать инвойс для AdSense](http://itin.com.ua/pdf/invoice adsens.doc)
-* [Скaчать инвойс для Apple](http://itin.com.ua/pdf/Invoice_Apple.doc)
+* [Скачать инвойс для сайтов посредников](http://itin.ua/pdf/Инвойс для сайтов посредников.doc)
+* [Скачать инвойс для Upwork](http://itin.ua/pdf/Invoice Upwork.docx)
+* [Скачать инвойс для прямых клиентов](http://itin.ua/pdf/Инвойс_Прямые_клиенты.doc)
+* [Скачать инвойс для Google](http://itin.ua/pdf/Инвойс_Гугл_6.doc)
+* [Скaчать инвойс для AdSense](http://itin.ua/pdf/invoice adsens.doc)
+* [Скaчать инвойс для Apple](http://itin.ua/pdf/Invoice_Apple.doc)
 
 Другие полезные документы вы можете найте в соответствующем разделе [Документы](http://itin.com.ua/content/documents.html)
