@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual, featured]
 title: Електронна віза для іноземця для в'їзду в Україну 
-img: Google.jpg
+img: la-demande-de-visa-pour-la-thaïlande-bientôt-possible-en-ligne-1485712771905.jpg
 author: olga-bondar
 ---
 Обновления 12.09.2018 г.На сайті Міністерства закордонних справ України (Інтернет-посилання: https://mfa.gov.ua/ua/consular-affairs/entering-ukraine/e-visa) 
