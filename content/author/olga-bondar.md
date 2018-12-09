@@ -2,4 +2,4 @@
 layout: userprofile
 author: olga-bondar
 ---
-Юрист ЮФ Лаудис. Имейл для связи info@laudis.ua
+Ольга Бондарь. Юрист ЮФ Лаудис. Имейл для связи info@laudis.ua
