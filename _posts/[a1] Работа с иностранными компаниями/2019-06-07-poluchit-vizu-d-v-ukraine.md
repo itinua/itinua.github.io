@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Как получить визу Д  для въезда в Украину в Украине
-img: la-demande-de-visa-pour-la-thaïlande-bientôt-possible-en-ligne-1485712771905.jpg
+img: visas.jpg
 author: katerina-timchenko
 ---
 С 26 июня 2019 года вступает в силу  [Постановление КМУ о внесении изменений к правилам оформления виз
