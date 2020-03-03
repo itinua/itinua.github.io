@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual, featured]
 title: Ведение предпринимателя самостоятельно на 3 группе единого налога 2020
-img: calendar2020.jpg
+img: kalendar2020.jpg
 author: daryna-varlam 
 --- 
 Ведение своего СПД состоит из подачи в течении года двух видов отчетов (декларация поквартально и отчет по ЕСВ ежегодно), 
