@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual, featured]
 title: Нерезиденти в Україні екстрені міри 
-img: australia-visa-application-252.jpg
+img: australia-visa-application-952.jpg
 author: katerina-timchenko
 ---
 
