@@ -3,7 +3,7 @@ layout: article
 categories: [a1]
 title: Нерезиденти в Україні екстрені заходи 
 img: australia-visa-application-952.jpg
-author: oleksandra-hnatiuk.md
+author: oleksandra-hnatiuk
 ---
 
 У зв’язку з карантином, введеним в Україні 12 березня 2020 року у міграційній сфері було введено декілька новел.
