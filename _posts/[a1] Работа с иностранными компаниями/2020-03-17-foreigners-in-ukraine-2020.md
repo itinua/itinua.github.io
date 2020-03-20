@@ -29,7 +29,7 @@ Also, Ministry of foreign affairs of Ukraine in particular occasions is entitled
  
 **Citizens of Ukraine and foreigners entitled temporary or permanent residence in Ukraine, are permitted to admission in Ukraine.**  
 
-    Please note that violation of rules of resıdence ın Ukraıne by foreıgners and stateless persons usually causes inflicting of fines in the amount from hundred to three hundreds of individual income tax exemption (UAH 1700-5100 for the March 2020), in particular:
+Please note that violation of rules of resıdence ın Ukraıne by foreıgners and stateless persons usually causes inflicting of fines in the amount from hundred to three hundreds of individual income tax exemption (UAH 1700-5100 for the March 2020), in particular:
 
 * Residing  without the permits (temporary or permanent)
 * Residing  with the invalid documents 
