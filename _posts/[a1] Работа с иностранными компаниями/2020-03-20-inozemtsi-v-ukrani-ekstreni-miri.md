@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1]
+categories:[a1]
 title: Нерезиденти в Україні екстрені заходи 
 img: australia-visa-application-952.jpg
 author: oleksandra-hnatiuk
