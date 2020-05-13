@@ -2,7 +2,7 @@
 layout: article
 categories: [a1]
 title: Квота на імміграцідля IT спеціалістів 
-img: 
+img: IT-Specialist.png
 author: oleksandra-hnatiuk
 ---
 
