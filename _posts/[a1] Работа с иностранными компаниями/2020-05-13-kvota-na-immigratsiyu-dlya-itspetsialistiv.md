@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, actual]
 title: Квота на імміграцідля IT спеціалістів 
 img: 
 author: oleksandra-hnatiuk
