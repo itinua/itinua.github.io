@@ -1,12 +1,13 @@
 ---
 layout: article
-categories:[a2]
+categories: [a2]
 title: Compulsory Notification of the State Registrar About Ultimate Beneficial Owner
-img: photo5328218397877579472.jpg
+img: hoto5328218397877579472.jpg
 author: galina-basteeva
----
-If you are the owner or manager of business, lawyer or accountant dealing with documentary support of the company, this article 
-could be actual for you.
+--- 
+
+*If you are the owner or manager of business, lawyer or accountant dealing with documentary support of the company, this article 
+could be actual for you*.
 
 From the date of April 28, 2020 entered into force Law of Ukraine № 361-IX “On Prevention and Counteraction to Legalization (Laundering)
 of the Proceeds from Crime or Terrorism Financing, as well as Financing Proliferation of Weapons of Mass Destruction” (hereinafter
