@@ -34,7 +34,7 @@ author: tatyana-zhila
 
 Приклади: 
 
-1)	Власник патенту на дизайн Роберт Бош ГмбХ
+1) Власник патенту на дизайн Роберт Бош ГмбХ
 
 
 ![Image alt](https://github.com/29082001-law/itinua.github.io/raw/master/images/текст.png)
