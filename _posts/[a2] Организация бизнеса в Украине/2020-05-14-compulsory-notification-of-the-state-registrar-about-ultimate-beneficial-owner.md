@@ -25,7 +25,7 @@ structure has changed, the company undertakes to notify with updated information
 date of such changes.
 
 Moreover, if company decides to register changes, which should be included to State Register, along with filing relevant documents,
-company should ether file update information about beneficiary or inform about absence of any changes in ownership structure. 
+company should either file update information about beneficiary or inform about absence of any changes in ownership structure. 
 
 If filed information were not full or inaccurate, company should refile corrected documents within 3 business days from the moment of 
 discovery such inaccurate data.
@@ -35,15 +35,17 @@ discovery such inaccurate data.
 According to the clause 17-1 of [The Law № 755](https://zakon.rada.gov.ua/laws/show/755-15) documents that requires for providing the information about UBO are the follows:
 
 * application form;
-* ownership structures;
+* ownership structure;
 * if the shareholder of the company is non-resident - the extract from the trade, banking, and court register of a non-resident legal 
 entity of such entity’s country of location, - (apostilled or otherwise legalised in the country of issue, and translated into Ukrainian);
 *notarized copy of identity document of UBO.
 
 **Ways of filing documents**
 
-*Company could file documents in follows ways: 
+Company could file documents in follows ways: 
+
 *in hard copy personally or postal;
+
 *in electronic form through the portal of electronic services using digital signature 
 
 **Finally, what consequences the company would suffer if it fails to comply with the law?**
