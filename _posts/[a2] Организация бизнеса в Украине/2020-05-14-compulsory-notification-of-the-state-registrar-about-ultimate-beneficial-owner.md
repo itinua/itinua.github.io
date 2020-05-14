@@ -2,7 +2,7 @@
 layout: article
 categories: [a2]
 title: Compulsory Notification of the State Registrar About Ultimate Beneficial Owner
-img: hoto5328218397877579472.jpg
+img: photo5328218397877579472.jpg
 author: galina-basteeva
 --- 
 
