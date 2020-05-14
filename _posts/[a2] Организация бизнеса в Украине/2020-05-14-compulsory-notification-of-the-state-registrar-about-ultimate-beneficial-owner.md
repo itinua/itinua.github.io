@@ -38,7 +38,7 @@ According to the clause 17-1 of [The Law № 755](https://zakon.rada.gov.ua/laws
 * ownership structure;
 * if the shareholder of the company is non-resident - the extract from the trade, banking, and court register of a non-resident legal 
 entity of such entity’s country of location, - (apostilled or otherwise legalised in the country of issue, and translated into Ukrainian);
-*notarized copy of identity document of UBO.
+* notarized copy of identity document of UBO.
 
 **Ways of filing documents**
 
