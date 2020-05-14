@@ -9,23 +9,18 @@ author: galina-basteeva
 *If you are the owner or manager of business, lawyer or accountant dealing with documentary support of the company, this article 
 could be actual for you*.
 
-From the date of April 28, 2020 entered into force Law of Ukraine № 361-IX “On Prevention and Counteraction to Legalization (Laundering)
-of the Proceeds from Crime or Terrorism Financing, as well as Financing Proliferation of Weapons of Mass Destruction” (hereinafter
-referred – The Law № 361).
+From the date of April 28, 2020 entered into force [Law of Ukraine № 361-IX “On Prevention and Counteraction to Legalization (Laundering)of the Proceeds from Crime or Terrorism Financing, as well as Financing Proliferation of Weapons of Mass Destruction” (hereinafter referred – The Law № 361)](https://zakon.rada.gov.ua/laws/show/361-IX).
 
-The Law № 361 imposed into existing companies the obligation to provide the State Registrar with actual information about Ultimate
+[The Law № 361](https://zakon.rada.gov.ua/laws/show/361-IX) imposed into existing companies the obligation to provide the State Registrar with actual information about Ultimate
 Beneficial Owner (hereinafter referred – UBO) within 3 months from the date of entry into force the Regulation that will approves the 
 form of application and content of the ownership structure. 
 
 On the moment of posting this article mentioned Regulation hasn’t been adopted, consequently respective 3 months’ term hasn’t been 
 started yet.
 
-The Law № 361 amends The Law of Ukraine № 755-IV “On State Registration of Legal Entities, Individual Entrepreneurs and Public 
-Organizations” (hereinafter referred – The Law № 755) by clause 17-1 and also created obligation for all companies (new and existing) 
-to provide State Registrar with update information about UBO on a permanent basis every year within 14 calendar days from the date of 
-state registration of the company.
+[The Law № 361](https://zakon.rada.gov.ua/laws/show/361-IX) amends The Law of Ukraine № 755-IV “On State Registration of Legal Entities, Individual Entrepreneurs and Public Organizations” (hereinafter referred – The Law № 755) by clause 17-1 and also created obligation for all companies (new and existing) to provide State Registrar with update information about UBO on a permanent basis every year within 14 calendar days from the date of state registration of the company.
 
-The Law № 755 lay emphasis on company’s obligation to keep updated respective information about UBO, this means that if the ownership
+[The Law № 755](https://zakon.rada.gov.ua/laws/show/755-15) lay emphasis on company’s obligation to keep updated respective information about UBO, this means that if the ownership
 structure has changed, the company undertakes to notify with updated information the State Registrar within 30 business days from the 
 date of such changes.
 
@@ -37,7 +32,7 @@ discovery such inaccurate data.
 
 **Documents’ required**
 
-According to the clause 17-1 of The Law № 755 documents that requires for providing the information about UBO are the follows:
+According to the clause 17-1 of [The Law № 755](https://zakon.rada.gov.ua/laws/show/755-15) documents that requires for providing the information about UBO are the follows:
 
 * application form;
 * ownership structures;
