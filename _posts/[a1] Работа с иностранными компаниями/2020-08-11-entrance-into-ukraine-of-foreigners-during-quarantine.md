@@ -25,7 +25,7 @@ subsequent extension until departure must be covered. There are no requirements 
 
 
 |Name of Insurance Company|Online Purchase|Trust rating| Price | Profitability of insurance conditions|
-|------------------|:-------------:|:-----------:|:-----:|--------:|
+|-------------|:----------:|:---------:|:---:|--------:|
 | **UPSK**                   | Possible     |Low 2%        |20-90$ | Average  |
 | **IC „Guardian**               | 	Via Manager	|Medium 3,3%	|22-30$ |Average|
 | **IC «Misto“**                 | Possible        |  High 4,3% |8 – 90$|Average|
