@@ -24,11 +24,11 @@ In this case, the minimum insurance period should amount to the period of stay o
 subsequent extension until departure must be covered. There are no requirements for the sum of the insurance as such. A person chooses it with on their own will.
 
 
-|Name of Insurance Company|Online Purchase|Trust rating| Price | Profitability of insurance conditions|
-|------------|:---------:|:---------:|:---:|-------:|
-| **UPSK**                   | Possible     |Low 2%        |20-90$ | Average  |
-| **IC „Guardian**               | 	Via Manager	|Medium 3,3%	|22-30$ |Average|
-| **IC «Misto“**                 | Possible        |  High 4,3% |8 – 90$|Average|
+|Name of Insurance Company|Online Purchase|Trust rating| Price|Profitability of insurance conditions|
+|----------|:--:|:-----:|:--:|-------:|
+| **UPSK**   | Possible  |Low 2%        |20-90$ | Average  |
+| **IC „Guardian**  |	Via Manager	|Medium 3,3%	|22-30$ |Average|
+| **IC «Misto“**  | Possible  |  High 4,3% |8 – 90$|Average|
 |**IC „INGO“	Possible**| (the same service package for Ukrainians and foreigners)|	Medium 3%|	15-50$|Average|
 |**СК «Universalna»**|	Via Manager	|Low 2%	| 10-100 $|	Depending on the service package|
 | **IC «Krayina»**|	Via Manager	| Low 2%|	No data	|Unknown|
