@@ -26,17 +26,17 @@ subsequent extension until departure must be covered. There are no requirements 
 
 |Name of Insurance Company|Online Purchase|Trust rating| Price | Profitability of insurance conditions|
 |------------------------|:-------------:|:-----------:|:-----:|-------------------------------------:|
-| UPSK                   | Possible     |Low 2%        |20-90$ | Average                             |
-| IC „Guardian                 | 	Via Manager	|Medium 3,3%	|22-30$ |Average|
-| IC «Misto“                   | Possible        |  High 4,3% |8 – 90$|Average|
-|IC „INGO“	Possible| (the same service package for Ukrainians and foreigners)|	Medium 3%|	15-50$|Average|
-|СК «Universalna»|	Via Manager	|Low 2%	| 10-100 $|	Depending on the service package|
-| IC «Krayina»|	Via Manager	| Low 2%|	No data	|Unknown|
-|TAS Programme „Mandry“	| Via Manager|	Medium 3%	|No data	|Unknown|
-|Vitamin  Travel  IC Inter-Plus	| Possible via chat-bot|	High 3,8% (Inter-Plus)|	22 -55$ |	Average|
-VUSO	|Possible	|High| 3,5%	|35$|	Average|
-„OBERIG“	|Possible	High| 4%	|6-17$|	Average
-EKTA	|Possible	|High|	26$|	Middle
+| **UPSK**                   | Possible     |Low 2%        |20-90$ | Average                             |
+| **IC „Guardian**               | 	Via Manager	|Medium 3,3%	|22-30$ |Average|
+| **IC «Misto“**                 | Possible        |  High 4,3% |8 – 90$|Average|
+|**IC „INGO“	Possible**| (the same service package for Ukrainians and foreigners)|	Medium 3%|	15-50$|Average|
+|**СК «Universalna»**|	Via Manager	|Low 2%	| 10-100 $|	Depending on the service package|
+| **IC «Krayina»**|	Via Manager	| Low 2%|	No data	|Unknown|
+|**TAS Programme „Mandry“**	| Via Manager|	Medium 3%	|No data	|Unknown|
+|**Vitamin  Travel  IC Inter-Plus**	| Possible via chat-bot|	High 3,8% (Inter-Plus)|	22 -55$ |	Average|
+**VUSO**	|Possible	|High| 3,5%	|35$|	Average|
+**„OBERIG“**	|Possible	High| 4%	|6-17$|	Average
+**EKTA**	|Possible	|High|	26$|	Middle
 
 
 There are excellent online resources for quick and easy conclusion of an insurance contract:
