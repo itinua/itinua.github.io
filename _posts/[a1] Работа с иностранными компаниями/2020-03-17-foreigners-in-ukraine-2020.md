@@ -5,6 +5,31 @@ title: Rules for foreigners stay in Ukraine due to COVID-19
 img: australia-visa-application-952.jpg
 author: katerina-timchenko
 ---
+**Update 27 of August, 2020:**
+
+27 of August, 2020, Cabinet of Ministers of Ukraine introduced temporary ban on entrance of foreigners into Ukraine due to COVID-19 from 28 of August till 28 of September, 2020. 
+
+The following foreigners will be allowed to enter:
+
+* are relatives of the first line of citizens of Ukraine;
+* have an official valid work permit in Ukraine;
+* are technical specialists who arrive in Ukraine at the invitation of representatives of Ukrainian enterprises;
+* travel through the territory of Ukraine in transit and have documents confirming departure abroad within two days;
+* arrive in the country for training purposes;
+* are serving in the Armed Forces;
+* permanently or temporarily reside in Ukraine, have a certificate of permanent or temporary residence in Ukraine;
+* are heads and members of official delegations of foreign states, employees of international organizations, as well as persons accompanying them and entering Ukraine at the invitation of the President of Ukraine, the Verkhovna Rada, the Cabinet of Ministers, the Office of the President, the Ministry of Foreign Affairs.
+* are drivers and / or crew members of freight vehicles, buses engaged in regular transportation, crew members of aircraft, sea and river vessels, members of train and locomotive crews;
+* are cultural figures who arrive at the invitation of a cultural institution together with one person accompanying each of them;
+* arrive to participate in official sports competitions held in Ukraine, and accompanying persons;
+* are persons who carry out transportation of hematopoietic stem cells for transplantation;
+* arrive for treatment in health care institutions of Ukraine.
+
+These categories of foreign nationals must have an insurance to cover possible costs associated with COVID-19 treatment and observation (issued by an insurance company with a representative office in Ukraine).
+
+
+**Article dated March 17, 2020:**
+
 In connection with quarantıne whıch strarted in Ukraine on the 12th of March 2020, some temporary mıgratıon rules had been introduced.
 
 It’s  necessary to mention, that these rules shall be applied to the foreigners and people without citizenship who stayed legally in the territory of Ukraine as of the beginning of quarantine measures, id est:
