@@ -1,13 +1,13 @@
 ---
 layout: article
 categories: [a1, actual]
-title: Rules for foreigners stay in Ukraine due to COVID-19  
+title: Rules for foreigners stay in Ukraine due to COVID-19
 img: australia-visa-application-952.jpg
 author: katerina-timchenko
 ---
 **Updated 10 of September, 2020:**
 
-27 of August, 2020, Cabinet of Ministers of Ukraine introduced temporary ban on entrance of foreigners into Ukraine due to COVID-19 from 28 of August till 28 of September, 2020. 
+27 of August, 2020, Cabinet of Ministers of Ukraine introduced temporary ban on entrance of foreigners into Ukraine due to COVID-19 from 28 of August till 28 of September, 2020. September 9, 2020 the list was adjusted, transit trips were taken out of the list of permitted visits, list of relatives is broadened, study purpose is specified as related to higher education institutions. 
 
 The following foreigners will be allowed to enter:
 
