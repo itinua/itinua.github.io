@@ -5,17 +5,16 @@ title: Rules for foreigners stay in Ukraine due to COVID-19
 img: australia-visa-application-952.jpg
 author: katerina-timchenko
 ---
-**Update 27 of August, 2020:**
+**Updated 10 of September, 2020:**
 
 27 of August, 2020, Cabinet of Ministers of Ukraine introduced temporary ban on entrance of foreigners into Ukraine due to COVID-19 from 28 of August till 28 of September, 2020. 
 
 The following foreigners will be allowed to enter:
 
-* are relatives of the first line of citizens of Ukraine;
+* are relatives: children (till 18 years), spouses, parents, grandparents;
 * have an official valid work permit in Ukraine;
 * are technical specialists who arrive in Ukraine at the invitation of representatives of Ukrainian enterprises;
-* travel through the territory of Ukraine in transit and have documents confirming departure abroad within two days;
-* arrive in the country for training purposes;
+* arrive in the country for studying purposes (only higher education institution);
 * are serving in the Armed Forces;
 * permanently or temporarily reside in Ukraine, have a certificate of permanent or temporary residence in Ukraine;
 * are heads and members of official delegations of foreign states, employees of international organizations, as well as persons accompanying them and entering Ukraine at the invitation of the President of Ukraine, the Verkhovna Rada, the Cabinet of Ministers, the Office of the President, the Ministry of Foreign Affairs.
@@ -65,4 +64,4 @@ Please note that violation of rules of resıdence ın Ukraıne by foreıgners an
 
 Some of the above violations will be reduced according to described above temporary measures implied by government of Ukraine.
 
-*Our team of lawyers is ready to assist your business regarding of proper documenting of foreign citizens staying in Ukraine.*
+*Our team of lawyers is ready to assist your business regarding of proper documenting of foreign citizens staying in Ukraine. We assist to make proper invitation to technical specialists, doing work in Ukraine*
