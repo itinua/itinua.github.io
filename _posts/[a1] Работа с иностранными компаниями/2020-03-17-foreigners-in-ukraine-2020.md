@@ -29,6 +29,7 @@ Also, Ministry of foreign affairs of Ukraine in particular occasions is entitled
  
 **Citizens of Ukraine and some categories of foreigners(mentionted below) are permitted to admission in Ukraine.**  Here is list of certain documents which are required for croosing the broad of Ukraine for the certain categories of foreigners:
 
+
 1) for a spouse of Ukrainian resident- a mariage certificate;
 2) for parents, kinders, grandparents of Ukrainian resident- a certificate/other document which proves family connection;
 3) for foreigners who come to Ukraine fror studing - an invitation from Ministry of Education and Science of Ukraine/ a temporary resident permit/ visa type-D;
@@ -46,6 +47,7 @@ Also, Ministry of foreign affairs of Ukraine in particular occasions is entitled
 15) who are technical specialists who arrive in Ukraine at the invitation of representatives of Ukrainian enterprises - invitations from representatives of Ukrainian enterprises with mandatory indication of the need for such technical specialists;
 16) who are persons who carry out transportation of hematopoietic stem cells for transplantation - supporting documents from the Ministry of Health of Ukraine or from the health care institution of Ukraine;
 17) arrived for treatment at health care institutions of Ukraine - supporting documents from the health care institution of Ukraine / relevant invitation.
+
 
 Please note that violation of rules of resıdence ın Ukraıne by foreıgners and stateless persons usually causes inflicting of fines in the amount from hundred to three hundreds of individual income tax exemption (UAH 1700-5100 for the March 2020), in particular:
   * Residing  without the permits (temporary or permanent)
