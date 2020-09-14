@@ -12,21 +12,37 @@ author: katerina-timchenko
 The following foreigners will be allowed to enter:
 
 1) for a spouse of Ukrainian resident- a mariage certificate;
+
 2) for parents, kinders, grandparents of Ukrainian resident- a certificate/other document which proves family connection;
+
 3) for foreigners who come to Ukraine fror studing - an invitation from Ministry of Education and Science of Ukraine/ a temporary resident permit/ visa type-D;
+
 4) for foreigners who are serving in the Armed Forces of Ukraine - documents which prove the fact of the serving
+
 5) permanently or temporary residenting in Ukraine- a corresponding  resident permit;
+
 6) recognized as refugees or persons in need of additional protection - a refugee travel document or a refugee identity card;
+
 7) those who have a work permit for foreigners and stateless persons;
+
 8) who are employees of diplomatic missions and consular posts of foreign states, missions of official international missions, organizations accredited in Ukraine, and members of their families - documents confirming such status (relevant certificate, accreditation card);
+
 9) are heads and members of official delegations of foreign states, employees of international organizations, as well as persons accompanying them and entering Ukraine at the invitation of the President of Ukraine, the Verkhovna Rada of Ukraine, the Cabinet of Ministers of Ukraine, the Office of the President of Ukraine, the Ministry of Foreign Affairs - documents confirming such status / relevant invitation;
+
 10)who are persons arriving in Ukraine at the invitation of the Ministry of Foreign Affairs - a corresponding invitation;
+
 11) who are drivers and / or crew members of freight vehicles, buses engaged in regular transportation, crew members of aircraft, ships and river vessels, members of train and locomotive crews - documents confirming this status;
+
 12) who  are instructors of the armed forces of NATO member states and member states of the NATO "Partnership for Peace" program, who take part in training activities of units of the Armed Forces or arrive at the invitation of the Ministry of Defense - documents confirming such status / invitation;
+
 13) who are cultural figures who arrive at the invitation of a cultural institution together with one person accompanying each of them - an invitation from a cultural institution, documents confirming the status of an accompanying person;
+
 14) who arrive to participate in official sports competitions held on the territory of Ukraine, and accompanying persons - documents confirming the person's participation in official sports competitions and invitations from the Ministry of Youth and Sports of Ukraine, documents confirming the status of accompanying person;
+
 15) who are technical specialists who arrive in Ukraine at the invitation of representatives of Ukrainian enterprises - invitations from representatives of Ukrainian enterprises with mandatory indication of the need for such technical specialists;
+
 16) who are persons who carry out transportation of hematopoietic stem cells for transplantation - supporting documents from the Ministry of Health of Ukraine or from the health care institution of Ukraine;
+
 17) arrived for treatment at health care institutions of Ukraine - supporting documents from the health care institution of Ukraine / relevant invitation.
 
 
