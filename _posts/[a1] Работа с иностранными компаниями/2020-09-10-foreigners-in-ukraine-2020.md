@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1, actual]
+categories: [a1, a2, a3 actual]
 title: Rules for foreigners stay in Ukraine due to COVID-19
 img: australia-visa-application-952.jpg
 author: katerina-timchenko
