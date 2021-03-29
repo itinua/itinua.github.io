@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a3, actual, featured]
-title: Ведение предпринимателя самостоятельно на 3 группе единого налога 2020
+title: Ведение предпринимателя самостоятельно на 3 группе единого налога 2021
 img: календар укр_jpg.jpg
 author: daryna-varlam 
 --- 
