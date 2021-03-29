@@ -2,7 +2,7 @@
 layout: article
 categories: [a1, actual]
 title: Work permit for foreigner in 2021
-img: pracevlinozvukr.jpeg
+img: unnamed.jpg
 author: oleksandra-hnatiuk
 ---
 **Who should obtaine work permit in Ukraine**
