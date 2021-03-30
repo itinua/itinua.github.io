@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3, actual, featured]
+categories: [a3, actual]
 title: Private entrepreneur in Ukraine accountancy
 img: calendar.jpg
 author: daryna-varlam 
