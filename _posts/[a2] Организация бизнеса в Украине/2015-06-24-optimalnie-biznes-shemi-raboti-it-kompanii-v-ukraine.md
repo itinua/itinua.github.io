@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2, actual, featured]
+categories: [a2, actual]
 title: Оптимальные бизнес схемы работы IT компаний в Украине
 img: tax-system.jpg
 author: katerina-timchenko
