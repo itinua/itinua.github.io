@@ -5,7 +5,7 @@ title: Rules for foreigners stay in Ukraine due to COVID-19
 img: australia-visa-application-952.jpg
 author: katerina-timchenko
 ---
-In connection with quarantıne whıch strarted in Ukraine on the 12th of March 2020 Law of Ukraine № 530-IX was adopted. According to that Law foreigners, who exceed the term of stay on the territor of Ukaraine are from adimistrative responsibility. 
+In connection with quarantıne whıch strarted in Ukraine on the 12th of March 2020 Law of Ukraine № 530-IX was adopted. According to that Law foreigners and people without citizenship, who exceed the term of stay on the territory of Ukaraine, are released from administrative responsibility. 
 
 It’s  necessary to mention, that these rules shall be applied to the foreigners and people without citizenship who stayed legally in the territory of Ukraine as of the beginning of quarantine measures, id est:
 
