@@ -63,4 +63,5 @@ The full list of grounds to obtain residency in Ukraine is the following:
 **Marriage for longer than 2 years**	|1 year| Granted for 10 years|
 **IT specialty, meeting special requirements**	|1 year|Granted for 10 years|	
 
+
 *We will be glad to hear from you with regards any query and to assist in an application for residency.*
