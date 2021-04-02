@@ -51,13 +51,13 @@ The full list of grounds to obtain residency in Ukraine is the following:
 |----|:--:|:---:|
 | **Work permit for foreigner**   | 8 working days  |Granted for 1-3 роки|
 | **Tax id for foreigner**  |	Via Manager	|Indefinite term	|
-|----|:--:|:---:|
+||||
 | **Temporary residency based on:**  | 
 |**Work permit**|15 working days|Granted for 1-3 years| 
 |**Work at Representative Office**|	15 working days|Granted for 1 year| 
 | **Marriage**|	15 working days	| Granted for 1 year|
 |**Investment into economy of Ukraine for 100 000 EUR and more**	| 30 working days|	Granted for 1 year	|
-|----|:--:|:---:|
+||||
 |**Permanent residency based on:**|
 **Investment into economy of Ukraine for 100 000 USD and more**	|1 year|Granted for 10 years	|
 **Marriage for longer than 2 years**	|1 year| Granted for 10 years|
