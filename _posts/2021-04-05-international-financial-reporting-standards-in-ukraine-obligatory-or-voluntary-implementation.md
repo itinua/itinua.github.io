@@ -2,8 +2,8 @@
 layout: article
 categories: [a2]
 title: INTERNATIONAL FINANCIAL REPORTING STANDARDS IN UKRAINE: OBLIGATORY OR VOLUNTARY IMPLEMENTATION?
-img: 
-author: Maria Vasilenko
+img: blog_2020_10_20_en.jpg
+author: maria-vasilenko
 --- 
 Rapid expansion of information technologies, globalization, international cooperation, multinational corporations – all these factors have been accompanying
 our lives for almost a century.
@@ -26,11 +26,12 @@ Is there a choice? Who should decide how to maintain the accounts: according to 
 
 Part 2 of Article 12 of the Law № 996-XIV provides a list of enterprises for which the application of IFRS is mandatory:
 
-enterprises of public interest
-large enterprises
-public joint-stock companies
-enterprises engaged in the extraction of minerals of national importance
-enterprises engaged in economic activity by types, the list of which is determined by the Cabinet of Ministers of Ukraine
+* enterprises of public interest
+* large enterprises
+* public joint-stock companies
+* enterprises engaged in the extraction of minerals of national importance
+* enterprises engaged in economic activity by types, the list of which is determined by the Cabinet of Ministers of Ukraine
+
 The rest of the companies can choose IFRS as a conceptual basis for accounting at their own discretion.
 
 So, IFRS or UA GAAP? What is the best choice for the company if your activity is not found in the list above? However, if you are focused on long-term development,
@@ -56,6 +57,7 @@ depreciation, disposal or recognition of certain items, reclassification of asse
 Important! Transformation records should not affect the financial result of the year, so they should be made through the account of retained earnings (loss).
 An example of such a transformation table is given below.
 
+img: blog_2020_10_20_en-1.jpg
 
 Step 6. Make a transformed trial balance.
 
@@ -68,13 +70,14 @@ Perhaps the most important component of financial statements is the notes sectio
 
 The notes reveal:
 
-general information about the company;
-basics of preparation, approval and submission of financial statements;
-significant provisions of the accounting policy;
-significant judgments and assumptions;
-disclosure of information regarding fair value use;
-reclassifications in the financial statements for the reporting year compared to the financial statements of the previous year and correction of errors;
-disclosure of information, which confirms the articles submitted in the report.
+* general information about the company;
+* basics of preparation, approval and submission of financial statements;
+* significant provisions of the accounting policy;
+* significant judgments and assumptions;
+* disclosure of information regarding fair value use;
+* reclassifications in the financial statements for the reporting year compared to the financial statements of the previous year and correction of errors;
+* disclosure of information, which confirms the articles submitted in the report.
+
 It is also necessary to take into account the transition (comparative period). In accordance with the requirements of clause 30 of IFRS 1 “First-time adoption of 
 International Financial Reporting Standards”, there should be two comparative periods for each type of reporting and three for the income statement.
 Thus, implementation of IFRS as a conceptual basis for accounting and reporting is evidence of the reliability of information, its complete coverage and, 
