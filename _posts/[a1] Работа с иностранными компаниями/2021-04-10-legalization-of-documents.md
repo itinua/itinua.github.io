@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, actual]
 title: Legalization of documents for using in Ukraine
 img: legaliz.jpg
 author: katerina-timchenko
