@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a1]
+categories: [a1, actual]
 title: Registration of a Foreign Company with the Tax Office in Ukraine
 img: registerbutton.jpg
 author: galina-basteeva.md
