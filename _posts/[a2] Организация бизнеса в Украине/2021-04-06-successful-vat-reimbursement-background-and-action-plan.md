@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a2]
-title: SUCCESSFUL VAT REIMBURSEMENT: BACKGROUND AND ACTION PLAN
+title: Successful VAT Reimbursement (backgraund and cation plan) 
 
 img: news-2020-09-10.jpg
 author:  oksana-kuzyura.md
@@ -60,13 +60,13 @@ difference should be paid to the state budget, despite the accumulated amount of
 
 Terms for tax audit are as follows:
 
-* 1. 30 calendar days, following deadline for VAT return submission to on-desk tax audit (art. 200.10 of TC). During on-desk audit the correctness of the VAT return and arithmetic 
+ 1. 30 calendar days, following deadline for VAT return submission to on-desk tax audit (art. 200.10 of TC). During on-desk audit the correctness of the VAT return and arithmetic 
 is to be confirmed. If you are lucky, you can go to p. 3 and 4 from this point, but most likely an additional audit will be assigned.
-* 2. 60 calendar days, following the deadline for the VAT return to documentary tax audit. During this stage, tax officers visit the company and check all primary documents for 
+ 2. 60 calendar days, following the deadline for the VAT return to documentary tax audit. During this stage, tax officers visit the company and check all primary documents for 
 correctness, they also can visit a site in order to make an inventory.
-* 3. If, as a result of the tax audit (according to p. 1 (and) p. 2 above), the fiscal authority has not identified any violations, a confirmation certificate is issued within 5 
+ 3. If, as a result of the tax audit (according to p. 1 (and) p. 2 above), the fiscal authority has not identified any violations, a confirmation certificate is issued within 5 
 business days after completing of tax audit.
-* 4. Within 5 business days from the date the confirmation certificate was sent to the company, the amount of VAT applied is deposited into the company’s bank account.
+ 4. Within 5 business days from the date the confirmation certificate was sent to the company, the amount of VAT applied is deposited into the company’s bank account.
 
 So, careful reconciliation of VAT within periods, the correct accounting system and the confirmation primary documents, allows the company to pretend for VAT reimbursement into
 bank account and to not “freeze” funds, but to re-invest them already in development. Completing of contract conditions: payment from the buyer to the supplier and delivery of
