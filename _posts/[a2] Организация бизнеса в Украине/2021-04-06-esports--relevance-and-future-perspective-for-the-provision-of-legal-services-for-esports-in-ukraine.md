@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a2]
-title: ESPORTS – RELEVANCE AND FUTURE PERSPECTIVE FOR THE PROVISION OF LEGAL SERVICES FOR ESPORTS IN UKRAINE
+title: Esports- relevance and future perspective for the provision of legal services for esports in Ukraine
 
 img: blog_2020_10_05_en.jpg
 author:  Yevhen Vvedenskyi
