@@ -58,7 +58,7 @@ depreciation, disposal or recognition of certain items, reclassification of asse
 Important! Transformation records should not affect the financial result of the year, so they should be made through the account of retained earnings (loss).
 An example of such a transformation table is given below.
 
-![Image alt](https://github.com/itinua/raw/master/itinua.github.io/images/vat.jpg)
+![Image alt](https://github.com/itinua/itinua.github.io/raw/master/images/vat.jpg)
 
 Step 6. Make a transformed trial balance.
 
