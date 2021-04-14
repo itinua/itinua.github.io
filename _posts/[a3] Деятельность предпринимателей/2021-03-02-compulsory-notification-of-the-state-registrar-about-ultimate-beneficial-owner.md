@@ -3,7 +3,7 @@ layout: article
 categories: [a3]
 title: Compulsory notification of the State Register about ulimate beneficial owner
 
-img: beneficiar.png
+img: beneficiar.jpg
 author: galina-basteeva.md
 ---
 
