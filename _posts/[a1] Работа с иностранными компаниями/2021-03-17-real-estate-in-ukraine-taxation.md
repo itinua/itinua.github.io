@@ -75,9 +75,10 @@ The property can be rented by legal entity, representative office of foreign com
 
 The limitations regarding size of property starting from January 1, 2021 are as follows:
 
-rent of land up to 0,2 hectares;
-rent of residential property up to 400 sq.m.
-rent of non-residential property up to 900 sq.m.
+* rent of land up to 0,2 hectares;
+* rent of residential property up to 400 sq.m.
+* rent of non-residential property up to 900 sq.m.
+
 Residential status
 
 Please note that the above rates for residents and non-residents are stipulated in Tax Code of Ukraine, which also has definition who is considered to be resident. Here is tax residency matters, which is not equal to citizenship.
