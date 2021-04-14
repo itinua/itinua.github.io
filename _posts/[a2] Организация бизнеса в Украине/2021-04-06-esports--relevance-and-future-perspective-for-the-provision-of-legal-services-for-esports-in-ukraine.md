@@ -3,7 +3,7 @@ layout: article
 categories: [a2]
 title: Esports- relevance and future perspective for the provision of legal services for esports in Ukraine
 
-img: blog_2020_10_05_en.jpg
+img: blog_2020_10_05_en (1).jpg
 author:  Yevhen Vvedenskyi
 ---
 The development of the Esports industry in Ukraine started in the late 1990’s continuing into the early 2000’s. At first events consisted of small tournaments held in computer 
