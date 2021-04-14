@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2]
+categories:[a2]
 title: INTERNATIONAL FINANCIAL REPORTING STANDARDS IN UKRAINE: OBLIGATORY OR VOLUNTARY IMPLEMENTATION?
 img: blog_2020_10_20_en.jpg
 author: maria-vasilenko
