@@ -30,6 +30,7 @@ to the bank account can be pretended for.
 
 The following scheme has a place:
 
+![Image alt](https://github.com/itinua/itinua.github.io/raw/master/images/pdv-statya.jpg)
 
 So, the decision is made, and you decided to apply for VAT reimbursement. What is next? We recommend that you follow the action plan described below:
 
