@@ -3,7 +3,7 @@ layout: article
 categories: [a2]
 title: Internatinal financial reporting standarts in Ukraine (obligatory or voluntary implementation?)
 
-img: blog_2020_10_20_en.jpg
+img: blog_2020_10_20_en (1).jpg
 author:  maria-vasilenko
 ---
 Rapid expansion of information technologies, globalization, international cooperation, multinational corporations – all these factors have been accompanying
