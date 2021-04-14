@@ -3,7 +3,7 @@ layout: article
 categories: [a2]
 title: Successful VAT Reimbursement (backgraund and cation plan) 
 
-img: news-2020-09-10.jpg
+img: news-2020-09-10 (1).jpg
 author:  oksana-kuzyura.md
 ---
 Dear colleagues,
