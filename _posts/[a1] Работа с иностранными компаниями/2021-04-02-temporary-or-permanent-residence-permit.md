@@ -18,7 +18,7 @@ The full list of grounds to obtain residency in Ukraine is the following:
 * foreigners or stateless persons who arrived in Ukraine for employment in accordance with the law;
 * foreigners or stateless persons who arrived in Ukraine to participate in the implementation of international technical assistance projects registered in the prescribed manner;
 * foreigners or stateless persons who came to Ukraine to preach religious beliefs, perform religious rites or perform other canonical activities at the invitation of religious organizations and in agreement with the state body that registered the relevant religious organization;
-* foreigners or stateless persons who arrived in Ukraine to participate in the activities of branches, offices, representative offices and other structural units of * foreign non-governmental organizations, duly registered;
+* foreigners or stateless persons who arrived in Ukraine to participate in the activities of branches, offices, representative offices and other structural units of foreign non-governmental organizations, duly registered;
 * foreigners or stateless persons who arrived in Ukraine to work in the representations of foreign business entities in Ukraine, duly registered;
 * foreigners or stateless persons who arrived in Ukraine for cultural, scientific, educational activities on the grounds and in the manner prescribed by international treaties of Ukraine or special programs;
 * foreigners or stateless persons who came to Ukraine to work as a correspondent or representative of foreign media;
