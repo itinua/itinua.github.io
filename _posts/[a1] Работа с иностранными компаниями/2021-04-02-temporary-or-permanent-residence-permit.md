@@ -3,7 +3,7 @@ layout: article
 categories: [a1]
 title: Temporary or permanent residence permit?
 
-img: 
+img: residency.jpeg
 author: oleksandra-hnatiuk
 ---
 
