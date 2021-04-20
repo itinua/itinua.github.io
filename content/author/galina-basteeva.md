@@ -1,5 +1,7 @@
 ---
 layout: userprofile
-author: galina-basteeva
+author: galina-bastieieva
 ---
-Страший юрист ЮФ Лаудис. Имейл для связи info@laudis.ua
+Галина Бастеева. Страший юрист ЮФ Лаудис. Имейл для связи info@laudis.ua
+---
+
