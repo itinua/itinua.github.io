@@ -3,7 +3,7 @@ layout: article
 categories: [a1]
 title: Реєстрація іноземної компанії у податковому органі в Україні
 img: building.jpg
-author: galina-bastieieva.md
+author: galina-bastieieva
 ---
 **Реєстрація іноземної компанії у податковому органі в Україні**
 
