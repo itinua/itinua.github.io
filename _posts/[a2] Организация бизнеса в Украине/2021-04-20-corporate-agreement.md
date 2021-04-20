@@ -3,7 +3,7 @@ layout: article
 categories: [a2]
 title: Корпоративний договір. Законодавче регулювання та практика застосування
 img: agreement.jpg
-author: galina-basteeva.md
+author: galina-bastieieva.md
 ---
 
 У цій статті будемо говорити про корпоративний договір, який укладається учасниками товариства з обмеженою відповідальністю.
