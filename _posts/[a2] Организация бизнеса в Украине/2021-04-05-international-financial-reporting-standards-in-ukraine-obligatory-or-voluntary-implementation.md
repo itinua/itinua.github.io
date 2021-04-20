@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a2]
-title: Internatinal financial reporting standarts in Ukraine (obligatory or voluntary implementation?)
+title: International financial reporting standarts in Ukraine. Obligatory or voluntary implementation?
 
 img: blog_2020_10_20_en (1).jpg
 author:  maria-vasilenko
