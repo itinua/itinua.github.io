@@ -29,11 +29,11 @@ and Management structure. The Minutes should also approve the Articles of the As
 
 
 3. Articles of Association
-The Articles of Association – is the company's founding document. It shall be signed by all the founders (shareholders) of the company or its representatives. The signatures shall be notarised. 
+ The Articles of Association – is the company's founding document. It shall be signed by all the founders (shareholders) of the company or its representatives. The signatures shall be notarised. 
 As mentioned above, the company is entitled to choose to act on the basis of the Model Articles of Association which when you apply for registration online has multiple variants of the Articles and provides for different editions, including a "default" version that is formed by provisions recommended by the Cabinet of Ministers of Ukraine. 
 
-4. An extract from a commercial/court/banking registry issued in the country of the company founder, and confirming the state registration of the company-founder
-This document should be duly legalized and translated into Ukrainian, and the  translation notarized. It is possible and advisable to notarize the translation into Ukrainian in Ukraine. 
+4. An extract from a commercial/court/banking registry issued in the country of the company founder, and confirming the state registration of the company-founder.
+ This document should be duly legalized and translated into Ukrainian, and the  translation notarized. It is possible and advisable to notarize the translation into Ukrainian in Ukraine. 
 The document must be duly legalized in order to have legal force in Ukraine. The manner of legalization depends on the country of issuance. Here you can 
 read [more information about legalization, apostille or notarization of documents]( http://itin.ua/legalization-of-documents.html).
 
