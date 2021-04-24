@@ -19,10 +19,10 @@ if the founder is a foreigner individual, the list will be shorter.
 authorized to represent the company according to its registration documents (i.e. an extract from a trade register where the director is mentioned), or a representative present in Ukraine, based on an issued abroad and legalized power of attorney for this particular action – to sign the Minutes and to vote 
 on behalf of the foreign entity at the meeting.
 
-   In the Minutes the foreign company-founder should define the name of the new company to be set up, its address, size of share capital and if there is more than one founder – the size of share capital per founder, types of activity according to Code Classificatory [Ukrainian Industry Classification System], 
+ In the Minutes the foreign company-founder should define the name of the new company to be set up, its address, size of share capital and if there is more than one founder – the size of share capital per founder, types of activity according to Code Classificatory [Ukrainian Industry Classification System], 
 and Management structure. The Minutes should also approve the Articles of the Association (or indicate that the company acts on the basis of the Model Articles of Association) and appoint the director or other title of executive. The Minutes shall be submitted to the state registrar in an original or notarised copy. Signatures on the Minutes are to be certified by the notary.
 
-3. Articles of Association
+3. Articles of Association.
  The Articles of Association – is the company's founding document. It shall be signed by all the founders (shareholders) of the company or its representatives. The signatures shall be notarised. 
 As mentioned above, the company is entitled to choose to act on the basis of the Model Articles of Association which when you apply for registration online has multiple variants of the Articles and provides for different editions, including a "default" version that is formed by provisions recommended by the Cabinet of Ministers of Ukraine. 
 
@@ -31,18 +31,18 @@ As mentioned above, the company is entitled to choose to act on the basis of the
 The document must be duly legalized in order to have legal force in Ukraine. The manner of legalization depends on the country of issuance. Here you can 
 read [more information about legalization, apostille or notarization of documents]( http://itin.ua/legalization-of-documents.html).
 
-5. Ownership structure 
-As of 24/04/2021 the application form for submitting information with regards the ownership structure of the company has not been approved and therefore 
+5. Ownership structure.
+ As of 24/04/2021 the application form for submitting information with regards the ownership structure of the company has not been approved and therefore 
 is not required at present.
 
 6. Notarised copy of the passport of the ultimate beneficial owner(s) of the company.
 
-7. Power of attorney authorizing persons who are to sign the foundation documents (e.g. Articles of Association) and the Resolution of the Founders (shareholders) on behalf of the founders and who will undertake all necessary actions required for the registration of LLC in Ukraine
-The power of attorney is required if a founder(-s) or its authorised representative who has authority to represent the founder Is physically present in Ukraine to sign the Articles, Minutes, application and other documents of in front of the notary. It is not needed in the case where the director of the founding company having duly legalized documents of the foreign company is present in Ukraine and available to visit the notary. 
+7. Power of attorney authorizing persons who are to sign the foundation documents (e.g. Articles of Association) and the Resolution of the Founders (shareholders) on behalf of the founders and who will undertake all necessary actions required for the registration of LLC in Ukraine.
+ The power of attorney is required if a founder(-s) or its authorised representative who has authority to represent the founder Is physically present in Ukraine to sign the Articles, Minutes, application and other documents of in front of the notary. It is not needed in the case where the director of the founding company having duly legalized documents of the foreign company is present in Ukraine and available to visit the notary. 
 
-The above documents (clauses 4, 6, 7) should be legalized or apostilled (if the country is a party to a convention Hague Convention Abolishing the Requirement for Legalisation for Foreign Public Documents, October 5, 1961). The documents should be only notarized in cases then between countries where legal assistance treaties have been signed. Here you can [read more]( http://itin.ua/legalization-of-documents.html)
+ The above documents (clauses 4, 6, 7) should be legalized or apostilled (if the country is a party to a convention Hague Convention Abolishing the Requirement for Legalisation for Foreign Public Documents, October 5, 1961). The documents should be only notarized in cases then between countries where legal assistance treaties have been signed. Here you can [read more]( http://itin.ua/legalization-of-documents.html)
 
-If any of the documents referenced above consists of more than one page, then all pages of such document should be stitched together to ensure that no page can be removed and that not only the last page but the whole document is notarized and apostilled (or legalized). Here in Ukraine these documents will be translated into Ukrainian with notarization of the translation before starting the registration process.
+ If any of the documents referenced above consists of more than one page, then all pages of such document should be stitched together to ensure that no page can be removed and that not only the last page but the whole document is notarized and apostilled (or legalized). Here in Ukraine these documents will be translated into Ukrainian with notarization of the translation before starting the registration process.
 
 **b. Setting up LLC in Ukraine by non-resident individual**
 
