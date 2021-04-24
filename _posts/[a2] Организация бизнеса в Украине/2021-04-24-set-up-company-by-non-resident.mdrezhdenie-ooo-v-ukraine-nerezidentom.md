@@ -66,4 +66,5 @@ Therefore, the following documents are required for registration of a company by
 4. The Minutes to establish a limited liability company
 5. Articles of Association (or decision to work based on Model Articles)
 6. Company set up application form 
+
 Laudis Law Firm as always will be pleased to assist you with any such registration and with all related procedures.
