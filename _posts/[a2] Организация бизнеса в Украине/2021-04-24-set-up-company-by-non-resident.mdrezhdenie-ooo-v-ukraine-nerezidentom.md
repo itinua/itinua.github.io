@@ -13,7 +13,6 @@ be shorter.
 **a. Setting up a LLC in Ukraine for a foreign company**
 
 1. Company Set Up Application form 
-
 The application form shall be filed by the founder (-s) (shareholder (-s) of the LLC at the state registrar or at a notary who is carrying out the functions
 of the registrar. The applicant may state in the application that the company will act on the basis of the Model Articles of Association. 
 
