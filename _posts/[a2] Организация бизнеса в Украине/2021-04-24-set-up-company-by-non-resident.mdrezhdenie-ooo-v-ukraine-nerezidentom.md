@@ -7,8 +7,7 @@ author: katerina-timchenko
 ---
 
 Bellow you can find a list of documents required in order for a foreign company to set up a limited liability company (LLC) in Ukraine. Please note that 
-the list of documents is related mainly to a foreign legal entity founding a company in Ukraine. If the founder is a foreigner individual, the list will 
-be shorter. 
+if the founder is a foreigner individual, the list will be shorter. 
 
 **a. Setting up a LLC in Ukraine for a foreign company**
 
