@@ -17,13 +17,11 @@ if the founder is a foreigner individual, the list will be shorter.
 of the registrar. The applicant may state in the application that the company will act on the basis of the Model Articles of Association. 
 
 2. A resolution/minutes by the company-founder(s) to establish a limited liability company (LLC) in Ukraine.
-  This should be the Minutes of meeting participants (or Resolution in case of a sole shareholder, hereinafter - Minutes), who have decided upon setting up a
-LLC, and should be signed in front of a public notary in Ukraine. The Minutes are to be signed on behalf of the foreign company either by its manager,
+  This should be the Minutes of meeting participants (or Resolution in case of a sole shareholder, hereinafter - Minutes), who have decided upon setting up an LLC, and should be signed in front of a public notary in Ukraine. The Minutes are to be signed on behalf of the foreign company either by its manager,
 authorized to represent the company according to its registration documents (i.e. an extract from a trade register where the director is mentioned), or a representative present in Ukraine, based on an issued abroad and legalized power of attorney for this particular action – to sign the Minutes and to vote 
 on behalf of the foreign entity at the meeting.
 
-   In the Minutes the foreign company-founder should define the name of the new company to be set up, its address, size of share capital and if there is more
-than one founder – the size of share capital per founder, types of activity according to Code Classificatory [Ukrainian Industry Classification System], 
+   In the Minutes the foreign company-founder should define the name of the new company to be set up, its address, size of share capital and if there is more than one founder – the size of share capital per founder, types of activity according to Code Classificatory [Ukrainian Industry Classification System], 
 and Management structure. The Minutes should also approve the Articles of the Association (or indicate that the company acts on the basis of the Model Articles of Association) and appoint the director or other title of executive. The Minutes shall be submitted to the state registrar in an original or notarised copy. Signatures on the Minutes are to be certified by the notary.
 
 3. Articles of Association
