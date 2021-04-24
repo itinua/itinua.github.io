@@ -16,8 +16,8 @@ if the founder is a foreigner individual, the list will be shorter.
  The application form shall be filed by the founder (-s) (shareholder (-s) of the LLC at the state registrar or at a notary who is carrying out the functions
 of the registrar. The applicant may state in the application that the company will act on the basis of the Model Articles of Association. 
 
-2. A resolution/minutes by the company-founder(s) to establish a limited liability company (LLC) in Ukraine
-   This should be the Minutes of meeting participants (or Resolution in case of a sole shareholder, hereinafter - Minutes), who have decided upon setting up a
+2. A resolution/minutes by the company-founder(s) to establish a limited liability company (LLC) in Ukraine.
+  This should be the Minutes of meeting participants (or Resolution in case of a sole shareholder, hereinafter - Minutes), who have decided upon setting up a
 LLC, and should be signed in front of a public notary in Ukraine. The Minutes are to be signed on behalf of the foreign company either by its manager,
 authorized to represent the company according to its registration documents (i.e. an extract from a trade register where the director is mentioned), or a representative present in Ukraine, based on an issued abroad and legalized power of attorney for this particular action – to sign the Minutes and to vote 
 on behalf of the foreign entity at the meeting.
