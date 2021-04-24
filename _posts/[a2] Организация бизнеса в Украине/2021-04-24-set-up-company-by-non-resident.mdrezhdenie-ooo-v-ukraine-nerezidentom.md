@@ -3,7 +3,7 @@ layout: article
 categories: [a2, actual]
 title: Setting up a company in Ukraine for a foreign company or non-resident individual
 img: un.jpg
-author: katerina-timchenko
+author: Alina-Mykolaichuk
 ---
 
 Bellow you can find a list of documents required in order for a foreign company to set up a limited liability company (LLC) in Ukraine. Please note that 
