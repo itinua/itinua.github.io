@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2]
+categories: [a1]
 title: Зовнішньоекономічний договір. Поняття та основні умови
 img: contract-1.jpg
 author: galina-bastieieva
