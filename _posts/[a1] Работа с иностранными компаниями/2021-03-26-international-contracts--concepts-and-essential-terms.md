@@ -3,7 +3,7 @@ layout: article
 categories: [a1]
 title: International contracts. Concepts and essential terms
 img: 60061254893c49.35444447.jpg
-author: galina-basteeva.md
+author: galina-bastieieva
 ---
 The main requirements and terms of international contracts are defined by the Law of Ukraine “On Foreign Economic Activity” № 960-XII dated on 16.04.91 (hereinafter referred to as the “Law № 960”).
 
