@@ -1,7 +1,7 @@
 ---
 layout: article
 categories: [a1]
-title: INTERNATIONAL CONTRACTS  CONCEPTS AND ESSENTIAL TERMS
+title: International contracts. Concepts and essential terms
 img: 60061254893c49.35444447.jpg
 author: galina-basteeva.md
 ---
