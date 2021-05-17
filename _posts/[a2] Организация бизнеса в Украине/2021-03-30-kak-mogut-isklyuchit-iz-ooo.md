@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a2, actual, featured]
+categories: [a2, actual]
 title: Как могут исключить из ООО
 img: корпправа.jpeg
 author: katerina-timchenko
