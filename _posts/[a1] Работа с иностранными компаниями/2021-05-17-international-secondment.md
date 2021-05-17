@@ -3,7 +3,7 @@ layout: article
 categories: [a1,actual]
 title: Tax planning in international secondments
 img: sekondment.jpg
-author: 
+author: elena-sapko
 ---
 
 The exchange of employees between companies has become common practice amongst international companies in Ukraine. The word "secondment" no longer attracts 
