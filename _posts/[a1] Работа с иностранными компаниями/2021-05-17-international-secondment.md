@@ -75,8 +75,7 @@ The concept of "tax resident of Ukraine" is set out in Article 14.1.213 of the T
 consistent procedure for determining residency status according to the following criteria (whereby compliance with one previous criterion (its availability) 
 no longer requires the availability (compliance) with subsequent criteria):
 1.	a place to live in Ukraine (owned or rented); 
-2.	a place of permanent residence in Ukraine. The tax legislation does not define the concept of "place of permanent residence" and the period from the 
-3.	expiry of which a person is deemed to have a place of permanent residence in Ukraine. By analogy with other areas of law, it can be considered that such 
+2.	a place of permanent residence in Ukraine. The tax legislation does not define the concept of "place of permanent residence" and the period from the expiry of which a person is deemed to have a place of permanent residence in Ukraine. By analogy with other areas of law, it can be considered that such 
 a period must exceed 6 months per year;
 4.	centre of vital interests in Ukraine;
 5.	staying in the country for at least 183 calendar days during the period or periods of the calendar (tax) year. If it is not possible to determine the 
