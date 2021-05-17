@@ -12,12 +12,15 @@ period of time to acquire knowledge, skills and share experience". (Secondments 
 and management technologies, etc.). 
 
 **The concept of secondment**
+
 Despite the fact that the general meaning of secondment is clear, namely the transfer of an employee to work abroad, in international companies neverthelss, 
 secondment does not refer to the transfer of an employee to another company. In general, and depending on the structure of the employment relationship for 
 the period of the work abroad, international companies distinguish between the following two options for relocating employees:
+
 •	**secondment** - an employee maintains an employment relationship with his/her employer (the sending company) and is sent to work in a foreign company 
 (the receiving company) for a certain period of time. The employee is paid at the place of employment (i.e. by the sending company), but performs his or her 
 work by order of the employer - at the place of the receiving company and in accordance with its instructions.
+
 •	**transfer** - the employment relationship between the employee and the sending company is terminated for the period of employment abroad and a new 
 relationship is established with the foreign, i.e. receiving company.
 
@@ -29,6 +32,7 @@ Below we consider tax planning options for secondments in situations where a Ukr
 situations where, in order to optimise tax costs, it is advisable to transfer the employee instead of secondment.
 
 **Tax planning in the formation of an employee's compensation package**
+
 When deciding whether to undertake the secondment or transfer of an employee,  an important issue to consider is the nature of the employee's compensation
 package, and whether it includes elements and arrangements that encourage the employee to work abroad. If however the tax efficiency of the compensation 
 package is not assessed, it may not be cost-effective nor attractive for the company or the employee.
@@ -43,6 +47,7 @@ residency), 2) the source of  remuneration and 3) the period of residence in the
 Let's consider and analyze why these questions are important.
 
 **Criteria for international taxation of individuals**
+
 The right to tax the income of an individual is traditionally based upon factors that determine the relationship of that individual with the tax jurisdiction
 of a particular state. The concept of tax jurisdiction includes the right of a state to tax certain entities in its territory.
 
@@ -54,6 +59,7 @@ There are two criteria that determine the limits of the tax jurisdiction of the 
 territory of the state.
 
 **Tax residency**
+
 Among the general criteria for tax residency of individuals used in various countries are the following:
 •	Length of stay in the country;
 •	Homeownership in the country;
@@ -86,6 +92,7 @@ Thus, in most cases an employee is deemed not to be a tax resident of Ukraine wh
 (more than 6 months), his/her family has also moved to that country and he/she has spent most of the year in another country.
 
 **The source principle**
+
 In contrast to the residence principle, which binds an individual to a tax liability if there is some connection between the individual and the state, 
 the source principle establishes a tax liability if there is some connection between the state and the income (the object of taxation). The criteria for 
 determining source are the following:
@@ -100,10 +107,12 @@ includes (Article 14.1.54 of the Tax Code) dividends, interest, income from the 
 employer for work performed in Ukraine.
 
 **General rule of taxation of individuals in Ukraine**
+
 Ukrainian residents are taxed in Ukraine on all income received from various sources, both in Ukraine and in other countries. Non-residents - only on income 
 originating from Ukraine.
 
 **Avoidance of double taxation**
+
 In international secondment tax planning, particular attention should be paid to the issue of avoiding double taxation of an employee's income, which may 
 arise when both the employee's home country and the host country are entitled to tax the same income under the local laws of each country. This issue can 
 be resolved by international double taxation treaties where the member states agree between themselves which is entitled to tax the income of an individual. 
@@ -112,13 +121,17 @@ Co-operation and Development (hereinafter referred to as the Convention). Such t
 mechanisms and procedures for avoiding double taxation.
 
 Let's take a closer look at how the Convention regulates the double taxation of income from employment.
+
 This type of income is dealt with in Article 15 of the Convention, which provides the following rule. If an individual resident in country A is sent by 
 company A to country B to be employed by company B, the remuneration received by the individual from employment in country B may be taxed in country B 
 (if required by domestic law). However, such remuneration will only be taxable in country A (and exempt from tax in country B) if the following conditions 
 are met:
+
 •	the period of stay of an individual in country B does not exceed 183 days in any twelve-month period beginning or ending in the reporting year 
 (some treaties specify the stay limit as 183 days in a calendar year), **and**
+
 •	the remuneration to the individual was paid by company A, which is not a resident of country B, **and**
+
 •	 the costs of remuneration are not borne by the permanent establishment or permanent base that the employer has in country B, nor are these costs recharged
 to company B.
 
