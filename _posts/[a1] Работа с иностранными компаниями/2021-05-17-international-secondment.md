@@ -145,6 +145,7 @@ tax return an original document issued by the competent authority of another cou
 Let's consider examples of applying the above rules in practice.
 
 **Case 1**
+
 In 2019, Ukrainian company A sent its employee to work in Germany at company B. The employee remained an employee of company A. No employment contract was 
 concluded with company B. The remuneration in Ukraine was taxed at the source of payment. The duration of the secondment was 1 year; the period was from the 
 end of May 2019 to the end of May 2020. The employee's stay in Germany in 2019 was 195 days. The worker's family stayed in Ukraine. In accordance with the 
@@ -166,6 +167,7 @@ the employee will incur additional expenses. Also, in practice, refund of tax th
 is a rather complicated and time-consuming procedure.
 
 **Case 2**
+
 Ukrainian company A sent its employee to work in Kazakhstan at company B. The employee remained an employee of company A. No employment contract was 
 concluded with company B. The remuneration paid by the Ukrainian company is source income from Ukraine and, in accordance with the Tax Code, is taxable 
 in Ukraine unless other rules of taxation are provided by the Treaty on Avoidance of Double Taxation between Ukraine and Kazakhstan (Treaty 2) (i.e. the 
@@ -190,5 +192,6 @@ In order to keep the employee in the social insurance system of Ukraine, it is p
 remuneration in Ukraine.
 
 **Summary**
+
 Tax planning is an essential part of the process of organizing an international secondment, and should help to optimise the employee's compensation package by reducing tax liabilities and eliminating possible double taxation.
 In addition to the application of international treaty rules, avoidance of double taxation and the reduction of tax liabilities for international secondments can also be optimised by planning the working hours and conditions of the employee's stay in the other country (manipulating the tax residency status). This can also be achieved by choosing the source of remuneration to the employee and by determining the optimal structure of employment for the particular situation.
