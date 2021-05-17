@@ -49,6 +49,7 @@ of a particular state. The concept of tax jurisdiction includes the right of a s
 There are two criteria that determine the limits of the tax jurisdiction of the state with respect to individuals:
 
 •	**Tax residency** - implies taxation of the income earned by a resident both in and outside the country of residence.
+
 •	**Source of income** - defines the tax obligations of both residents and non-residents only in relation to income derived from a source located on the 
 territory of the state.
 
