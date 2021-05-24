@@ -9,7 +9,7 @@ According to  Article 384 of Customs code of Ukraine the person who obtained per
 customs duties the goods intended to meet the usual daily needs of the person and the initial arrangement, which are imported (shipped) by him in connection 
 with relocation to a permanent place of residence in Ukraine.
 
-The car for the import should weigh less than 3,5 tons and it can be one car for one individual who reached 18 years old. 
+The car for the import should weigh less than 3,5 tons and it **can be one car for one individual who reached 18 years old**. 
 
 The permanent resident of Ukraine (ex-foreigner) can import his own car without payment duty, meeting the following conditions:
 
@@ -22,5 +22,5 @@ imported by him for at least one year
 of the citizen for at least one year, if he is subject to registration in that country.
 
 That vehicles imported by individuals when relocating to a permanent place of residence in Ukraine are subject to temporary registration for up to two years 
-with registration of a vehicle registration certificate for the right of temporary operation of such vehicles valid for two years without the right of alienation
-or transfer for use by others.
+with registration of a vehicle registration certificate for the right of **temporary operation of such vehicles valid for two years without the right of alienation
+or transfer for use by others**.
