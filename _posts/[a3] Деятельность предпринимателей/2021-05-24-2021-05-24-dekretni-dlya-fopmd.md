@@ -2,7 +2,7 @@
 layout: article
 categories: [a3, actual, featured]
 title: Декретні для ФОП
-img: aist.ppg
+img: aist.png
 author: daryna-varlam 
 --- 
 В цій статті ми розглянемо які виплати має отримати жінка-ФОП при вагітності та народженні дитини та як їх можна отримати.
