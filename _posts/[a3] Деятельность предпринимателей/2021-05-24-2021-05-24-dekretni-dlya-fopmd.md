@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: [a3, actual, featured]
+categories: [a3]
 title: Декретні для ФОП
 img: aist.png
 author: daryna-varlam 
