@@ -2,7 +2,7 @@
 layout: article
 categories: [a1]
 title: Import of a car to Ukraine without paying customs duty for those who got permanent residency in Ukraine
-img: legaliz.jpg
+img: car.jpg
 author: katerina-timchenko
 ---
 According to  Article 384 of Customs code of Ukraine the person who obtained permanent residency in Ukraine is entitled to import to Ukraine without payment of 
