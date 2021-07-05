@@ -4,7 +4,6 @@ categories: [a1, actual]
 title: Immigration to Ukraine of highly qualified employees in 2021
 img: IT.jpg
 author: katerina-timchenko
-
 ---
 According to Art. 4 of the Law on Immigration, a foreigner has the right to obtain an immigration permit if he is a highly qualified worker. 
 The immigration permit is the first step in obtaining a permanent residence certificate or Ukrainian citizenship.
