@@ -1,3 +1,4 @@
+---
 layout: article
 categories: [a2, actual]
 title: Permanent residency for investor in Ukraine
